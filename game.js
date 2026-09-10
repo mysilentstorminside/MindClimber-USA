@@ -107,7 +107,7 @@ function showScreen(id) {
 }
 
 function avatarSrc(n, pose) {
-  return `assets/Avatars/avatar${n}_${pose}.png`;
+  return `Assets/Avatars/avatar${n}_${pose}.png`;
 }
 
 let currentRoomCode = null;
@@ -338,7 +338,7 @@ function renderLobby(room) {
   list.forEach(([pid, p]) => {
     const row = document.createElement("div");
     row.className = "lobbyPlayerRow";
-    row.innerHTML = `<img src="${avatarSrc(p.avatar, "front")}" alt="" onerror="this.style.opacity=0.3"><span class="pname">${escapeHtml(p.name)}</span>${pid === room.hostId ? '<span class="hostTag">HOST</span>' : ""}${pid === myPlayerId ? '<span class="youTag">Εσύ</span>' : ""}`;
+    row.innerHTML = `<img src="${avatarSrc(p.avatar, "front")}" alt="" onerror="this.style.opacity=0.3"><span class="pname">${escapeHtml(p.name)}</span>${pid === room.hostId ? '<span class="hostTag">HOST</span>' : ""}${pid === myPlayerId ? '<span class="youTag">You</span>' : ""}`;
     container.appendChild(row);
   });
   const count = list.length;
@@ -400,8 +400,8 @@ let staircaseBuilt = false;
 let lastStaircasePlayerCount = 0;
 // Climb mapping: leave room at bottom so avatar at step 0 is fully visible
 // above the question panel. Compress rungs toward the upper band.
-/* Μετρήθηκαν τα μονοπάτια σε κάθε εικόνα ξεχωριστά. Οι εικόνες
-   δημιουργήθηκαν χωριστά, οπότε δεν έχουν ακριβώς την ίδια γεωμετρία. */
+/* The paths were measured on each image separately. The images
+     were created separately, so their geometry is not exactly the same. */
 const MOUNTAIN_GEO = {
   1: { base: 14.2, top: 59.6, spreadBase: 37.0, spreadTop: 26.0 },
   2: { base: 9.2, top: 54.4, spreadBase: 36.7, spreadTop: 23.0 },
@@ -444,7 +444,7 @@ function mountainWidthAt(step, playerCount) {
 function laneCenters(step, playerCount) {
   const count = Math.max(1, Math.min(5, playerCount || 1));
   const g = geoFor(count);
-  const t = Math.max(0, Math.min(MAX_STEPS, step)) / MAX_STEPS;   // 0 βάση, 1 κορυφή
+  const t = Math.max(0, Math.min(MAX_STEPS, step)) / MAX_STEPS;   // 0 = base, 1 = summit
   const halfSpread = g.spreadBase + (g.spreadTop - g.spreadBase) * t;
   const grid = [-1, -0.5, 0, 0.5, 1].map(k => 50 + k * halfSpread);
   const PICK = { 1: [2], 2: [1, 3], 3: [0, 2, 4], 4: [0, 1, 3, 4], 5: [0, 1, 2, 3, 4] };
@@ -578,7 +578,7 @@ let mountainsPreloaded = false;
 function preloadMountains() {
   if (mountainsPreloaded) return;
   mountainsPreloaded = true;
-  for (let i = 1; i <= 5; i++) { const im = new Image(); im.src = `assets/mountains/mountain-${i}.jpg`; }
+  for (let i = 1; i <= 5; i++) { const im = new Image(); im.src = `Assets/mountains/mountain-${i}.jpg`; }
 }
 
 function buildStaircase(playerCount) {
@@ -633,8 +633,8 @@ function buildStaircase(playerCount) {
     const centers = laneCenters(step, count);
     const isMajor = labelSteps.has(step) || step === MAX_STEPS;
 
-    // Τα steps είναι ήδη ζωγραφισμένα στην εικόνα φόντου, οπότε δεν
-    // σχεδιάζουμε δικά μας — μόνο τους δείκτες 10/20 στο πλάι.
+    // The steps are already painted into the background image, so we don't
+    // draw our own — only the 10/20 markers on the side.
     // Labels 10 & 20 glued to the left of the leftmost tread
     if (labelSteps.has(step)) {
       const leftmost = centers[0] - treadW / 2;
@@ -707,8 +707,8 @@ function renderGame(room) {
 
   buildStaircase(playerCount);
 
-  // Η κορυφή δείχνει πλέον το χρυσό αγαλματίδιο, που είναι ζωγραφισμένο
-  // μέσα στην εικόνα φόντου — δεν χρειάζονται σημαίες.
+  // The summit now shows the golden trophy, which is painted
+  // into the background image — no flags needed.
   const peakWrap = $("peakFlags");
   if (peakWrap.childNodes.length) peakWrap.innerHTML = "";
   $("peakMarker").style.bottom = (geoFor(playerCount).top + 6) + "%";
@@ -733,8 +733,8 @@ function renderGame(room) {
     tok.style.bottom = pos.bottom + "%";
     tok.style.width = pos.size + "px";
     tok.style.height = pos.size + "px";
-    // Με 4-5 players οι λωρίδες πλησιάζουν, οπότε το βέλος μικραίνει
-    // ώστε να μη μπαίνει στον χώρο του διπλανού παίκτη.
+    // With 4-5 players the lanes get closer, so the arrow shrinks
+    // so it doesn't overlap the neighboring player's lane.
     const aw = playerCount >= 4 ? 8 : 11;
     tok.style.setProperty("--arrowW", aw + "px");
     tok.style.setProperty("--arrowH", Math.round(aw * 1.55) + "px");
@@ -822,8 +822,8 @@ function renderQuestion(turn, showResult) {
   const rect = $("questionRectangle");
 
   // The question text is now ALWAYS shown, even for image questions. Before,
-  // an image question hid the prompt entirely, so "Ποιον ήρωα του 1821
-  // απεικονίζει αυτή η προσωπογραφία;" arrived as a bare picture — and if the
+  // an image question hid the prompt entirely, so "Which famous person is
+  // shown in this portrait?" arrived as a bare picture — and if the
   // image failed to load the player got a blank box with three options.
   const text = q.text || "";
   if (lastRenderedQText !== text) {
@@ -843,7 +843,7 @@ function renderQuestion(turn, showResult) {
       img.alt = text;
       img.decoding = "async";
       img.referrerPolicy = "no-referrer";
-      // Try the local copy in assets/questions_pics first. If it is missing
+      // Try the local copy in Assets/questions_pics first. If it is missing
       // (e.g. download_images.sh has not been run yet) fall back once to the
       // original online address, and only then give up and show text alone.
       let triedFallback = false;
@@ -856,7 +856,7 @@ function renderQuestion(turn, showResult) {
         img.classList.add("hidden");
         img.classList.add("imgFailed");
         rect.classList.remove("hidden");
-        rect.textContent = text || "Η εικόνα δεν φορτώθηκε.";
+        rect.textContent = text || "The image could not be loaded.";
       };
       img.onload = () => { img.classList.remove("hidden"); };
       // Flags stay compact; photos/landmarks get the large display size
@@ -966,7 +966,7 @@ function pickFromShuffledQueue(category, color, queueState) {
   const diffKey = COLOR_TO_DIFF[color] || "easy";
   const pool = (window.QUESTION_BANK && window.QUESTION_BANK[category] && window.QUESTION_BANK[category][diffKey]) || [];
   if (!pool.length) {
-    return { item: { text: "Δεν βρέθηκαν ερωτήσεις.", options: ["-", "-", "-"], correct: "A", img: null }, newQueueState: queueState || null };
+    return { item: { text: "No questions found.", options: ["-", "-", "-"], correct: "A", img: null }, newQueueState: queueState || null };
   }
   let seed = queueState && queueState.seed;
   let pos = queueState && queueState.pos;
@@ -1091,7 +1091,7 @@ function startLocalChoiceTimer(turn, kind) {
       clearInterval(localChoiceTimerHandle); localChoiceTimerHandle = null;
       if (kind === "category") {
         const cats = window.QUESTION_CATEGORIES || [];
-        chooseCategory(cats[Math.floor(Math.random() * cats.length)] || "Ιστορία και Μυθολογία", true);
+        chooseCategory(cats[Math.floor(Math.random() * cats.length)] || "History & Mythology", true);
       } else {
         chooseColor(["green","blue","orange"][Math.floor(Math.random()*3)], true);
       }
@@ -1141,7 +1141,7 @@ async function forceRandomPickForStalledPicker(turn) {
   if (turn.phase === "category") {
     const cats = window.QUESTION_CATEGORIES || [];
     updates["turn/phase"] = "difficulty";
-    updates["turn/category"] = cats[Math.floor(Math.random() * cats.length)] || "Ιστορία και Μυθολογία";
+    updates["turn/category"] = cats[Math.floor(Math.random() * cats.length)] || "History & Mythology";
     updates["turn/phaseDeadline"] = Date.now() + DIFFICULTY_CHOICE_SECONDS * 1000;
     await db.ref(`rooms/${currentRoomCode}`).update(updates);
   } else {
@@ -1322,14 +1322,14 @@ function renderResults(room) {
     confettiShownForRoom = currentRoomCode + (room.startedAt || "");
     launchConfetti();
   }
-  $("resultsTitle").textContent = winner ? `Νικητής: ${winner.name}! 🎉` : "Τέλος Παιχνιδιού!";
+  $("resultsTitle").textContent = winner ? `Winner: ${winner.name}! 🎉` : "Game Over!";
   if (winner) $("winnerAvatarImg").src = avatarSrc(winner.avatar, "front");
   const list = $("rankingList");
   list.innerHTML = "";
   ranked.forEach(([pid, p], i) => {
     const row = document.createElement("div");
     row.className = "rankRow" + (room.winnerId === pid ? " winner" : "");
-    row.innerHTML = `<span class="rpos">#${i + 1}</span><img src="${avatarSrc(p.avatar, "front")}" alt="" onerror="this.style.opacity=0.3"><span class="rname">${escapeHtml(p.name)}${pid === myPlayerId ? " (Εσύ)" : ""}</span><span class="rstep">${p.step || 0}/${MAX_STEPS}</span>`;
+    row.innerHTML = `<span class="rpos">#${i + 1}</span><img src="${avatarSrc(p.avatar, "front")}" alt="" onerror="this.style.opacity=0.3"><span class="rname">${escapeHtml(p.name)}${pid === myPlayerId ? " (You)" : ""}</span><span class="rstep">${p.step || 0}/${MAX_STEPS}</span>`;
     list.appendChild(row);
   });
   $("playAgainBtn").classList.toggle("hidden", !isHost);

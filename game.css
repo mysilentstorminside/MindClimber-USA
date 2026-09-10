@@ -263,9 +263,9 @@ label { display: block; font-size: 0.85rem; color: #55697a; font-weight: 600; ma
 #climbZone {
   position: absolute;
   top: 0; left: 0; right: 0;
-  /* Το ύψος ακολουθεί το πλάτος στην αναλογία της εικόνας (1.15).
-     Με σταθερό 40vh, σε κοντές οθόνες το cover έκοβε ~59px από πάνω και
-     τα σκαλιά μετατοπίζονταν — οι παίκτες έπεφταν χαμηλότερα από τη σκάλα. */
+  /* Height follows width at the image's aspect ratio (1.15).
+     With a fixed 40vh, short screens cropped ~59px off the top with "cover" and
+     the steps shifted — players ended up lower than the staircase. */
   height: min(calc(100vw / 1.15), 52vh);
   overflow: hidden;
   z-index: 1;
@@ -285,20 +285,20 @@ label { display: block; font-size: 0.85rem; color: #55697a; font-weight: 600; ma
 
 #stairLines { position: absolute; inset: 0; z-index: 2; }
 
-/* Το βουνό είναι πλέον ζωγραφισμένη εικόνα (assets/mountains/mountain-N.jpg),
-   μία ανά αριθμό παικτών: όσο περισσότεροι, τόσο πλατύτερη η βάση. */
-#climbZone.players-1 { background-image: url("assets/mountains/mountain-1.jpg"); }
-#climbZone.players-2 { background-image: url("assets/mountains/mountain-2.jpg"); }
-#climbZone.players-3 { background-image: url("assets/mountains/mountain-3.jpg"); }
-#climbZone.players-4 { background-image: url("assets/mountains/mountain-4.jpg"); }
-#climbZone.players-5 { background-image: url("assets/mountains/mountain-5.jpg"); }
+/* The mountain is a painted image (Assets/mountains/mountain-N.jpg),
+     one per player count: the more players, the wider the base. */
+#climbZone.players-1 { background-image: url("Assets/mountains/mountain-1.jpg"); }
+#climbZone.players-2 { background-image: url("Assets/mountains/mountain-2.jpg"); }
+#climbZone.players-3 { background-image: url("Assets/mountains/mountain-3.jpg"); }
+#climbZone.players-4 { background-image: url("Assets/mountains/mountain-4.jpg"); }
+#climbZone.players-5 { background-image: url("Assets/mountains/mountain-5.jpg"); }
 #climbZone[class*="players-"] {
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
 }
 .mountainSvg { display: none; }
-.stepRung { display: none; }   /* τα σκαλιά έρχονται από την εικόνα */
+.stepRung { display: none; }   /* the steps come from the image */
 
 /* Stair treads: a lit top surface plus a shadowed riser underneath, so each
    step reads as cut into the rock rather than painted on it. */
@@ -422,7 +422,7 @@ label { display: block; font-size: 0.85rem; color: #55697a; font-weight: 600; ma
   border: 1px solid rgba(255,255,255,0.3);
 }
 
-/* ΕΚΚΙΝΗΣΗ — hidden (not needed) */
+/* START marker — hidden (not needed) */
 #groundMarker {
   display: none !important;
 }
@@ -500,8 +500,8 @@ label { display: block; font-size: 0.85rem; color: #55697a; font-weight: 600; ma
 }
 
 #playerTokens { position: absolute; inset: 0; z-index: 3; }
-/* Ένδειξη απάντησης: πράσινο βέλος πάνω = σωστά, κόκκινο κάτω = λάθος.
-   Μπαίνει ΕΞΩ από το οβάλ του avatar ώστε να μην το καλύπτει. */
+/* Answer indicator: green arrow up = correct, red arrow down = wrong.
+   Placed OUTSIDE the avatar oval so it doesn't cover it. */
 .tokenAvatarWrap { position: relative; }
 .playerToken .answerMark {
   position: absolute;
@@ -633,9 +633,9 @@ label { display: block; font-size: 0.85rem; color: #55697a; font-weight: 600; ma
 #gamePanel {
   position: absolute;
   left: 0; right: 0; bottom: 0;
-  /* Ξεκινά ΑΚΡΙΒΩΣ εκεί που τελειώνει το βουνό. Πριν ήταν μόνο bottom:0,
-     οπότε όταν η ερώτηση ήταν κοντή έμενε μαύρο κενό από πάνω, και όταν
-     ήταν ψηλή (εικόνες) το πάνελ σκέπαζε τον παίκτη στα σκαλιά 0-1. */
+  /* Starts EXACTLY where the mountain ends. Before, it was only bottom:0,
+     so a short question left a black gap above it, and a tall one
+     (images) made the panel cover players on steps 0-1. */
   top: min(calc(100vw / 1.15), 52vh);
   z-index: 6;
   background: rgba(255,255,255,0.96);
@@ -1443,9 +1443,9 @@ label { color: #94a3b8; }
 }
 
 
-/* ===== Αξιοποίηση του κενού χώρου στο κάτω μέρος =====
-   Το πάνελ γίνεται στήλη flex και οι απαντήσεις απλώνονται ώστε να
-   γεμίζουν ό,τι περισσεύει, αντί να αφήνουν λευκό κενό από κάτω. */
+/* ===== Use the empty space at the bottom =====
+   The panel becomes a flex column and the answers stretch to
+   fill whatever is left, instead of leaving a blank gap below. */
 #gamePanel {
   display: flex;
   flex-direction: column;
@@ -1471,10 +1471,10 @@ label { color: #94a3b8; }
 
 
 
-/* ===== ΔΙΑΤΑΞΗ ΠΑΝΕΛ =====
-   Η εικόνα είχε ΣΤΑΘΕΡΟ ύψος, οπότε το άθροισμα ξεπερνούσε το πάνελ κατά
-   86-218px και η σειρά των παικτών έπεφτε πάνω στις απαντήσεις. Τώρα η
-   εικόνα είναι το μόνο ελαστικό στοιχείο: παίρνει ό,τι περισσεύει. */
+/* ===== PANEL LAYOUT =====
+   The image used to have a FIXED height, so the total overflowed the panel by
+   86-218px and the player row landed on top of the answers. Now the
+   image is the only flexible element: it takes whatever space is left. */
 #gamePanel { overflow: hidden; }
 #questionImage {
   flex: 1 1 auto;
@@ -1492,7 +1492,7 @@ label { color: #94a3b8; }
 #answerRectangle .answerOption { flex: 0 0 auto; min-height: 50px; }
 #allAnswersStatus { margin-top: 6px; }
 
-/* κοντές οθόνες: λίγο πιο συμπαγή ώστε να χωράει η εικόνα */
+/* short screens: slightly more compact so the image fits */
 @media (max-height: 720px) {
   #answerRectangle .answerOption { min-height: 44px; font-size: 0.95rem; padding: 9px 12px; }
   #answerRectangle { gap: 6px; }
@@ -1501,9 +1501,9 @@ label { color: #94a3b8; }
   #allAnswersStatus .answerStatusChip { transform: scale(0.86); transform-origin: center; }
 }
 
-/* ===== ΒΕΛΗ: ΜΕΓΑΛΑ, ΣΤΟ ΠΛΑΙ, ΕΞΩ ΑΠΟ ΤΟ ΟΒΑΛ =====
-   Σχεδιασμένα με CSS borders (πραγματικό τρίγωνο), όχι γραμματοσειρά,
-   ώστε να είναι ευκρινή σε κάθε μέγεθος. */
+/* ===== ARROWS: LARGE, ON THE SIDE, OUTSIDE THE OVAL =====
+   Drawn with CSS borders (a real triangle), not a font glyph,
+   so they stay sharp at every size. */
 .playerToken, .tokenAvatarWrap { overflow: visible; }
 .playerToken .answerMark {
   position: absolute;
@@ -1524,17 +1524,17 @@ label { color: #94a3b8; }
 .playerToken.answered-correct .answerMark {
   border-left: var(--arrowW, 11px) solid transparent;
   border-right: var(--arrowW, 11px) solid transparent;
-  border-bottom: var(--arrowH, 17px) solid #16a34a;   /* βέλος ΠΑΝΩ */
+  border-bottom: var(--arrowH, 17px) solid #16a34a;   /* UP arrow */
 }
 .playerToken.answered-wrong .answerMark {
   border-left: var(--arrowW, 11px) solid transparent;
   border-right: var(--arrowW, 11px) solid transparent;
-  border-top: var(--arrowH, 17px) solid #dc2626;      /* βέλος ΚΑΤΩ */
+  border-top: var(--arrowH, 17px) solid #dc2626;      /* DOWN arrow */
 }
 
 
-/* Πολύ κοντές οθόνες (iPhone SE και παρόμοιες): κάθε pixel μετράει,
-   ώστε να μη σκεπάζονται οι απαντήσεις σε ερωτήσεις εικόνας. */
+/* Very short screens (iPhone SE and similar): every pixel counts,
+   so the answers aren't covered on image questions. */
 @media (max-height: 700px) {
   #answerRectangle .answerOption { min-height: 40px; font-size: 0.9rem; padding: 7px 11px; }
   #answerRectangle { gap: 5px; }
