@@ -1,10 +1,11 @@
 // MindClimber — USA Edition question bank
-// 936 questions across 9 categories (easy / medium / hard).
+// 1064 questions across 9 categories (easy / medium / hard).
 // Facts checked against trusted U.S. sources, including: USCIS 2025 Civics Test (uscis.gov),
 // NASA (science.nasa.gov, spaceplace.nasa.gov), National Park Service (nps.gov), NOAA, Smithsonian,
 // Library of Congress, National Archives, the Pulitzer Prizes, the Academy of Motion Picture Arts and
 // Sciences, the American Film Institute, the Rock & Roll Hall of Fame, the American Psychological
 // Association, and official league records (NFL, MLB, NBA, NHL).
+// Image Recognition: world flags plus real country maps drawn from Natural Earth data (public domain).
 // Format: q = question, o = three options, a = correct option letter, img = optional local image.
 
 window.QUESTION_CATEGORIES = [
@@ -345,6 +346,33 @@ window.QUESTION_BANK = {
      "The Hydra"
     ],
     "a": "B"
+   },
+   {
+    "q": "Which empire was ruled by Julius Caesar?",
+    "o": [
+     "Roman",
+     "Persian",
+     "Greek"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In what year did World War II end in Europe (V-E Day)?",
+    "o": [
+     "1944",
+     "1946",
+     "1945"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which U.S. President resigned because of the Watergate scandal?",
+    "o": [
+     "Gerald Ford",
+     "Richard Nixon",
+     "Lyndon B. Johnson"
+    ],
+    "a": "B"
    }
   ],
   "medium": [
@@ -671,6 +699,60 @@ window.QUESTION_BANK = {
      "Venus"
     ],
     "a": "C"
+   },
+   {
+    "q": "Which ancient wonder was located in Alexandria, Egypt?",
+    "o": [
+     "Lighthouse (Pharos)",
+     "Colossus of Rhodes",
+     "Hanging Gardens"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The Magna Carta was signed in which country?",
+    "o": [
+     "Spain",
+     "France",
+     "England"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the first woman to fly solo across the Atlantic Ocean?",
+    "o": [
+     "Harriet Quimby",
+     "Bessie Coleman",
+     "Amelia Earhart"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which civilization built Machu Picchu?",
+    "o": [
+     "Inca",
+     "Aztec",
+     "Maya"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was known as the \"Maid of Orléans\"?",
+    "o": [
+     "Marie Antoinette",
+     "Joan of Arc",
+     "Catherine de' Medici"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In Greek myth, who flew too close to the sun with wax wings?",
+    "o": [
+     "Daedalus",
+     "Icarus",
+     "Perseus"
+    ],
+    "a": "B"
    }
   ],
   "hard": [
@@ -979,6 +1061,42 @@ window.QUESTION_BANK = {
      "Hestia"
     ],
     "a": "B"
+   },
+   {
+    "q": "The Opium Wars were primarily fought between Britain and which country?",
+    "o": [
+     "Japan",
+     "India",
+     "China"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the last queen of France before the French Revolution?",
+    "o": [
+     "Josephine",
+     "Marie Antoinette",
+     "Catherine de' Medici"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The Meiji Restoration modernized which country in the 19th century?",
+    "o": [
+     "Korea",
+     "Japan",
+     "China"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which battle in 1066 changed English history?",
+    "o": [
+     "Battle of Bosworth",
+     "Battle of Agincourt",
+     "Battle of Hastings"
+    ],
+    "a": "C"
    }
   ]
  },
@@ -1298,6 +1416,15 @@ window.QUESTION_BANK = {
      "Appalachian Mountains"
     ],
     "a": "B"
+   },
+   {
+    "q": "What is the smallest continent by land area?",
+    "o": [
+     "Antarctica",
+     "Europe",
+     "Australia"
+    ],
+    "a": "C"
    }
   ],
   "medium": [
@@ -1624,6 +1751,33 @@ window.QUESTION_BANK = {
      "Louisiana"
     ],
     "a": "A"
+   },
+   {
+    "q": "The Andes mountains are primarily in which continent?",
+    "o": [
+     "Europe",
+     "North America",
+     "South America"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which sea is located between Europe and Africa?",
+    "o": [
+     "Red Sea",
+     "Black Sea",
+     "Mediterranean Sea"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Mount Kilimanjaro is in which country?",
+    "o": [
+     "Tanzania",
+     "Kenya",
+     "Uganda"
+    ],
+    "a": "A"
    }
   ],
   "hard": [
@@ -1903,6 +2057,24 @@ window.QUESTION_BANK = {
      "Davenport",
      "Des Moines",
      "Cedar Rapids"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which desert is the largest hot desert in the world?",
+    "o": [
+     "Sahara",
+     "Arabian",
+     "Gobi"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which strait separates Asia from North America?",
+    "o": [
+     "Strait of Malacca",
+     "Bering Strait",
+     "Strait of Gibraltar"
     ],
     "a": "B"
    }
@@ -2233,6 +2405,33 @@ window.QUESTION_BANK = {
      "Giraffe"
     ],
     "a": "C"
+   },
+   {
+    "q": "How many legs does an insect typically have?",
+    "o": [
+     "10",
+     "6",
+     "8"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is H2O more commonly known as?",
+    "o": [
+     "Water",
+     "Salt",
+     "Hydrogen peroxide"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What force keeps planets in orbit around the Sun?",
+    "o": [
+     "Magnetism",
+     "Friction",
+     "Gravity"
+    ],
+    "a": "C"
    }
   ],
   "medium": [
@@ -2550,6 +2749,24 @@ window.QUESTION_BANK = {
      "Neptune"
     ],
     "a": "B"
+   },
+   {
+    "q": "Sound travels fastest through which medium?",
+    "o": [
+     "Steel",
+     "Water",
+     "Air"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What type of animal is a Komodo dragon?",
+    "o": [
+     "Reptile",
+     "Amphibian",
+     "Mammal"
+    ],
+    "a": "A"
    }
   ],
   "hard": [
@@ -2858,6 +3075,33 @@ window.QUESTION_BANK = {
      "Decibel"
     ],
     "a": "C"
+   },
+   {
+    "q": "What is the approximate speed of light in a vacuum?",
+    "o": [
+     "1,000,000 km/s",
+     "150,000 km/s",
+     "300,000 km/s"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Newton's second law relates force, mass, and what?",
+    "o": [
+     "Velocity",
+     "Momentum",
+     "Acceleration"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which particle has a positive charge?",
+    "o": [
+     "Proton",
+     "Neutron",
+     "Electron"
+    ],
+    "a": "A"
    }
   ]
  },
@@ -4139,6 +4383,42 @@ window.QUESTION_BANK = {
      "E.T. the Extra-Terrestrial"
     ],
     "a": "C"
+   },
+   {
+    "q": "Which streaming service produced \"Stranger Things\"?",
+    "o": [
+     "Netflix",
+     "Hulu",
+     "Disney+"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which superhero is known as the \"Caped Crusader\"?",
+    "o": [
+     "Batman",
+     "Superman",
+     "Spider-Man"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What instrument did Louis Armstrong famously play?",
+    "o": [
+     "Saxophone",
+     "Piano",
+     "Trumpet"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which animated movie features a snowman named Olaf?",
+    "o": [
+     "Moana",
+     "Frozen",
+     "Tangled"
+    ],
+    "a": "B"
    }
   ],
   "medium": [
@@ -4438,6 +4718,15 @@ window.QUESTION_BANK = {
      "Obi-Wan Kenobi"
     ],
     "a": "A"
+   },
+   {
+    "q": "Which band performed \"Bohemian Rhapsody\"?",
+    "o": [
+     "The Beatles",
+     "Queen",
+     "Led Zeppelin"
+    ],
+    "a": "B"
    }
   ],
   "hard": [
@@ -4728,6 +5017,33 @@ window.QUESTION_BANK = {
      "CBS"
     ],
     "a": "C"
+   },
+   {
+    "q": "Who composed \"The Four Seasons\"?",
+    "o": [
+     "Mozart",
+     "Vivaldi",
+     "Bach"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which Broadway musical is based on a book by Victor Hugo?",
+    "o": [
+     "Phantom of the Opera",
+     "Les Misérables",
+     "Chicago"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What year did the first Star Wars film (A New Hope) release?",
+    "o": [
+     "1977",
+     "1975",
+     "1979"
+    ],
+    "a": "A"
    }
   ]
  },
@@ -5038,6 +5354,33 @@ window.QUESTION_BANK = {
      "Final Four"
     ],
     "a": "C"
+   },
+   {
+    "q": "In basketball, how many points is a free throw worth?",
+    "o": [
+     "2",
+     "1",
+     "3"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which country hosted the 2024 Summer Olympics?",
+    "o": [
+     "Japan",
+     "USA",
+     "France"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "How many bases are there on a baseball diamond?",
+    "o": [
+     "4",
+     "5",
+     "3"
+    ],
+    "a": "A"
    }
   ],
   "medium": [
@@ -5328,6 +5671,42 @@ window.QUESTION_BANK = {
      "Babe Ruth"
     ],
     "a": "C"
+   },
+   {
+    "q": "In soccer (football), how long is each half in professional matches?",
+    "o": [
+     "45 minutes",
+     "40 minutes",
+     "50 minutes"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which athlete is nicknamed \"King James\"?",
+    "o": [
+     "Kobe Bryant",
+     "Michael Jordan",
+     "LeBron James"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "The Tour de France is a famous competition in which sport?",
+    "o": [
+     "Cycling",
+     "Running",
+     "Skiing"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "How many Grand Slam tournaments are there in tennis each year?",
+    "o": [
+     "4",
+     "5",
+     "3"
+    ],
+    "a": "A"
    }
   ],
   "hard": [
@@ -5618,6 +5997,24 @@ window.QUESTION_BANK = {
      "Justify"
     ],
     "a": "B"
+   },
+   {
+    "q": "In which sport would you perform a \"slam dunk\"?",
+    "o": [
+     "Basketball",
+     "Volleyball",
+     "Handball"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which country has won the most FIFA World Cups?",
+    "o": [
+     "Germany",
+     "Italy",
+     "Brazil"
+    ],
+    "a": "C"
    }
   ]
  },
@@ -6852,6 +7249,186 @@ window.QUESTION_BANK = {
     ],
     "a": "C",
     "img": "Assets/questions_pics/flag_polonia.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Belize",
+     "Canada",
+     "United States"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_united_states.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Bahamas",
+     "Canada",
+     "Mexico"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_canada.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "United States",
+     "Mexico",
+     "Belize"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_mexico.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Brazil",
+     "Uruguay",
+     "Bolivia"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_brazil.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Papua New Guinea",
+     "Australia",
+     "Solomon Islands"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_australia.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Pakistan",
+     "India",
+     "Bhutan"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_india.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Bangladesh",
+     "Mongolia",
+     "China"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_china.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Taiwan",
+     "Japan",
+     "South Korea"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_japan.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Montenegro",
+     "Italy",
+     "Bosnia and Herzegovina"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_italy.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Belgium",
+     "Switzerland",
+     "France"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_france.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Ireland",
+     "Netherlands",
+     "United Kingdom"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_united_kingdom.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Egypt",
+     "Jordan",
+     "Libya"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_egypt.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Russia",
+     "Mongolia",
+     "Kyrgyzstan"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_russia.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Bolivia",
+     "Chile",
+     "Argentina"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_chile.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Tunisia",
+     "Spain",
+     "France"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_spain.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Bolivia",
+     "Argentina",
+     "Paraguay"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_argentina.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Botswana",
+     "South Africa",
+     "Lesotho"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_south_africa.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Bulgaria",
+     "Greece",
+     "North Macedonia"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_greece.svg"
    }
   ],
   "medium": [
@@ -7354,6 +7931,276 @@ window.QUESTION_BANK = {
     ],
     "a": "C",
     "img": "Assets/questions_pics/flag_esthonia.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Netherlands",
+     "Austria",
+     "Germany"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_germany.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Peru",
+     "Ecuador",
+     "Bolivia"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_peru.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Colombia",
+     "Panama",
+     "Ecuador"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_colombia.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Cuba",
+     "Bahamas",
+     "Haiti"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_cuba.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Norway",
+     "Sweden",
+     "Finland"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_norway.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Sweden",
+     "Denmark",
+     "Latvia"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_sweden.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Finland",
+     "Sweden",
+     "Lithuania"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_finland.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Ireland",
+     "Iceland",
+     "United Kingdom"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_iceland.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Ireland",
+     "United Kingdom",
+     "France"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_ireland.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "France",
+     "Portugal",
+     "Spain"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_portugal.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Jordan",
+     "Turkey",
+     "Armenia"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_turkey.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Iran",
+     "United Arab Emirates",
+     "Azerbaijan"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_iran.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Saudi Arabia",
+     "United Arab Emirates",
+     "Yemen"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_saudi_arabia.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Philippines",
+     "Indonesia",
+     "East Timor"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_indonesia.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Fiji",
+     "Solomon Islands",
+     "New Zealand"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_new_zealand.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "East Timor",
+     "Taiwan",
+     "Philippines"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_philippines.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Laos",
+     "Thailand",
+     "Vietnam"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_thailand.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Japan",
+     "Mongolia",
+     "South Korea"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_south_korea.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Belarus",
+     "Ukraine",
+     "Romania"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_ukraine.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Slovakia",
+     "Poland",
+     "Czech Republic"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_poland.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Malawi",
+     "Madagascar",
+     "Mozambique"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_madagascar.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Nigeria",
+     "Togo",
+     "Equatorial Guinea"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_nigeria.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Kenya",
+     "Rwanda",
+     "Tanzania"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_kenya.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Mauritania",
+     "Algeria",
+     "Morocco"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_morocco.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Myanmar",
+     "Cambodia",
+     "Vietnam"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_vietnam.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Nepal",
+     "Kyrgyzstan",
+     "Pakistan"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_pakistan.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Sri Lanka",
+     "Nepal",
+     "Bangladesh"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_sri_lanka.svg"
    }
   ],
   "hard": [
@@ -7706,6 +8553,306 @@ window.QUESTION_BANK = {
     ],
     "a": "C",
     "img": "Assets/questions_pics/flag_madagaskari.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Netherlands",
+     "Germany",
+     "United Kingdom"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_netherlands.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "France",
+     "Belgium",
+     "Switzerland"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_switzerland.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Moldova",
+     "Romania",
+     "Serbia"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_romania.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Austria",
+     "Slovenia",
+     "Czech Republic"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_austria.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Hungary",
+     "Serbia",
+     "Austria"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_hungary.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Germany",
+     "Czech Republic",
+     "Austria"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_czech_republic.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Brazil",
+     "Uruguay",
+     "Bolivia"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_bolivia.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Venezuela",
+     "Guyana",
+     "Dominican Republic"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_venezuela.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Peru",
+     "Ecuador",
+     "Panama"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_ecuador.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Uzbekistan",
+     "Afghanistan",
+     "Tajikistan"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_afghanistan.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Kuwait",
+     "Armenia",
+     "Iraq"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_iraq.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Ethiopia",
+     "Djibouti",
+     "Somalia"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_ethiopia.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Ethiopia",
+     "Kenya",
+     "Somalia"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_somalia.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "China",
+     "Mongolia",
+     "North Korea"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_mongolia.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Kazakhstan",
+     "Uzbekistan",
+     "Kyrgyzstan"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_kazakhstan.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "India",
+     "Nepal",
+     "Bangladesh"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_nepal.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Thailand",
+     "Laos",
+     "Cambodia"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_cambodia.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Laos",
+     "Vietnam",
+     "Myanmar"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_laos.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Vietnam",
+     "Cambodia",
+     "Malaysia"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_malaysia.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Algeria",
+     "Tunisia",
+     "Morocco"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_algeria.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Tunisia",
+     "Egypt",
+     "Libya"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_libya.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Malawi",
+     "Tanzania",
+     "Burundi"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_tanzania.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Angola",
+     "Namibia",
+     "Congo"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_angola.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Botswana",
+     "Lesotho",
+     "Namibia"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_namibia.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Germany",
+     "Switzerland",
+     "Belgium"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_belgium.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Germany",
+     "Denmark",
+     "Netherlands"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_denmark.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Croatia",
+     "Bosnia and Herzegovina",
+     "Austria"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_croatia.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Uruguay",
+     "Argentina",
+     "Bolivia"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_uruguay.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Argentina",
+     "Uruguay",
+     "Paraguay"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_paraguay.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Jordan",
+     "Syria",
+     "Iraq"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_syria.svg"
    }
   ]
  },
@@ -8016,6 +9163,33 @@ window.QUESTION_BANK = {
      "South Carolina"
     ],
     "a": "B"
+   },
+   {
+    "q": "Which U.S. holiday celebrates the Declaration of Independence?",
+    "o": [
+     "Memorial Day",
+     "Independence Day",
+     "Veterans Day"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "How many branches are in the U.S. federal government?",
+    "o": [
+     "2",
+     "4",
+     "3"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which ocean is on the west coast of the USA?",
+    "o": [
+     "Pacific",
+     "Arctic",
+     "Atlantic"
+    ],
+    "a": "A"
    }
   ],
   "medium": [
@@ -8342,6 +9516,33 @@ window.QUESTION_BANK = {
      "Fort Myer Cemetery"
     ],
     "a": "A"
+   },
+   {
+    "q": "Who is on the face of the $20 bill?",
+    "o": [
+     "Andrew Jackson",
+     "Alexander Hamilton",
+     "Ulysses S. Grant"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the nickname of Texas?",
+    "o": [
+     "The Lone Star State",
+     "The Golden State",
+     "The Empire State"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What year did the United States land astronauts on the Moon?",
+    "o": [
+     "1971",
+     "1967",
+     "1969"
+    ],
+    "a": "C"
    }
   ],
   "hard": [
@@ -8632,6 +9833,33 @@ window.QUESTION_BANK = {
      "Andrew Jackson"
     ],
     "a": "A"
+   },
+   {
+    "q": "Which Federalist Paper author later became President?",
+    "o": [
+     "John Jay",
+     "Alexander Hamilton",
+     "James Madison"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "The Missouri Compromise of 1820 dealt mainly with what issue?",
+    "o": [
+     "Tariffs",
+     "Slavery in new territories",
+     "Native American lands"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The Erie Canal connected the Hudson River to which of the Great Lakes?",
+    "o": [
+     "Lake Michigan",
+     "Lake Erie",
+     "Lake Ontario"
+    ],
+    "a": "B"
    }
   ]
  }

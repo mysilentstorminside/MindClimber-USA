@@ -715,6 +715,7 @@ function renderGame(room) {
 
   const tokenWrap = $("playerTokens");
   tokenWrap.innerHTML = "";
+  const turnKey = (room.turn && room.turn.key) || "";
   order.forEach(([pid, p], idx) => {
     const step = p.step || 0;
     const pos = stepPosition(step, idx, playerCount);
@@ -723,6 +724,10 @@ function renderGame(room) {
     // Correct/wrong indicator on avatar: shown as soon as the player answers
     const ans = room.turn && room.turn.answers && room.turn.answers[pid];
     const answeredCls = ans ? (ans.correct ? " answered-correct" : " answered-wrong") : "";
+    // The tokens are rebuilt on every room update; only animate the arrow the first time.
+    const markKey = turnKey + ":" + pid;
+    const markSeen = shownAnswerMarks.has(markKey);
+    if (ans) shownAnswerMarks.add(markKey);
     tok.className = "playerToken" + answeredCls
       + (p.eliminated ? " eliminated" : "")
       + (step < 3 ? " lowStep" : "")
@@ -742,7 +747,7 @@ function renderGame(room) {
     tok.innerHTML = `
       <div class="tokenTimer">${formatTimeLeft(computeLiveTimeLeft(pid, p, room))}</div>
       <div class="tokenAvatarWrap"><img src="${avatarSrc(p.avatar, "front")}" alt="" onerror="this.style.opacity=0.3">${
-        ans ? `<span class="answerMark">${ans.correct ? "▲" : "▼"}</span>` : ""
+        ans ? `<span class="answerMark${markSeen ? " noPop" : ""}" aria-label="${ans.correct ? "Correct" : "Wrong"}">${ans.correct ? "▲" : "▼"}</span>` : ""
       }</div>
       <div class="tokenName">${escapeHtml(p.name)}</div>
       <div class="tokenStep">${step}</div>`;
@@ -758,6 +763,7 @@ function renderGame(room) {
   ["categoryChoiceRow","selectedCategoryLabel","colorChoiceRow","waitingNote","questionRectangle","questionImage","answerRectangle","qTimerWrap","choiceTimerWrap"].forEach((id) => {
     const el = $(id); if (el) el.classList.add("hidden");
   });
+  $("gamePanel").classList.remove("hasImage");
   stopLocalChoiceTimer();
   stopLocalQuestionTimer();
 
@@ -814,6 +820,7 @@ function renderCategoryButtons() {
 }
 
 let lastRenderedImgSrc = null;
+const shownAnswerMarks = new Set();
 let lastRenderedQText = null;
 
 function renderQuestion(turn, showResult) {
@@ -832,6 +839,9 @@ function renderQuestion(turn, showResult) {
   }
   rect.classList.toggle("hidden", !text);
   rect.classList.toggle("withImage", !!q.img);
+  rect.classList.toggle("longQ", text.length > 90);
+  const panel = $("gamePanel");
+  if (panel.dataset.qText !== text) { panel.dataset.qText = text; panel.scrollTop = 0; }
 
   if (q.img) {
     // Only touch .src when it actually changes, otherwise every Firebase
@@ -843,9 +853,8 @@ function renderQuestion(turn, showResult) {
       img.alt = text;
       img.decoding = "async";
       img.referrerPolicy = "no-referrer";
-      // Try the local copy in Assets/questions_pics first. If it is missing
-      // (e.g. download_images.sh has not been run yet) fall back once to the
-      // original online address, and only then give up and show text alone.
+      // Load the picture (flags live in Assets/questions_pics). If it fails,
+      // try the optional online fallback once, then show the text alone.
       let triedFallback = false;
       img.onerror = () => {
         if (!triedFallback && q.imgFallback) {
@@ -855,13 +864,16 @@ function renderQuestion(turn, showResult) {
         }
         img.classList.add("hidden");
         img.classList.add("imgFailed");
+        panel.classList.remove("hasImage");
         rect.classList.remove("hidden");
         rect.textContent = text || "The image could not be loaded.";
       };
       img.onload = () => { img.classList.remove("hidden"); };
       // Flags stay compact; photos/landmarks get the large display size
       const srcLower = String(q.img || "").toLowerCase();
-      const isFlag = srcLower.includes("flag_") || srcLower.includes("/flag") || srcLower.endsWith(".svg");
+      const isMap = srcLower.includes("/maps/");
+      const isFlag = !isMap && (srcLower.includes("flag_") || srcLower.includes("/flag") || srcLower.endsWith(".svg"));
+      img.classList.toggle("isMap", isMap);
       img.classList.toggle("isFlag", isFlag);
       img.src = q.img;
     }
@@ -870,8 +882,11 @@ function renderQuestion(turn, showResult) {
     img.classList.add("hidden");
     img.removeAttribute("src");
     img.classList.remove("isFlag");
+    img.classList.remove("isMap");
     lastRenderedImgSrc = null;
   }
+  panel.classList.toggle("hasImage", !!q.img && !img.classList.contains("imgFailed"));
+  panel.classList.toggle("mapQ", !!q.img && q.img.includes("/maps/"));
 
   const correctLetter = decodeCorrect(q);
   const opts = q.options || ["", "", ""];
