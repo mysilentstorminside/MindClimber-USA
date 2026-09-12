@@ -1,15 +1,15 @@
 // MindClimber — Additional Questions (USA Edition)
-// 5000 extra multiple-choice questions in the same format as questions_data.js
+// 6832 extra multiple-choice questions in the same format as questions_data.js
 // (q = question, o = three options, a = correct option letter; easy / medium / hard).
 //
-// Source: OpenTriviaQA — https://github.com/uberspot/OpenTriviaQA
-// Licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0):
-// https://creativecommons.org/licenses/by-sa/4.0/
-// Adapted for MindClimber: filtered for quality (no true/false, no "all of the above",
-// no time-sensitive, adult, gossip or picture-based questions), re-categorized,
-// reduced to three options, cleaned up, and given an estimated difficulty.
-// This file is therefore also shared under CC BY-SA 4.0.
-// Also includes 90 original MindClimber psychology questions (marked by topic, e.g. Kahneman, Piaget, Loftus).
+// Sources:
+//  • OpenTriviaQA — https://github.com/uberspot/OpenTriviaQA — licensed CC BY-SA 4.0
+//    (https://creativecommons.org/licenses/by-sa/4.0/). Filtered for quality (no true/false,
+//    no "all of the above", nothing time-sensitive, adult, gossip-based or picture-based),
+//    re-categorized, reduced to three options, cleaned up and given an estimated difficulty.
+//  • Original MindClimber questions written for the Psychology & Human Behavior and ONLY USA
+//    categories.
+// Because it includes CC BY-SA material, this file is also shared under CC BY-SA 4.0.
 //
 // Load it AFTER questions_data.js and BEFORE game.js. It adds its questions to
 // window.QUESTION_BANK automatically and skips any question that already exists.
@@ -1789,6 +1789,870 @@ window.ADDITIONAL_QUESTION_BANK = {
      "Man Ray"
     ],
     "a": "B"
+   },
+   {
+    "q": "This was the first colony to give Jews full political rights.",
+    "o": [
+     "New York",
+     "Pennsylvania",
+     "Rhode Island"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who wrote most of the books in the New Testament?",
+    "o": [
+     "David",
+     "John",
+     "Paul"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "How many books is the Book of Psalms divided into?",
+    "o": [
+     "Two",
+     "Five",
+     "Four"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who wrote Psalm 23?",
+    "o": [
+     "Ethan",
+     "Moses",
+     "David"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who wrote the Book of Revelation while in exile?",
+    "o": [
+     "Paul",
+     "Peter",
+     "John"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was Gods son according to the Bible?",
+    "o": [
+     "John",
+     "Solomon",
+     "Jesus"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What does the name Moses mean according to the Bible?",
+    "o": [
+     "beautiful",
+     "taken from the water",
+     "Prince of Egypt"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the meaning of the book title Genesis?",
+    "o": [
+     "beginning",
+     "God",
+     "man"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What does the word Rabbi mean?",
+    "o": [
+     "My overseer",
+     "My leader",
+     "My teacher"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of these books of the Old Testament is not divided into parts I and II?",
+    "o": [
+     "Kings",
+     "Numbers",
+     "Samuel"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the path to happiness in Buddhism?",
+    "o": [
+     "ancient path",
+     "path of freedom",
+     "middle way"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What do Jews do when the case which houses the Torah is opened?",
+    "o": [
+     "Bow heads",
+     "Become quiet",
+     "Stand up"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Whose mother-in-law was lying in bed with a fever in the Book of Matthew?",
+    "o": [
+     "Peter",
+     "James",
+     "John"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The term Pharaoh derives from the Egyptian words Pr-Aa meaning this.",
+    "o": [
+     "Great House",
+     "Scorpion King",
+     "King of All"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "One of these TV productions was not released in the 80s.",
+    "o": [
+     "Saturday Night Live",
+     "Dynasty",
+     "The Cosby Show"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What material was most highly prized in Ancient Egypt and was used most often for the making of jewelry?",
+    "o": [
+     "Gold",
+     "Silver",
+     "Platinum"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "It is considered that the Jewish Golden Age occurred in this country.",
+    "o": [
+     "France",
+     "Israel",
+     "Spain"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In which season did ancient Greeks celebrate Mothers Day?",
+    "o": [
+     "Summer",
+     "Winter",
+     "Spring"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "The beginning of the Buddhist religion can be traced back to the fifth century BC in which country?",
+    "o": [
+     "Thailand",
+     "India",
+     "China"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the name of the only Archangel mentioned in the Bible?",
+    "o": [
+     "Gabriel",
+     "Lucifer",
+     "Michael"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the third book of the New Testament?",
+    "o": [
+     "Mark",
+     "Luke",
+     "Jonh"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The Book of Ruth comes after this book.",
+    "o": [
+     "Esther",
+     "Judges",
+     "Joshua"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The first vending machine was created in the 100s of the 1st century AD. What did it sell?",
+    "o": [
+     "Holy water",
+     "Flour",
+     "Oil"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of these countries does not recognize Scientology as an official religion?",
+    "o": [
+     "Tanzania",
+     "Germany",
+     "Zimbabwe"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the Catholic term for a person who, after death, goes to heaven?",
+    "o": [
+     "seraph",
+     "saint",
+     "cherub"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which armed service did Tony Curtis join during World War II?",
+    "o": [
+     "Navy",
+     "Army",
+     "Air force"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who wrote Epistle to the Romans, included in the New Testament canon of the Christian Bible?",
+    "o": [
+     "Paul",
+     "Peter",
+     "Mark"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "This Biblical woman poured perfume on Jesus feet and wiped them with her hair.",
+    "o": [
+     "Mary",
+     "Keturah",
+     "Samaritan woman"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which mythology closely connects women with snakes?",
+    "o": [
+     "Indian",
+     "Norse",
+     "Japanese"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the name of the organization that promotes a return to Israel?",
+    "o": [
+     "The Jewish Agency",
+     "The Vaad Harabbonim",
+     "The Gush Etzion"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of the following did Jesus call first to be his disciple?",
+    "o": [
+     "Simon",
+     "Philip",
+     "James"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the name of the Roman God of war?",
+    "o": [
+     "Mars",
+     "Jupiter",
+     "Pluto"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "He was a Christian saint from Egypt and a prominent leader among the Desert Fathers.",
+    "o": [
+     "Anthony the Great",
+     "Saint Varus",
+     "Saint Menas"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In 1656 the first Jewish cemetery in the USA was founded in this city.",
+    "o": [
+     "Philadelphia, PA",
+     "New York City, NY",
+     "Charleston, SC"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the meaning of the Hebrew toast lChaim!?",
+    "o": [
+     "To success!",
+     "To life!",
+     "To our country!"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Where can you find the story of Adam and Eve?",
+    "o": [
+     "Book of Lamentations",
+     "Book of Genesis",
+     "Book of Jeremiah"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who wrote the first five books of the Bible?",
+    "o": [
+     "Joseph",
+     "Moses",
+     "Adam"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What does the word buddha mean?",
+    "o": [
+     "light",
+     "awake",
+     "the only one"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What does the name Moses mean according to the Biblical texts?",
+    "o": [
+     "Found",
+     "Drawn out",
+     "Conceived by a Hebrew"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Where was the historical Saint Nicholas born?",
+    "o": [
+     "Asia Minor",
+     "His birthplace is unknown.",
+     "Cartagena"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the literal meaning of the word scientology?",
+    "o": [
+     "The Study of Knowledge",
+     "The Study of Hubbard",
+     "The Study of the Self"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was Jesus earthly father according to the Bible?",
+    "o": [
+     "Solomon",
+     "no one",
+     "Joseph"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "According to the New Testament, this woman had a son called John the Baptist.",
+    "o": [
+     "Elizabeth",
+     "Mary",
+     "Martha"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The Book of Genesis contains the first Biblical reference to someone being put into prison. Who was put into prison?",
+    "o": [
+     "Joseph",
+     "Potiphar",
+     "Cain"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "According to the King James Version of the Bible, what did God command people to do always, day and night?",
+    "o": [
+     "drinking wine",
+     "rejoicing",
+     "praying"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the central theme of the teachings of religious teacher Buddha and of Buddhist philosophy as a whole?",
+    "o": [
+     "Achieving perfection",
+     "Suffering",
+     "Happiness"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "This really really big variety show host died on October 13th in 1974.",
+    "o": [
+     "Ed Sullivan",
+     "Steve Allen",
+     "Johnny Carson"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Incense is often used in witchcraft. What is the meaning of jasmine scented incense?",
+    "o": [
+     "Intense desire",
+     "To ease hurt caused by love",
+     "Luck in love"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "According to the Bible, David was very close friends with this son of King Saul.",
+    "o": [
+     "Shammah",
+     "Jonathan",
+     "Abner"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "From what tribe of Israel was Samson according to the Bible?",
+    "o": [
+     "Gad",
+     "Benjamin",
+     "Dan"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What was the name of the famous ancient school founded by Plato in Athens?",
+    "o": [
+     "Assembly",
+     "Academy",
+     "University"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was the third son of Adam and Eve, sometimes described as the quiet one?",
+    "o": [
+     "Abel",
+     "Seth",
+     "Eli"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which saint is most often invoked for the recovery of a lost object?",
+    "o": [
+     "Anthony",
+     "Jude",
+     "Josephine"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What were the last words of the Roman Emperor Caligula?",
+    "o": [
+     "I am still alive",
+     "My horse, my horse",
+     "Its good to be the king"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What does the sentence Ann was the apple of Marks eye tell us about the relation between those two?",
+    "o": [
+     "Mark is deeply in love with Ann.",
+     "Mark hates Ann.",
+     "Ann is deeply in love with Mark."
+    ],
+    "a": "A"
+   },
+   {
+    "q": "He was an African-American Muslim minister and an advocate for the rights of African Americans.",
+    "o": [
+     "Lamen Kebe",
+     "Abdul Rahman Ibrahim Sori",
+     "Malcolm X"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What was the name of the first union for actors in the US?",
+    "o": [
+     "The Yiddish Actors Union",
+     "The Screen Actors Guild",
+     "The Hebrew Actors Union"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What does the Hebrew expression Mazel Tov mean?",
+    "o": [
+     "Sorry",
+     "Have a great day",
+     "Good luck"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In M*A*S*H, Colonel Potter had received a Purple Heart during World War II. How did he suffer his injury?",
+    "o": [
+     "A mine",
+     "His still blew up",
+     "Bobming raid"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Mary was visited by this angel.",
+    "o": [
+     "Uriel",
+     "Gabriel",
+     "Raphael"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "According to the Bible, who should believers use as mediator between them and God when they pray?",
+    "o": [
+     "Jesus Christ",
+     "Joseph",
+     "Mary"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What characteristic is commonly attributed to King Solomon?",
+    "o": [
+     "Wealth",
+     "Wisdom",
+     "Lust"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In Judaism, who is considered to be the first Jew ?",
+    "o": [
+     "Moses",
+     "Noah",
+     "Abraham"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "This US general led the victorious troops at the Battle of New Orleans.",
+    "o": [
+     "Bill Cannon",
+     "Raymond Berry",
+     "Andrew Jackson"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "This ancient Chinese structure was built to protect China from raids by Mongol and Turkic tribes.",
+    "o": [
+     "Bay Bridge",
+     "The Great Wall",
+     "Gateway Arch"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "During her testimony at her trial, Joan of Arc stated she preferred which of the following to the sword?",
+    "o": [
+     "Banner",
+     "Knitting",
+     "Bible"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What Biblical hero split the sea so that he and his people could go across?",
+    "o": [
+     "Moses",
+     "Noah",
+     "Joseph"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of these monarchs holds the distinction of ruling the biggest empire in terms of land area?",
+    "o": [
+     "George V of Great Britain",
+     "Charles III of Spain",
+     "Kublai Khan of Mongolia"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What Biblical figure built an ark on top of a mountain?",
+    "o": [
+     "Noah",
+     "Joseph",
+     "Moses"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "According to the Book of Genesis, what did G-D create last, on the sixth day, as almost an afterthought?",
+    "o": [
+     "Eve",
+     "Adam",
+     "The birds of prey"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which animal became sacred in Chinese mythology after saving a man who was trapped in a ditch?",
+    "o": [
+     "Heron",
+     "Lion",
+     "Tiger"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "To which saint does one pray for healthy eyes?",
+    "o": [
+     "St. Lucy, Virgin",
+     "St. Frances of the Holy Redeemer",
+     "St. Mary of Naples"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Queen Cleopatra the Seventh was an ancient Egyptian ruler of what nationality?",
+    "o": [
+     "Greek",
+     "Nubian",
+     "Babylonian"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Known as the Virgin Queen, she was the last monarch of the Tudor dynasty.",
+    "o": [
+     "Victoria",
+     "Mary II",
+     "Elizabeth I"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which term is derived from the name of a 19th century land agent in Ireland?",
+    "o": [
+     "Boycott",
+     "Banting",
+     "Bowler"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "How did Roman Emperor Nero kill himself?",
+    "o": [
+     "He poisoned himself.",
+     "He let a lion kill him.",
+     "He cut his throat."
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In 1776, when we Jews declared themselves free from England, which British colony had the most Jews?",
+    "o": [
+     "Jamaica",
+     "Canada",
+     "Union of South Africa"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which saint is known as the patron of children?",
+    "o": [
+     "Barbara",
+     "Nicholas",
+     "Anthony"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Shaka was a king of the Zulu Empire. Where was it situated?",
+    "o": [
+     "West Africa",
+     "South Africa",
+     "Japan and other Pacific islands"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which is the sixth book of the New Testament?",
+    "o": [
+     "Galatians",
+     "Romans",
+     "Mark"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In what book of The New Testament was John the Baptist beheaded?",
+    "o": [
+     "Luke",
+     "John",
+     "Matthew"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who is the second oldest living man according to the Bible?",
+    "o": [
+     "Enoch",
+     "Jared",
+     "Methuselah"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who used to be the patron saint of travelers?",
+    "o": [
+     "St. Theresa",
+     "St. Christopher",
+     "St. Michael"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What kind of device is the iron maiden, invented in the 18th century?",
+    "o": [
+     "Curling iron for hair",
+     "Bicycle",
+     "Torture device"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What was the profession of Luke the Apostle according to the New Testament?",
+    "o": [
+     "Physician",
+     "Tax collector",
+     "Carpenter"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of these is not a battle of the Seven Days Battles?",
+    "o": [
+     "Bunker Hill",
+     "Fraysers Farm",
+     "Malvern Hill"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who built the Temple of Jerusalem also known as the Holy Temple?",
+    "o": [
+     "King Solomon",
+     "King Ferdinand",
+     "Constantine I Emperor"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "To what kind of capital punishment was Joan of Arc condemned?",
+    "o": [
+     "Drowning",
+     "Hanging",
+     "Burning at the stake"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "This redhead, nicknamed the Virgin Queen, was the last monarch of the Tudor dynasty.",
+    "o": [
+     "Victoria",
+     "Elizabeth I",
+     "Lady Jane Grey"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "At Nazareth, this Biblical figure grew and waxed in spirit. His name means the anointed one.",
+    "o": [
+     "Paul",
+     "Jesus Christ",
+     "Isaac"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In Psalm 23, the Lord is referred to as what?",
+    "o": [
+     "My Hope",
+     "My Shepherd",
+     "My Provider"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The title of what book in the Bible means departure?",
+    "o": [
+     "Exodus",
+     "Deuteronomy",
+     "Lamentations"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the first Emperor of the Holy Roman Empire?",
+    "o": [
+     "Frederic Barbarossa",
+     "Otto I",
+     "Rudolph I Hapsburg"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What book in the Bible was named after the successor of Moses?",
+    "o": [
+     "Joshua",
+     "Isaiah",
+     "Jeremiah"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Name the first Russian Tsar of the Romanov dynasty.",
+    "o": [
+     "Nicholas I",
+     "Alexander I the Blessed",
+     "Michael of Russia"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "According to Greek myths, when Zeus grew up, what did he use to retrieve his brothers and sisters?",
+    "o": [
+     "a rattlesnake",
+     "a steel weapon",
+     "a bitter drink"
+    ],
+    "a": "C"
    }
   ],
   "medium": [
@@ -3573,6 +4437,870 @@ window.ADDITIONAL_QUESTION_BANK = {
      "Spy balloons"
     ],
     "a": "A"
+   },
+   {
+    "q": "The most important religious document for the Jews, Torah, is written in what language?",
+    "o": [
+     "Arabic",
+     "Syriac",
+     "Hebrew"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the name of the angel that God sent to tell Mary she was to conceive Jesus?",
+    "o": [
+     "Abraham",
+     "Michael",
+     "Gabriel"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the earliest author of a psalm?",
+    "o": [
+     "Ezra",
+     "Moses",
+     "David"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Of what animal is the legendary Golden Fleece from Greek mythology?",
+    "o": [
+     "Cow",
+     "Goat",
+     "Ram"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What soap opera moved from radio to television on June 30, 1952?",
+    "o": [
+     "Guiding Light",
+     "Young and the Restless",
+     "General Hospital"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the first Jew to be offered a position on the US Supreme Court?",
+    "o": [
+     "Louis Brandeis",
+     "Judah Benjamin",
+     "Benjamin Cardoza"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which of these shapes predominated in the jewelry of Ancient Mesopotamia?",
+    "o": [
+     "Female body",
+     "Leaves",
+     "Crescent moons"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What does the phrase of biblical proportions mean?",
+    "o": [
+     "of a vast, enormous scale",
+     "very sinful in its nature",
+     "of little importance"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which Israeli city is a sister city of New York City?",
+    "o": [
+     "Netanya",
+     "Haifa",
+     "Tel Aviv"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which event is regarded as the greatest feast in the Christian calendar?",
+    "o": [
+     "Ascension of Christ",
+     "Resurrection of Jesus",
+     "Epiphany"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Name the Ohio senator who made an unsuccessful bid for presidency in 1984.",
+    "o": [
+     "John H. Glenn Jr.",
+     "Alan M. Cranston",
+     "Reubin OD. Askew"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In the second chapter of the Book of Daniel, what did King Nebuchadnezzar have a dream about?",
+    "o": [
+     "A statue",
+     "A goat",
+     "A tree"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "On the holy day, Simchat Torah, Jews finish reading the five books of the Torah and do what immediately after?",
+    "o": [
+     "Start again",
+     "Throw a party",
+     "Have a meal"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The word berserk referring to Norse warriors, means what in Old Norse?",
+    "o": [
+     "Warriors Wrath",
+     "Bear Shirt",
+     "Warriors Rage"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was Davids father according to the Bible?",
+    "o": [
+     "Eliab",
+     "Samuel",
+     "Jesse"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Exorcism is related to ASC. What does ASC stand for?",
+    "o": [
+     "Altered State Of Consciousness",
+     "Affecting Spirit of Cataclysm",
+     "Affected Soul by Cabala"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the symbol of the dhamma (dharma)?",
+    "o": [
+     "wheel",
+     "chair",
+     "flag"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the subject of the first Book of the Talmud ?",
+    "o": [
+     "There is no first book",
+     "Civil Torts",
+     "Blessings"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which ruler is considered the founder of the great Persian Empire?",
+    "o": [
+     "Cyrus the Great",
+     "Xerxes",
+     "Darius the Great"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of the following is not one of the four main forms of Tibetan Buddhism?",
+    "o": [
+     "Nying",
+     "Gelug",
+     "Chan"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who is known as the patron of India?",
+    "o": [
+     "Francis Xavier",
+     "John the Divine",
+     "Giles"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "According to Roman myths, Cuba was the goddess of which of these?",
+    "o": [
+     "Alcoholic beverages",
+     "Rain",
+     "Infants"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "According to Matthew and Luke, in what city was Jesus born?",
+    "o": [
+     "Jerusalem",
+     "Babylon",
+     "Bethlehem"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which company built the Zero, the top Japanese fighter in World War Two?",
+    "o": [
+     "Tachikowa",
+     "Mitsubishi",
+     "Nissan"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which of these men was the commander at the Battle of Cowpens?",
+    "o": [
+     "Francis Marion",
+     "Nathaniel Greene",
+     "Daniel Morgan"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which ancient language is often referred to as the the mother of all languages?",
+    "o": [
+     "Latin",
+     "Sanskrit",
+     "Tamil"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Born in 1683, King Philip V was the first Spanish king of which royal dynasty?",
+    "o": [
+     "Bonaparte",
+     "Bourbon",
+     "Savoy"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was the first US President whose name appeared on the charter of a synagogue?",
+    "o": [
+     "Franklin Pierce",
+     "George Washington",
+     "Millard Fillmore"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The first five books of the Old Testament are referred to as what?",
+    "o": [
+     "The Torah",
+     "The Bible",
+     "The Sacred Writings of Abraham"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of these books doesn't belong with the others?",
+    "o": [
+     "Lamentations",
+     "Jude",
+     "Ezekiel"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What material did goddess Cura use to create humans according to Roman mythology?",
+    "o": [
+     "Air",
+     "Clay",
+     "Fire and water"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which of these queens is not correctly matched with the dynasty to which she belonged?",
+    "o": [
+     "Elizabeth I - Tudors",
+     "Victoria - Windsor",
+     "Anne - Stuarts"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which Christian saint, regarded as the first martyr of Christianity, is commemorated on December 27 or 26?",
+    "o": [
+     "Saint Andrew",
+     "Saint Stephen",
+     "Saint Matthew"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "According to the Bible, God commanded this prophet to anoint David as king.",
+    "o": [
+     "Ahimelech",
+     "Samuel",
+     "Abiathar"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What Jewish tribe did David belong to?",
+    "o": [
+     "Simon",
+     "Judah",
+     "Naphtali"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The Book of Psalms is classified as what type of book in the Bible?",
+    "o": [
+     "Apocalyptic",
+     "Historical",
+     "Poetic"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Former Emperor of Japan, Hirohito, was considered an expert in which of these subjects?",
+    "o": [
+     "Poetry",
+     "Linguistics",
+     "Marine biology"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "St. Benedict is known as the patron of which of these groups of people?",
+    "o": [
+     "Fishermen",
+     "Librarians",
+     "Monks"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What type of stone was used to build the Western or Wailing Wall in Jerusalem?",
+    "o": [
+     "Safedstone",
+     "Gnesis",
+     "Limestone"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Caledonii tradition comes from this country.",
+    "o": [
+     "France",
+     "England",
+     "Scotland"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "He was the last Anglo-Saxon King of England. He reigned until his death at the Battle of Hastings.",
+    "o": [
+     "Richard the Lionheart",
+     "Harold II",
+     "William I"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was the first Jew to serve as US Minister to The Hague?",
+    "o": [
+     "August Belmont",
+     "Judah Benjamin",
+     "John Hays"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of these is NOT a son of Adam and Eve?",
+    "o": [
+     "Cain",
+     "Seth",
+     "Enoch"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the first Jewish player in the United States National Hockey League?",
+    "o": [
+     "Issac Berger",
+     "Sam Rothschild",
+     "Mathieu Schneider"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "One of these French Kings was not a founder of a royal dynasty. Which one?",
+    "o": [
+     "Philip VI the Fortunate",
+     "Hugh Capet",
+     "Louis XIII the Well-Beloved"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the name of the decisive battle of the Conquest of Normandy?",
+    "o": [
+     "Battle of Pevensey",
+     "Battle for Stamford Bridge",
+     "Battle of Hastings"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "He was the father of the mythical founders of Ancient Rome -- Romulus and Remus.",
+    "o": [
+     "Jupiter",
+     "Zeus",
+     "Mars"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of these animals did the Israelites worship while Moses was on the mountain?",
+    "o": [
+     "calf",
+     "bull",
+     "ram"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the military commander of US Army forces in Europe in World War One?",
+    "o": [
+     "John Pershing",
+     "Douglas MacArthur",
+     "Dwight Eisenhower"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Goddess Aphrodite was born out of this.",
+    "o": [
+     "Sea foam",
+     "Sand",
+     "Dust"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which book of the Old Testament has the most chapters?",
+    "o": [
+     "Jeremiah",
+     "Psalms",
+     "Genesis"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is Jesus birthplace according to the Bible?",
+    "o": [
+     "Bethlehem",
+     "Constantinople",
+     "Jerusalem"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of the Horsemen of the Apocalypse is the first to be called out?",
+    "o": [
+     "Pale/Green Horse (Death)",
+     "White Horse (Conquest )",
+     "Black Horse (Famine)"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who is the patron saint of writers and librarians?",
+    "o": [
+     "Thomas Aquinas",
+     "Jerome",
+     "Edward the Confessor"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What did Jesus do to the man with leprosy, according to The New Testament?",
+    "o": [
+     "prayed for him",
+     "ignored him",
+     "touched him and cured him"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of these gods from different mythologies was not a sun god?",
+    "o": [
+     "Thor",
+     "Helios",
+     "Sol"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Clark Gable was in the Army Air Corps during World War II. Who signed his discharge papers?",
+    "o": [
+     "Ronald Reagan",
+     "Hap Arnold",
+     "George Patton"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which part of Israel is famous fro producing wine?",
+    "o": [
+     "Golan Heights",
+     "Lod",
+     "The Negev"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which famous King of France, who reigned in the 17th century, is widely-known as The Sun King?",
+    "o": [
+     "Louis XIV",
+     "Philippe I",
+     "Louis XVIII"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In the Book of Daniel, what would Shadrach, Meshach and Abednego not bow down to?",
+    "o": [
+     "An image of gold",
+     "An image of silver",
+     "King Nebuchadnezzar"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which saint is referred to as the patron of fishermen?",
+    "o": [
+     "Andrew the Apostle",
+     "Jerome",
+     "Raphael the Archangel"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who is the Roman god of fire and volcanoes?",
+    "o": [
+     "Uranus",
+     "Vulcan",
+     "Zeus"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which epistle states that there is one mediator between God and men?",
+    "o": [
+     "Romans",
+     "Ephesians",
+     "Timothy"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Jacob had 12 sons. Which of his wives/maids bore the most babies?",
+    "o": [
+     "Rachel",
+     "Leah",
+     "Zilpah"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who founded the Scientology philosophy and religion?",
+    "o": [
+     "Jason Beghue",
+     "L. Ron Hubbard",
+     "Marion Davis"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which of the following planets is not named after a Roman god?",
+    "o": [
+     "Neptune",
+     "Uranus",
+     "Jupiter"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the traditional food for Shavuot, a major festival in Judaism?",
+    "o": [
+     "Boiled chicken",
+     "Dairy products",
+     "Potato dishes"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who killed Achilles according to Greek mythology?",
+    "o": [
+     "Paris aided by Apollo",
+     "Hector aided by the Nereids",
+     "Priam aided by Paris"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the title of the last book of the Old Testament?",
+    "o": [
+     "Job",
+     "Malachi",
+     "Haggai"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What kind of museum is the Batey Haosef Museum in Tel Aviv?",
+    "o": [
+     "jewelry",
+     "military",
+     "performance art"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Where is The Milk Grotto Church of Virgin Mary located?",
+    "o": [
+     "Nazareth",
+     "Bethlehem",
+     "Jerusalem"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Lord Ganesh, one of the most worshipped divinities in Hinduism, has the head of what animal?",
+    "o": [
+     "elephant",
+     "cobra",
+     "bear"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was emperor of Rome at the time of Jesus death?",
+    "o": [
+     "Augustus",
+     "Tiberius",
+     "Claudius"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which of these musicians is not a Scientologist?",
+    "o": [
+     "Chick Correa",
+     "Beck",
+     "Michael Bolton"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of these great home run hitters was Jewish?",
+    "o": [
+     "Tony Gwynn",
+     "Hank Greenberg",
+     "King Kong Keller"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What kingdom do the legs of iron represent in King Nebuchadnezzars dream in the second chapter of the Book of Daniel?",
+    "o": [
+     "Roman Empire",
+     "Medo-Persian Empire",
+     "Greek Empire"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What was the name of Mosess brother according to the Bible?",
+    "o": [
+     "Peter",
+     "Aaron",
+     "Clive"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was the Greek god of wine?",
+    "o": [
+     "Hermes",
+     "Dionysus",
+     "Zeus"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which of these is not one of Jacobs twelve sons?",
+    "o": [
+     "Zebulon",
+     "Naphtali",
+     "Ephraim"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What are Psalms 120 to 134 referred to as?",
+    "o": [
+     "Psalms of David",
+     "Hymns",
+     "Psalms of Ascent"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "According to the second half of the Acts of the Apostles, what was Pauls name before God changed it?",
+    "o": [
+     "Luke",
+     "Saul",
+     "Peter"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Bodhisattva is consciously seeking what?",
+    "o": [
+     "Enlightenment",
+     "Tranquility",
+     "Thangka"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the name of the famous sci-fi author that created Scientology?",
+    "o": [
+     "L. Ron Hubbard",
+     "Isaac Asimov",
+     "Robert A. Heinlein"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the name of Jacobs only daughter according to Genesis?",
+    "o": [
+     "Leah",
+     "Laban",
+     "Dina"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the oldest cathedral in Germany?",
+    "o": [
+     "Regensburg Cathedral",
+     "Hildesheim Cathedral",
+     "Cathedral of Trier"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the first President of Israel?",
+    "o": [
+     "Chaim Weizmann",
+     "Mosahe Dayan",
+     "David ben -Gurion"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of these celebrities is not a scientologist?",
+    "o": [
+     "Tom Cruise",
+     "Jack Nicholson",
+     "John Travolta"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What was the only automobile brand named after a Jew?",
+    "o": [
+     "Oldsmobile",
+     "Duesenberg",
+     "Citroen"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which Hebrew term means genius?",
+    "o": [
+     "gaon",
+     "Chabad",
+     "Chassid"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In Judaism, what do we call food that is permissible to be eaten?",
+    "o": [
+     "Fleisch",
+     "Parve",
+     "Kosher"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the name of the Roman goddess of luck and fate?",
+    "o": [
+     "Copia",
+     "Fortuna",
+     "Aurora"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The Roman god of war Mars corresponds to which god from the Greek mythology?",
+    "o": [
+     "Hermes",
+     "Ares",
+     "Zeus"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In the Book of Ruth, who was Ruth's mother-in-law that she would not abandon?",
+    "o": [
+     "Naomi",
+     "Mary",
+     "Rahab"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who is considered the first Roman Emperor?",
+    "o": [
+     "Octavian Augustus",
+     "Julius Caesar",
+     "Caligula"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was Ruth's mother-in-law according to biblical texts?",
+    "o": [
+     "Orpah",
+     "Naomi",
+     "Mara"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What was the birth name of Elizabeth Arden who built a cosmetics empire in the US?",
+    "o": [
+     "Betty Naomi Goldstein",
+     "Rosalind Elsie Franklin",
+     "Florence Nightingale Graham"
+    ],
+    "a": "C"
    }
   ],
   "hard": [
@@ -3822,7 +5550,7 @@ window.ADDITIONAL_QUESTION_BANK = {
    {
     "q": "This vessel sunk in lake Michigan in 1919, after a fire on board got out of control.",
     "o": [
-     "Frank OConnor",
+     "Frank O'Connor",
      "Carrington",
      "Fleetwing"
     ],
@@ -5357,6 +7085,870 @@ window.ADDITIONAL_QUESTION_BANK = {
      "Russo-Japanese War"
     ],
     "a": "B"
+   },
+   {
+    "q": "What term is used to describe a persons return to live in Israel?",
+    "o": [
+     "gaboniah",
+     "midinayah",
+     "aliyah"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "The word diamond comes from the ancient Greek word “adamas” meaning what translated in English?",
+    "o": [
+     "Powerful",
+     "Everlasting",
+     "Invincible"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of the following battles was not fought during World War Two?",
+    "o": [
+     "Battle of Kursk",
+     "Battle of Jutland",
+     "Battle of Guadalcanal"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The first two books in the Old Testament are Genesis and Exodus. What is the name of the third book?",
+    "o": [
+     "Deuteronomy",
+     "Joshua",
+     "Leviticus"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the other name of the ancient Greek statue, known as Venus de Milo?",
+    "o": [
+     "The Pieta",
+     "The lady Justice Statue",
+     "Aphrodite"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Where in Israel was the Mishna written?",
+    "o": [
+     "Qumran",
+     "The Negev",
+     "The Galilee"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In which of the following lands did Job live when he was first mentioned in the book of Job?",
+    "o": [
+     "Galilee",
+     "Judea",
+     "Uz"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of the following is not generally considered one of the seven deadly sins?",
+    "o": [
+     "hatred",
+     "lust",
+     "obfuscation"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What Roman philosopher and dramatist was tutor and later advisor to emperor Nero?",
+    "o": [
+     "Statius",
+     "Plautus",
+     "Seneca"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "We get this very popular word from one of Athena's aliases in Greek mythology.",
+    "o": [
+     "media",
+     "computer",
+     "mentor"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "The word Channukah, which refers to a Jewish tradition, means what in Hebrew?",
+    "o": [
+     "Dedication",
+     "Winter",
+     "Celebration"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "On which Holy Day do Jews feast on unleavened bread?",
+    "o": [
+     "Rosh Hashannah",
+     "Passover",
+     "Channukah"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was king of Judaea during the birth of Jesus?",
+    "o": [
+     "King David",
+     "King Darius",
+     "King Herod"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Krishna is an incarnation of which Hindu god?",
+    "o": [
+     "Vishnu",
+     "Brahma",
+     "Buddha"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who is considered to be the most beautiful goddess in Norse mythology?",
+    "o": [
+     "Gna",
+     "Alvis",
+     "Freya"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What did Rose and Morris Michtom create in 1902?",
+    "o": [
+     "The Teddy Bear",
+     "The credit card",
+     "The endoscope"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which successful Israeli General lost an eye and was famous for wearing an eye patch?",
+    "o": [
+     "Moshe ben-Aram",
+     "Moshe Malone",
+     "Moshe Dayan"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "The Hebrew people lived in the first ghetto when they were in Egypt. Where was this place?",
+    "o": [
+     "Cannan",
+     "Nubia",
+     "Goshen"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the name of a famous guarding monster in Greek Mythology?",
+    "o": [
+     "Cerberus",
+     "Dagon",
+     "Golem"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the Hindu Trinity?",
+    "o": [
+     "Shiva, Brahma, Krishna",
+     "Buddha, Brahma, Ganesh",
+     "Vishnu, Brahma, Shiva"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which Queen of France was guillotined in 1793 during the French Revolution of 1789–1799?",
+    "o": [
+     "Marie Antoinette",
+     "Margrethe II",
+     "Elisabeth I"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "You can go snow skiing in the area of which Israeli mountain?",
+    "o": [
+     "Mt. Hermon",
+     "Mt. Nebo",
+     "Mt. Carmel"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "At Passover, Jews eat a special meal done in a special order. What is that meal called?",
+    "o": [
+     "A seder",
+     "A festavus for the rest of us",
+     "A Shidduch"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which book of the Old Testament of the Bible has the least number of chapters?",
+    "o": [
+     "Obadiah",
+     "Haggai",
+     "Zephaniah"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What poem written by Chaim Nachman Bialik inspired many people to immigrate to Israel?",
+    "o": [
+     "Rabbi BenEzra",
+     "The City of the Killings",
+     "The New Colossus"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was the first Jew to serve as a diplomat for the USA?",
+    "o": [
+     "Harvey Lembeck",
+     "Judah Benjamin",
+     "Mordechai Noah"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What king of Babylon took over Jerusalem in the first chapter of the Book of Daniel?",
+    "o": [
+     "Nebuchadnezzar",
+     "Darius",
+     "Jehoiakim"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of these holidays does not have a fast associated with it?",
+    "o": [
+     "Tisha BAv",
+     "Passover",
+     "Sukkot"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In the Book of Ruth, what did Ruth do to indicate that she wanted to be redeemed?",
+    "o": [
+     "Wash Boaz feet.",
+     "Bow down to Boaz",
+     "Sleep at Boaz feet."
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of these people do Jews consider to be their historical religious Patriarchs?",
+    "o": [
+     "Abraham, Issac, and Jacob",
+     "Abraham, Moses, and David",
+     "Abraham, Moses, and Solomon"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the first letter of the Hebrew alphabet?",
+    "o": [
+     "Dalet",
+     "Bet",
+     "Aleph"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What emperor of the Julio-Claudian dynasty has an optical disc authoring program named after him?",
+    "o": [
+     "Claudius",
+     "Nero",
+     "Augustus"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "According to Buddhism what are the3 evil roots/defilements that hide the truth from us?",
+    "o": [
+     "delusion, hatred, greed",
+     "delusion, confusion, anger",
+     "hatred, greed, selfishness"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What do we call the first written book of the Kabbalah?",
+    "o": [
+     "Zohar",
+     "Devarim",
+     "Beraishees"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the formula to end or reduce suffering according to the principles of Buddhism?",
+    "o": [
+     "Deep Meditation",
+     "The Noble Eightfold Path",
+     "The Ten Righteous Practices"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In the 16th century, the Roman Catholic Church allowed the consumption of what meat during Lent?",
+    "o": [
+     "Hamster meat",
+     "Rat meat",
+     "Capybara meat"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "This Greek god is the son of Zeus and Leto, and Artemiss twin.",
+    "o": [
+     "Apollo",
+     "Hades",
+     "Hera"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In Judaism, who was Joshua's father?",
+    "o": [
+     "Nun",
+     "Abraham",
+     "Solomon"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which organization was founded by Rabbi Ben Frankel in 1923?",
+    "o": [
+     "The Hillel Foundation",
+     "Hadassah",
+     "The Jewish National Fund"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of these terms is used by Jews to refer to the Old Testament?",
+    "o": [
+     "Tanakh",
+     "Tehillim",
+     "Torah"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which Egyptian Pharaoh was named The Great Ancestor by his successors?",
+    "o": [
+     "Seti I",
+     "Ramses II",
+     "Khufu (Cheops)"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which Spanish explorer conquered the Inca Empire?",
+    "o": [
+     "Luis Váez de Torres",
+     "Francisco Pizarro",
+     "Juan Ponce de León"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What was the location of the final battle of the First Indo-China War between France and Vietnam?",
+    "o": [
+     "Dien Tet Hue",
+     "Dien Thu",
+     "Dien Bien Phu"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the name of the Spanish explorer who conquered the Inca Empire?",
+    "o": [
+     "Vasco da Gama",
+     "Francisco Pizarro",
+     "Amerigo Vespucci"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Judaism has three Patriarchs -Abraham, Issac, and Jacob. Who are the four Matriarchs?",
+    "o": [
+     "Sarah, Rebecca, Ruth, Naomi",
+     "Sarah, Rebecca, Leah, Rachel",
+     "Sarah , Rebecca , Rachel, Ruth"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What tribe of Israel was Moses born into?",
+    "o": [
+     "Jacob",
+     "Reubon",
+     "Levite"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What city is called The capital of the Negev (desert)?",
+    "o": [
+     "Netanya",
+     "Jaffa",
+     "Beer Sheva"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of the apostles betrayed Jesus?",
+    "o": [
+     "Judas Iscariot",
+     "Simon the Zealot",
+     "Philip"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "We consider there to be three Patriarchs in Judaism. Who were they?",
+    "o": [
+     "David, Joshua, Solomon",
+     "Abraham, Issac, Jacob",
+     "Moses, David, Abraham"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In Roman mythology, the goddess Carmenta is a protector of which of these?",
+    "o": [
+     "Crops",
+     "Childbirth",
+     "Fish"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "With which two figures from Greek/Roman mythology is Gemini associated?",
+    "o": [
+     "Castor and Pollux",
+     "Aphrodite and Zeus",
+     "Hades and Athena"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the father of Charles the Great, King of the Franks of the Carolingian dynasty?",
+    "o": [
+     "King Pippin the Short",
+     "King Henry Viii",
+     "King Charles the Bald"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "According to the genealogy of Jesus, who was the father of Jesse?",
+    "o": [
+     "Obed",
+     "Boaz",
+     "David"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What are the main characters of the ancient Sanskrit epic Ramayana?",
+    "o": [
+     "Brahma and Vishnu",
+     "Rama and Sita",
+     "Rama and Krishna"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who is considered the father of the Jewish political movement and ideology of Zionism?",
+    "o": [
+     "Theodor Herzl",
+     "Alfred Dreyfus",
+     "I .L. Peretz"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What Buddhist term refers to the cycle of reincarnation or rebirth?",
+    "o": [
+     "Dharma",
+     "Samsara",
+     "Asura"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What Scientologist started the EST movement?",
+    "o": [
+     "Werner Erhard",
+     "David Miscavige",
+     "Greta Van Susteren"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the traditional Jewish prayer book called?",
+    "o": [
+     "Siddur",
+     "The United Psalmistry",
+     "Seder"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The great medieval artist, Albrect Durer wrote a textbook in this subject.",
+    "o": [
+     "Civil Engineering",
+     "Geometry",
+     "Architecture"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The historical Saint Nocholas was a Greek Bishop of what ancient town?",
+    "o": [
+     "Myra",
+     "Paternopoli",
+     "Beit Jala"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who is given credit for reviving the Hebrew language?",
+    "o": [
+     "Eliezer Ben Yehuda",
+     "Hannah Senesh",
+     "David Ben Gurion"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What Spanish explorer conquered the Aztec Empire in the 16th century?",
+    "o": [
+     "Giovanni da Verrazzano",
+     "Francisco Pizarro",
+     "Hernan Cortes"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "According to the Torah, what did Esau trade his birthright with Jacob for?",
+    "o": [
+     "Bread and lentil stew",
+     "Bread and vegetables",
+     "Bread and wild game"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What was the title of Hisham ibn Abd al-Malik, the great ruler of the Umayyad dynasty?",
+    "o": [
+     "Caliph",
+     "Emir",
+     "Sultan"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the first Italian-American woman to be canonized as a saint of the Catholic Church?",
+    "o": [
+     "Frances Cabrini",
+     "Mother Catherine",
+     "Dorothea of the Angels"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the most sacred river for Hindus?",
+    "o": [
+     "Siddharta",
+     "Gange",
+     "Jamuna"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who killed the Nemean Lion, one of the most vicious monsters in Greek mythology?",
+    "o": [
+     "Zeus",
+     "King Eurystheus",
+     "Heracles"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Four Jewish jobs require ordination (or Smeecha). Which of these is not one of them?",
+    "o": [
+     "Mohel",
+     "Cantor",
+     "Shochet"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The Temple of Vespasian was begun by Titus after whose death?",
+    "o": [
+     "his best friend, Tiberius",
+     "his brother-in-law, Jesus",
+     "his father, Vespasian"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which was the capital city of the Persian Empire?",
+    "o": [
+     "Schem",
+     "Ecbatana",
+     "Tehran"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Vukodlak is one of the Slavonic names of which scary mythical monster?",
+    "o": [
+     "Werewolf",
+     "Ghost",
+     "Dragon"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The Roman emperor, Tiberius, was a left-handed ruler, who belonged to what dynasty?",
+    "o": [
+     "Severan dynasty",
+     "Julio-Claudian dynasty",
+     "Valentinian dynasty"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In Buddhism the cycle of rebirths is known as what?",
+    "o": [
+     "Samsara",
+     "Bodhi",
+     "Dharma"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who led the Jewish revolt against the Roman Empire in the period from 132 to 135?",
+    "o": [
+     "Bar Kochba and Rabbi Akiva",
+     "Judas Maccabee and his family",
+     "The Savoraim"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "On the first day of which month do Jews celebrate New Year?",
+    "o": [
+     "Tishrei",
+     "Cheshvan",
+     "Adar"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who is considered the first Chassidic Rabbi?",
+    "o": [
+     "the Baal Shem Tov",
+     "Rabbi Hillel",
+     "Rabbi Akiba"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which 10th century Ashkenazi Rabbi outlawed polygamy?",
+    "o": [
+     "Rabbi Judah",
+     "Rabbi Levi Ben-Meir",
+     "Rabbi Gershom"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What Egyptian Pharaoh is believed to have acceded to the Egyptian throne after Queen Nefertiti?",
+    "o": [
+     "Ramesses I",
+     "Khafra",
+     "Tutankhamun"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of the following is a philosopher of ancient China and a central figure in Taoism?",
+    "o": [
+     "Huan Tan",
+     "Laozi",
+     "Wang Chong"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In what language do Ethiopian Jews read Torah?",
+    "o": [
+     "Amharic",
+     "Gez",
+     "Arabic"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was the first mayor of Tel Aviv?",
+    "o": [
+     "David Bloch",
+     "Israel Rokach",
+     "Meir Dizengoff"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "There are two ways to pronounce Hebrew words. One is called Ashkanazi and the other one, this?",
+    "o": [
+     "Sephardic",
+     "Galut",
+     "Asian"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the term scientologists use to describe an immortal spiritual being?",
+    "o": [
+     "a cleared one",
+     "a hubbard",
+     "a thetan"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the title of the leader of the Kagyu, one of the four major schools of Tibetan Buddhism?",
+    "o": [
+     "Pachen Lama",
+     "Karmapa",
+     "Chogyum Trungpa"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Where was Joan of Arc captured by Burgundian forces?",
+    "o": [
+     "Reims",
+     "Compiegne",
+     "Paris"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was king of Babylon when Darius the Mede took over?",
+    "o": [
+     "Belshazzar",
+     "Nebuchadnezzar",
+     "Belteshazzar"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What was the name of Ruth and Boaz's son in the Book of Ruth?",
+    "o": [
+     "David",
+     "Jesse",
+     "Obed"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which famous hoax of the early twentieth century fooled many including Sir Arthur Conan Doyle?",
+    "o": [
+     "The Amherst haunting.",
+     "The Cottingley Fairies.",
+     "Will-o-the-Wisp"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In Buddhism which of these beings inhabit Hells?",
+    "o": [
+     "Naraka beings",
+     "Preta",
+     "Brahmas"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the founder of the first Tibetan Buddhist Dharma center in the West?",
+    "o": [
+     "Dalai Lama",
+     "Pema Chodren",
+     "Chogyam Trungpa"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Aside from his One God, who was the human love in Egyptian Pharaoh Akhenatens life?",
+    "o": [
+     "Nefertiti",
+     "Nerferatari",
+     "Hatshepsut"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was Ruth's sister-in-law according to the Book of Ruth?",
+    "o": [
+     "Oprah",
+     "Orpah",
+     "Rahab"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who is the second highest lama in the Gelugpa lineage of Tibetan Buddhism?",
+    "o": [
+     "Dalai Lama",
+     "Khenpo Gangshar Rinpoche",
+     "Panchen Lama"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What prominent Swedish author called Emanuel Swedenborg nothing but a fool?",
+    "o": [
+     "Johan Henrik Kellgren",
+     "August Strindberg",
+     "Carl Jung"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Voodoo's equivalent in Cuba is Santeria. Do you know which the equivalent of Voodoo in Brazil is?",
+    "o": [
+     "Maabaa",
+     "Mooboo",
+     "Macumba"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What were the Hebrew names of Shadrach, Meshach and Abednego according to the Book of Daniel?",
+    "o": [
+     "Hananiah, Mishael and Azariah",
+     "Hananiah, Michael and Amos",
+     "Hananiah, Mark and Amos"
+    ],
+    "a": "A"
    }
   ]
  },
@@ -7458,6 +10050,582 @@ window.ADDITIONAL_QUESTION_BANK = {
      "Limerick"
     ],
     "a": "B"
+   },
+   {
+    "q": "How many distinct seasons are there in Cambodia?",
+    "o": [
+     "Two",
+     "Four",
+     "There are no seasons"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Indian Ink comes from what country?",
+    "o": [
+     "Japan",
+     "China",
+     "United States"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What kind of game is the traditional Chinese game of Go?",
+    "o": [
+     "A snail race",
+     "A hide-and-seek game",
+     "A board game"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the largest country in the world?",
+    "o": [
+     "Canada",
+     "Russia",
+     "USA"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In South Africa, what season does Christmas occur in?",
+    "o": [
+     "Fall",
+     "Spring",
+     "Summer"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Melt in your mouth, not in your?",
+    "o": [
+     "Hand",
+     "Arm",
+     "Fist"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In what country was action star Bruce Lee born?",
+    "o": [
+     "United States",
+     "China",
+     "Japan"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which one of the five elements are The legendary Chinese dragons believed to control?",
+    "o": [
+     "Fire",
+     "Earth",
+     "Water"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the largest sea in the world?",
+    "o": [
+     "Caribbean Sea",
+     "Bering Sea",
+     "South China Sea"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "He likes it! Hey, Mikey!! was a popular phrase that advertised which product?",
+    "o": [
+     "Ovaltine",
+     "Quaker Instant Oatmeal",
+     "Life"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What abbreviation is used for a member of the Welsh Assembly?",
+    "o": [
+     "WAM",
+     "AM",
+     "MSP"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What country is the largest consumer of gold in the world?",
+    "o": [
+     "India",
+     "United Arab Emirates",
+     "South Africa"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "When was Puerto Rico admitted to the Union?",
+    "o": [
+     "2003",
+     "It is not a US state",
+     "1998"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In square miles, what is the largest country in the world?",
+    "o": [
+     "Peoples Republic of China",
+     "Russia",
+     "Canada"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What does the name of Sudan mean in Arabic?",
+    "o": [
+     "Victory",
+     "Black",
+     "Pain"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The tiger is the national animal of which of the following countries?",
+    "o": [
+     "Israel",
+     "Moscow",
+     "India"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What object was chosen as Person of the Year by Time magazine?",
+    "o": [
+     "The computer",
+     "The television set",
+     "The iPhone"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What European country was affected the worst by the European Heat Wave of 2003?",
+    "o": [
+     "Italy",
+     "France",
+     "Spain"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Where can the Orange River be found ?",
+    "o": [
+     "Turkey",
+     "South Asia",
+     "South Africa"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which king of Israel captured Jerusalem and made it the capital of his kingdom?",
+    "o": [
+     "Saul",
+     "Solomon",
+     "David"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In the past, mostly what color did Orthodox Christians paint their Easter eggs on Holy Thursday?",
+    "o": [
+     "Brown",
+     "Grey",
+     "Red"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What are the national colors of Poland?",
+    "o": [
+     "white, red and blue",
+     "white and red",
+     "red, black and yellow"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In which country was David Beckham born on May 2, 1975?",
+    "o": [
+     "Wales",
+     "England",
+     "Ireland"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Where was the North Atlantic Treaty signed on April 4, 1949?",
+    "o": [
+     "London",
+     "Paris",
+     "Washington"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Everyone in Vietnam celebrates their birthdays during what holiday?",
+    "o": [
+     "Christmas Day",
+     "Fathers Day",
+     "New Years Day"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What do you get when you cross the Atlantic Ocean with the Titanic?",
+    "o": [
+     "nothing - the question is dumb",
+     "ship full of salt water",
+     "half-way"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "How much time did it take to build Constantinople?",
+    "o": [
+     "Over ten years",
+     "Twelve years",
+     "Over six years"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What does the name of Malaysia mean?",
+    "o": [
+     "Land of sorrow",
+     "Paradise land",
+     "Hill town"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the state motto of Rhode Island?",
+    "o": [
+     "Hope",
+     "The Union",
+     "Forward"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What does the word Christmas mean?",
+    "o": [
+     "Birth of Christ",
+     "Holiday",
+     "Mass of Christ"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "312 is an area code in which major metro area?",
+    "o": [
+     "Detroit",
+     "Miami",
+     "Chicago"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "How many reindeer pull the sleigh of Father Frost according to beliefs in Ukraine?",
+    "o": [
+     "Three",
+     "Twelve",
+     "Seven"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which Cabinet Officer first assumed his duties in the month of September?",
+    "o": [
+     "Transportation",
+     "Agriculture",
+     "Justice"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In what country was the vacuum cleaner created in the 19th century?",
+    "o": [
+     "United States",
+     "Japan",
+     "China"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was Abrahams nephew according to the Bible?",
+    "o": [
+     "Lot",
+     "Benjamin",
+     "Joseph"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What states are eligible for NATO membership?",
+    "o": [
+     "European",
+     "Any state",
+     "European and American"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In which direction does the Nile river flow?",
+    "o": [
+     "South to North",
+     "West to East",
+     "East to West"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the national sport of Greenland?",
+    "o": [
+     "Football",
+     "Ice hockey",
+     "Ice skating"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "On what continent is the Great Sandy Desert located?",
+    "o": [
+     "Africa",
+     "South America",
+     "Australia"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What company owned the Titanic?",
+    "o": [
+     "America Lines",
+     "Cunard",
+     "White Star"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What code word is assigned to the letter N in the Military Alphabet?",
+    "o": [
+     "Natural",
+     "November",
+     "Knuckles"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What was Sitting Bulls original name?",
+    "o": [
+     "Blue Elk",
+     "Yawning One",
+     "Slow"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "A conflict between which two Asian countries became the Pacific part of the Second World War?",
+    "o": [
+     "Vietnam and Japan",
+     "China and Vietnam",
+     "China and Japan"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What animal are the Canary Islands named after?",
+    "o": [
+     "Dog",
+     "Canary",
+     "Cat"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In what country was Isaac Newton born?",
+    "o": [
+     "England",
+     "Scotland",
+     "Austria"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What city is the capital of the European Union?",
+    "o": [
+     "Brussels",
+     "Strasbourg",
+     "The EU has no official capital."
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What flower has become a national symbol of England?",
+    "o": [
+     "Geranium",
+     "Daffodil",
+     "Rose"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In what country is the art of palm reading believed to have originated?",
+    "o": [
+     "China",
+     "India",
+     "Greece"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What holiday is on the first Friday the 13th of the year?",
+    "o": [
+     "National Underwear Day",
+     "Brick Day",
+     "Blame Someone Else Day"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In what country is picking your nose in public more acceptable than blowing your nose?",
+    "o": [
+     "Japan",
+     "Iran",
+     "France"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The Yellow Sea is connected to what ocean?",
+    "o": [
+     "Atlantic",
+     "Pacific",
+     "Arctic"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the title of the national anthem of Canada?",
+    "o": [
+     "Blessed Canada",
+     "O Canada",
+     "Beautiful Canada"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the nickname of Australia?",
+    "o": [
+     "The Lucky Country",
+     "The High Country",
+     "The Lowest Country"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the most common religion in the Republic of Ireland?",
+    "o": [
+     "Jewish",
+     "Presbyterian",
+     "Catholic"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In what country was Twiggy born?",
+    "o": [
+     "Scotland",
+     "England",
+     "the USA"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What was the name of the ship that nearly collided with the Titanic in Southampton?",
+    "o": [
+     "New York",
+     "Caronia",
+     "California"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which country tops the world in plastic surgery procedures?",
+    "o": [
+     "USA",
+     "France",
+     "Germany"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who introduced duck breeding in the Philippines?",
+    "o": [
+     "the Spanish",
+     "the Japanese",
+     "the Chinese"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "How many emirates does the United Arab Emirates consist of?",
+    "o": [
+     "seven",
+     "six",
+     "ten"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The Yellow River is the second largest river after the Yangtze in what country?",
+    "o": [
+     "China",
+     "Australia",
+     "Japan"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the title of the national anthem of he Socialist Republic of Vietnam?",
+    "o": [
+     "Army March",
+     "Red Power",
+     "Rise, O, Rise!"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What does the name of Iraq mean in Arabic?",
+    "o": [
+     "Edge",
+     "Oasis",
+     "Height"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the duration of the National Moment of Remembrance on Memorial Day?",
+    "o": [
+     "two minutes",
+     "30 seconds",
+     "one minute"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the title of the national anthem of Germany, adopted in 1922?",
+    "o": [
+     "The Song of Germany",
+     "Beautiful Fatherland",
+     "March of the Republic"
+    ],
+    "a": "A"
    }
   ],
   "medium": [
@@ -9555,6 +12723,582 @@ window.ADDITIONAL_QUESTION_BANK = {
      "Oslo",
      "Helsinki",
      "Copenhagen"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Where was the Titanic built?",
+    "o": [
+     "France",
+     "Ireland",
+     "England"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In what country is the presidential residence called The Blue House?",
+    "o": [
+     "Argentina",
+     "South Korea",
+     "Greece"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who said, When I was a boy the Dead Sea was only sick.?",
+    "o": [
+     "Sid Caesar",
+     "George Jessel",
+     "George Burns"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which are the colors of Purdue University?",
+    "o": [
+     "Green and brown",
+     "Old gold and black",
+     "Red and yellow"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What country launched operation Pillar of Defense on 14 November 2012?",
+    "o": [
+     "Iran",
+     "Israel",
+     "Egypt"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the official winter sport of Canada?",
+    "o": [
+     "Skiing",
+     "Curling",
+     "Ice hockey"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In what country were diamonds mined for the first time in human history?",
+    "o": [
+     "India",
+     "Japan",
+     "Egypt"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What domestic animal is the national symbol of the Isle of Man?",
+    "o": [
+     "Dog",
+     "Cat",
+     "Cow"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who celebrates Ask a Stupid Question day?",
+    "o": [
+     "Salesmen and shoppers",
+     "Workers and bosses",
+     "School students and teachers"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What was the name of Ghana before the country gained its independence?",
+    "o": [
+     "The Belgian Congo",
+     "Limpopo",
+     "The Gold Coast"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What are the two official national languages of Ireland?",
+    "o": [
+     "Scottish and English",
+     "Gaelic and Irish",
+     "Irish and English"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which two states have an Albany State University?",
+    "o": [
+     "New York and Georgia",
+     "Florida and New York",
+     "Rhode Island and New York"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What state holds the worlds largest international hot air balloon festival?",
+    "o": [
+     "Nevada",
+     "Texas",
+     "New Mexico"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the title of the national anthem of the Republic of Ireland?",
+    "o": [
+     "Dear Ireland",
+     "The Soldiers Song",
+     "Land of Glory"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What animals were the Canary Islands named after ?",
+    "o": [
+     "Dogs",
+     "Canaries",
+     "Lions"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which continent is the island of Madagascar part of?",
+    "o": [
+     "South America",
+     "Africa",
+     "Asia"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What type of game is the traditional Vietnamese game called O an quan?",
+    "o": [
+     "Board game",
+     "Ping-pong",
+     "Card game"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Tigers are native to what continent?",
+    "o": [
+     "Africa",
+     "Australia",
+     "Asia"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which lake is NOT one of the Great Lakes?",
+    "o": [
+     "Great Salt Lake",
+     "Lake Huron",
+     "Lake Michigan"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What animal was adopted as an official symbol of Canada on April 30, 2002?",
+    "o": [
+     "Canadian Grizzly Bear",
+     "Canadian Lynx",
+     "Canadian Horse"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the title of the national anthem of Australia?",
+    "o": [
+     "God Save the Queen",
+     "Waltzing Matilda",
+     "Advance Australia Fair"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which was the first country to win two consecutive FIFA World Cups in 1958 and 1962?",
+    "o": [
+     "Brazil",
+     "Italy",
+     "France"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which one was first to recognize Independence Day?",
+    "o": [
+     "New Jersey",
+     "Massachusetts",
+     "Connecticut"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which is the worlds third most populous country?",
+    "o": [
+     "the USA",
+     "Pakistan",
+     "Indonesia"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The Orange River is the longest river in which country?",
+    "o": [
+     "Republic of South Africa",
+     "Canada",
+     "Australia"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who were the first Europeans allowed to trade with Japan?",
+    "o": [
+     "the Dutch",
+     "the Spanish",
+     "the French"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the most senior civil servant of a British Government ministry?",
+    "o": [
+     "The Prime Minister",
+     "The Secretary of State",
+     "The Permanent Secretary"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In what month is the Festival of the Flowers traditionally held in Medellin, Colombia?",
+    "o": [
+     "January",
+     "August",
+     "November"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In what country is a cake called Pink Panther very popular?",
+    "o": [
+     "Switzerland",
+     "Spain",
+     "Canada"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is/are the color/s of Hendrix College?",
+    "o": [
+     "Red",
+     "Orange",
+     "Orange and Black"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What form of government does Malta have?",
+    "o": [
+     "Constitutional monarchy",
+     "Absolute monarchy",
+     "Democratic republic"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "E. J. Smith, the captain of the RMS Titanic, served on which other ship of the White Star Line?",
+    "o": [
+     "Oceanic",
+     "Olympic",
+     "Gigantic"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Whose portrait appears on the face of the $20 bill?",
+    "o": [
+     "Andrew Jackson",
+     "Ulysses S. Grant",
+     "George Washington"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "How many times is the name of Santa Claus used in The Night Before Christmas?",
+    "o": [
+     "Zero",
+     "Two",
+     "One"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which is the patron saint of Scotland?",
+    "o": [
+     "Matthew",
+     "Columba",
+     "Andrew"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What kind of animal is the haggis?",
+    "o": [
+     "wild cat",
+     "It is not an animal",
+     "breed of hunting dog"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which country was not part of the Tripartite Pact signed on 27 September 1940?",
+    "o": [
+     "Germany",
+     "China",
+     "Italy"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Under what name is Thomas Woodward better known?",
+    "o": [
+     "Edward Woodward",
+     "Tommy Dorsey",
+     "Tom Jones"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which PA county is known as the Christmas Tree Capitol of the World?",
+    "o": [
+     "Tioga",
+     "Indiana",
+     "Mifflin"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the most common and popular sport in Honduras?",
+    "o": [
+     "Soccer",
+     "Cricket",
+     "Baseball"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What mammal is the national animal and symbol of Russia?",
+    "o": [
+     "Bear",
+     "Tiger",
+     "Horse"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Area code 213 is one of the original area codes in which major metropolitan area?",
+    "o": [
+     "New York",
+     "Los Angeles",
+     "San Francisco"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Where did the production of the Mustang model of Ford first begin?",
+    "o": [
+     "Michigan",
+     "Virginia",
+     "California"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What meat is traditionally consumed at Christmas in Mexico?",
+    "o": [
+     "Turkey",
+     "Pork",
+     "Beef"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Most of the inhabitants of Barbados originate from where?",
+    "o": [
+     "China",
+     "South America",
+     "Africa"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What country employs the blue color as its national sports color, as it denotes secularism?",
+    "o": [
+     "South Korea",
+     "Spain",
+     "India"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which funnel on the RMS Titanic was a dummy?",
+    "o": [
+     "the second",
+     "the third",
+     "the fourth"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "About half of the 26,000 kg diamonds mined annually originate from which continent?",
+    "o": [
+     "Europe",
+     "Africa",
+     "Asia"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which of the following religions has the least number of followers in Japan?",
+    "o": [
+     "Shinto",
+     "Buddhism",
+     "Islam"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Making sugar by evaporating cane juice was developed in about 500 BC, in what country?",
+    "o": [
+     "Egypt",
+     "India",
+     "China"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What island is often referred to as the Emerald Isle, the green color being its symbol?",
+    "o": [
+     "Ireland",
+     "Sicily",
+     "Jamaica"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which is the patron saint of Scotland, celebrated on November 30?",
+    "o": [
+     "St Peter",
+     "St Patrick",
+     "St Andrew"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "If you end up spending the night in the town of Santa Clause, what state are you in?",
+    "o": [
+     "Indiana",
+     "Tennessee",
+     "Colorado"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What do the host and the guest receiving the tea bowl traditionally do at the Japanese tea ceremony?",
+    "o": [
+     "Smile at each other",
+     "Say thank you",
+     "Bow"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the meaning of Hatikvah, the title of the national anthem of Israel?",
+    "o": [
+     "The Promised Land",
+     "The Hope",
+     "The Grace"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Where does the earliest evidence of Christmas celebrations come from?",
+    "o": [
+     "Egypt",
+     "Rome",
+     "Jerusalem"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What type of government does the Republic of Peru have?",
+    "o": [
+     "Federal republic",
+     "Democratic Republic",
+     "Presidential republic"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "On what continent did anatomically modern humans evolve?",
+    "o": [
+     "Asia",
+     "Africa",
+     "North America"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The reputation of which league was hurt by Michael Vick?",
+    "o": [
+     "NFL",
+     "AFL",
+     "NHL"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the NATO ACCS Management Agency responsible for?",
+    "o": [
+     "Atlantic control",
+     "Astronautical commissions",
+     "Air control"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which river in China caused a flood of mammoth proportions in 1931?",
+    "o": [
+     "Yellow",
+     "Pearl",
+     "Red"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "SS submarines use diesel-electric propulsion. What kind of propulsion do SSN submarines utilize?",
+    "o": [
+     "Diesel",
+     "Electric",
+     "Nuclear"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What type of governmental does Portugal have?",
+    "o": [
+     "Absolute monarchy",
+     "Democratic republic",
+     "Constitutional monarchy"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In what country was bread invented in the antiquity?",
+    "o": [
+     "Egypt",
+     "Mesopotamia",
+     "Iran"
     ],
     "a": "A"
    }
@@ -11665,6 +15409,582 @@ window.ADDITIONAL_QUESTION_BANK = {
      "Sweden / Finland"
     ],
     "a": "C"
+   },
+   {
+    "q": "Most of Jerusalem's workforce is employed in what field?",
+    "o": [
+     "Services",
+     "Heavy industry",
+     "Light industry"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which One Piece character is able to sprout body parts on anything except for sea stone?",
+    "o": [
+     "Franky",
+     "Robin",
+     "Zoro"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the title of the national anthem of the Kingdom of Cambodia?",
+    "o": [
+     "Kingdom of the Sun",
+     "Royal Kingdom",
+     "The Sun is Rising"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In the Roman calendar, what did the day called ides mark each month?",
+    "o": [
+     "The changing of Gods",
+     "The full moon",
+     "The months end"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Kiwi fruit or Chinese Gooseberries came from which country?",
+    "o": [
+     "China",
+     "New Zealand",
+     "Newfoundland"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What type of meat is used for the preparation of the traditional Cambodian dish Amok trey?",
+    "o": [
+     "Chicken",
+     "Duck",
+     "Fish"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the airspace around Nellis Air Force Base called?",
+    "o": [
+     "Extraterrestrial Alley",
+     "Off Limits",
+     "The Box"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What geographic feature divides the 213 area code from the 818 area code?",
+    "o": [
+     "A line in the sand.",
+     "A body of water.",
+     "A range of Mountains."
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In 1969 Honduras and El Salvador fought in what became known as what war?",
+    "o": [
+     "Central American",
+     "Rugby War",
+     "Soccer War"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who is believed to haunt Dunster Castle in England?",
+    "o": [
+     "The beheaded man",
+     "The horseman",
+     "The man in green"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What major annual thoroughbred horse race is held in Australia during the first week of November?",
+    "o": [
+     "Kingston Town Classic",
+     "W.S. Cox Plate",
+     "Melbourne Cup"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the national motto of the Republic of Colombia?",
+    "o": [
+     "Honesty and Progress",
+     "Liberty and Order",
+     "Longevity and Prosperity"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The term Jomon refers to a historical period in the development of which country?",
+    "o": [
+     "Japan",
+     "Brazil",
+     "Greece"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of the following was a key factor in the Spanish conquest of Honduras?",
+    "o": [
+     "Coal Mining",
+     "Silver Mining",
+     "Diamond Mining"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which countrys name can be translated as God fights?",
+    "o": [
+     "Israel",
+     "Iran",
+     "Germany"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In Hungary, kids celebrating their birthday give out what to their classmates?",
+    "o": [
+     "a chocolate bar",
+     "a candy",
+     "a cake"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What nickname has been given to Malta, partly because of the possible Greek origin of its name?",
+    "o": [
+     "Island of the bees",
+     "Land of honey",
+     "The buzzing island"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which 102-storey Art Deco style building was officially opened in May, 1931?",
+    "o": [
+     "Empire State Building",
+     "Sears Tower",
+     "World Trade Center"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What does the Greek word mesopotamia mean?",
+    "o": [
+     "Between two rivers",
+     "Cradle of civilization",
+     "Gods land"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "This famous skyscraper in Hong Kong, designed by the architect I. M. Pei, and is 315 meters high?",
+    "o": [
+     "Bosmal City Center",
+     "Sky Bank",
+     "Bank of China Tower"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What type of governmental control does Ecuador have?",
+    "o": [
+     "Constitutional monarchy",
+     "Peoples republic",
+     "Presidential republic"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "The national anthem of Malaysia is entitled Negaraku. What does this mean?",
+    "o": [
+     "My country",
+     "Solemn",
+     "Blessed island"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In what country did Alicia Silverstone live before moving to the United States before she was born?",
+    "o": [
+     "Germany",
+     "United Kingdom",
+     "Austarlia"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "At the end of How the Grinch Stole Christmas, how many times did the Grinch's heart grow?",
+    "o": [
+     "It shrank",
+     "three",
+     "two"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In what Northeastern state did the first daily newspaper originate?",
+    "o": [
+     "Maine",
+     "Pennsylvania",
+     "Vermont"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In what country was the Bilderberg conference first held?",
+    "o": [
+     "Japan",
+     "Germany",
+     "The Netherlands"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the national motto of San Marino?",
+    "o": [
+     "Justice",
+     "Integrity",
+     "Liberty"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What type of meal is the Idli, which is very popular in South India?",
+    "o": [
+     "Baked chicken",
+     "An appetizer",
+     "A cake"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of the following is nicknamed The Old Lady of Threadneedle Street?",
+    "o": [
+     "the BBC Headquarters",
+     "the Bank of England",
+     "St. Pauls Cathedral"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The Cougnou Christmas bread is traditionally shaped like what?",
+    "o": [
+     "Baby",
+     "Cross",
+     "Star"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Where is the highest EU peak, Mont Blanc?",
+    "o": [
+     "In Italy",
+     "In France",
+     "On the French-Italian border"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who lives at 10 Downing Street, London, colloquially known in the United Kingdom as Number 10?",
+    "o": [
+     "the Princess Royal",
+     "the Mayor of London",
+     "the British Prime Minister"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the literal translation of the Japanese word geisha?",
+    "o": [
+     "Gifted person",
+     "Educated woman",
+     "Performing artist"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Empress Alexandra Fyodorovna was from which country?",
+    "o": [
+     "Germany",
+     "Austria",
+     "Denmark"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "According to the myth, what do the children on Santas bad list often receive, instead of presents?",
+    "o": [
+     "A box of rocks",
+     "A book with proverbs and morals",
+     "A piece of coal"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "The surname Eriksson is in the top 5 of the most common names in which European country?",
+    "o": [
+     "Denmark",
+     "UK",
+     "Sweden"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In what country was Mata Hari born?",
+    "o": [
+     "The Netherlands",
+     "Austria",
+     "Spain"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "From what country did Winona Ryders grandparents emigrate to the United States?",
+    "o": [
+     "Turkey",
+     "Greece",
+     "Russia"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Chicken tikka is a traditional Indian meal. What does tikka mean?",
+    "o": [
+     "Wings",
+     "Popes nose",
+     "Pieces"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the meaning of the national motto of Canada, A Mari Usque Ad Mare?",
+    "o": [
+     "Liberty and prosperity",
+     "Past, present and future",
+     "From sea to sea"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What country does King Lear rule according to Shakespeares famous tragedy?",
+    "o": [
+     "France",
+     "Scotland",
+     "Britain"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "The Ferrari Testarossa went into production in 1984. What does Testarossa mean?",
+    "o": [
+     "Red head",
+     "Black horse",
+     "White rose"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which famous 102-storey skyscraper was designed by Shreve, Lamb and Harmon and built in 1931?",
+    "o": [
+     "Price Tower",
+     "Trump Tower Chicago",
+     "Empire State Building"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Of what origin is Sinterklaas, the basis of the mythical holiday figure of Santa Claus?",
+    "o": [
+     "Dutch",
+     "Swiss",
+     "German"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Retsina, sometimes referred to as the wine of the Gods, is produced in which country?",
+    "o": [
+     "Greece",
+     "Germany",
+     "France"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the Captain for the Titanic's Maiden voyage?",
+    "o": [
+     "J. M. Grube",
+     "Nate Turner",
+     "E. J. Smith"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What two foods were the staples of the diet of the Sumerians?",
+    "o": [
+     "Beer and Bread",
+     "Rice and Olives",
+     "Wheat and Barley"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What state was labor leader Ceasar Chavez born in?",
+    "o": [
+     "California",
+     "Arizona",
+     "New Mexico"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In what fairy tale does Kays grandmother describe snow flakes as white bees swarming?",
+    "o": [
+     "Rapunzel",
+     "The Snow Queen",
+     "The Little Match Girl"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What type of meat is used for the preparation of the traditional Portuguese stew called Caldeirada?",
+    "o": [
+     "Fish",
+     "Rabbit",
+     "Deer"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "On what major holiday is the Venezuelan dish called Hallaca traditionally served?",
+    "o": [
+     "New Years Eve",
+     "Venezuela Day",
+     "Christmas"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Soccer's home is Europe. Which two teams played the first official international game?",
+    "o": [
+     "France vs. Italy",
+     "Ireland vs. Wales",
+     "England vs. Scotland"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the meaning of the phrase Ropa vieja, which denotes a traditional dish very popular in Cuba?",
+    "o": [
+     "Pregnant sheep",
+     "Old woman",
+     "Old clothes"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "The name Morocco originated from the Berber expression Mur-Akush,. What does it mean?",
+    "o": [
+     "Land of the sun",
+     "Land of God",
+     "Land of wonders"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In which country was eyeball jewelry, or extraocular implantation, developed in 2002?",
+    "o": [
+     "The United Kingdom",
+     "The U.S.A.",
+     "The Netherlands"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "The annual charity Becas Ball of Puerto Vallarta is held on what day of the year?",
+    "o": [
+     "March 1",
+     "It is held on different days.",
+     "May 1"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The national motto of Wales is Cymru am byth. What does this mean?",
+    "o": [
+     "Wales above all",
+     "Greatest land of all",
+     "Wales forever"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Pharaoh Khufu was burried in the Great Pyramid of Giza. Where can we find that pyramid?",
+    "o": [
+     "Mexico",
+     "Spain",
+     "Egypt"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "The name Canada comes from the St. Lawrence Iroquoian word, kanata. What does it mean in English?",
+    "o": [
+     "ocean",
+     "village, settlement",
+     "peace"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What type of dessert is the Pandoro, very popular in Italy around Christmas and New Year?",
+    "o": [
+     "Ice cream",
+     "Pudding",
+     "Sweet bread"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "The national anthem of Saudi Arabia is called Aash Al Maleek. What does this mean in English?",
+    "o": [
+     "Long live the King",
+     "Land of glory",
+     "Higher He rises"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What did Hermie the elf do to subdue the snowmonster in Rudolph the Red-Nosed Reindeer?",
+    "o": [
+     "Shaved off all of its hair.",
+     "Removed its teeth.",
+     "Pushed it over a cliff."
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Previously, the month of July was called Quintillis in Latin. What does the word quintilis mean?",
+    "o": [
+     "sixth",
+     "fifth",
+     "seventh"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The New Year greeting, Bliadhna mhath ùr, could be used in which part of the UK?",
+    "o": [
+     "Wales",
+     "Scotland",
+     "North Ireland"
+    ],
+    "a": "B"
    }
   ]
  },
@@ -13766,6 +18086,564 @@ window.ADDITIONAL_QUESTION_BANK = {
      "Anna"
     ],
     "a": "A"
+   },
+   {
+    "q": "What is the symbol for Helium?",
+    "o": [
+     "Hl",
+     "He",
+     "Hi"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Of the 8 major blood types, which is the most common?",
+    "o": [
+     "AB+",
+     "O+",
+     "AB-"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What was the most precious metal for the people of the Americas in ancient times?",
+    "o": [
+     "Silver",
+     "Gold",
+     "Copper"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What type of diamond is the rarest on the planet?",
+    "o": [
+     "Black",
+     "Purple",
+     "Red"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What country awarded Gene Kelly the Legion of Honor in 1960?",
+    "o": [
+     "Great Britain",
+     "USA",
+     "France"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In the treatment of what serious disease is the isotope gold-198 used?",
+    "o": [
+     "Rabies",
+     "Alzheimers disease",
+     "Cancer"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the approximate weight standard, that a Yorkshire Terrier show dog cannot go over?",
+    "o": [
+     "No standard",
+     "10 lbs",
+     "7 lbs"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the derivative of y in this function related to the exponential constant e: If y=e^x?",
+    "o": [
+     "e^x",
+     "e^x +x",
+     "e^pi"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "I'm reading a book about anti-gravity. (Provide the next sentence),?",
+    "o": [
+     "I'm reading it on the ceiling.",
+     "Its about something or other.",
+     "I just can't put it down."
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In what country was the first reported working telescope created?",
+    "o": [
+     "Egypt",
+     "The Netherlands",
+     "China"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the symbol for Gold?",
+    "o": [
+     "Gd",
+     "Ao",
+     "Au"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Taurus, Virgo and Capricorn are astrological signs that fall under what element?",
+    "o": [
+     "Earth",
+     "Fire",
+     "Water"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the chemical symbol for Iron?",
+    "o": [
+     "Fr",
+     "Fe",
+     "In"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Mathew Perry misses a part of which organ of his body due to an accident?",
+    "o": [
+     "Finger",
+     "Ear",
+     "Liver"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which planet is 5th from the sun?",
+    "o": [
+     "Jupiter",
+     "Earth",
+     "Saturn"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "I am the only mammal that can fly. I hang upside down and come out at night. What am I?",
+    "o": [
+     "Monkey",
+     "Bat",
+     "Owl"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What type of insect is the Orange Tip?",
+    "o": [
+     "Grasshopper",
+     "Ladybug",
+     "Butterfly"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the symbol for Neon?",
+    "o": [
+     "Nn",
+     "No",
+     "Ne"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "I am an insect, I have very pretty wings. What am I?",
+    "o": [
+     "Butterfly",
+     "Parrot",
+     "Bee"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What bird can be associated with the infectious disease Varicella?",
+    "o": [
+     "Hen",
+     "Chicken",
+     "Crane"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The outbreak of what deadly disease is often referred to as Black Death?",
+    "o": [
+     "Plague",
+     "Tuberculosis",
+     "Malaria"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "On what other planet of the Solar System have scientist observed a phenomenon similar to snow?",
+    "o": [
+     "Uranus",
+     "Mercury",
+     "Venus"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What color is Barney the dinosaur from the childrens program?",
+    "o": [
+     "green",
+     "purple",
+     "yellow"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What planet has brown clouds floating over its surface?",
+    "o": [
+     "Uranus",
+     "Neptune",
+     "Jupiter"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the symbol for Bismuth?",
+    "o": [
+     "Bm",
+     "Bi",
+     "Bs"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "On what planet was the Silver Surfer born?",
+    "o": [
+     "Mars",
+     "Zen La",
+     "Thanagar"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which type of cat is almost always female?",
+    "o": [
+     "Siamese",
+     "Calico",
+     "White"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What dangerous disease did Queen Elizabeth I survive in 1562?",
+    "o": [
+     "Smallpox",
+     "Hepatitis",
+     "Tuberculosis"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What do scientists call dinosaur bones found deep in the ground?",
+    "o": [
+     "Dino bones",
+     "Fossils",
+     "Rocks"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the symbol for Thallium?",
+    "o": [
+     "Th",
+     "Tl",
+     "Ta"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What infectious disease can be transmitted by a mosquito bite?",
+    "o": [
+     "styorrhea",
+     "trichnaria",
+     "malaria"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which species has the most complex color vision system in the animal kingdom?",
+    "o": [
+     "Mantis shrimp",
+     "Honey- and bumblebees",
+     "Fat-tailed dunnart"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the basic chemical compound that table salt is composed of?",
+    "o": [
+     "Potassium iodide",
+     "Sodium chloride",
+     "Sodium bicarbonate"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which of the following is not a heart valve?",
+    "o": [
+     "Tricuspid valve",
+     "Mitral Valve",
+     "Carotid Valve"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of the following is not a breed of dog?",
+    "o": [
+     "Fox terrier",
+     "Pom-a-poo",
+     "Ferret terrier"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which element is number two in the periodic table, following hydrogen?",
+    "o": [
+     "Oxygen",
+     "Helium",
+     "Carbon"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In the United States, which of the following doctors is likely to make the most money?",
+    "o": [
+     "Psychiatrist",
+     "Neurologist",
+     "Radiologist"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is a female sheep called or known as?",
+    "o": [
+     "colt",
+     "fleece",
+     "ewe"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "This dog breed was developed as a gun dog in Canada?",
+    "o": [
+     "Mountain Cur",
+     "Labrador Retriever",
+     "Pharaoh Hound"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which company paid for the first TV ad?",
+    "o": [
+     "Colgate (toothpaste)",
+     "Dawn (dishwashing detergent)",
+     "Bulova (watches)"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What do we call this sequence of numbers: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 ...?",
+    "o": [
+     "Gauss",
+     "Lucas",
+     "Fibonacci"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What chemical is added to table salt in some European countries to prevent tooth decay?",
+    "o": [
+     "Calcium sulfate",
+     "Potassium carbonate",
+     "Sodium fluoride"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which was the first soap opera broadcast on an American television network?",
+    "o": [
+     "Faraway Hill",
+     "Love of Life",
+     "Halls of Ivy"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What place has the maximum amount of sunshine in the US?",
+    "o": [
+     "Yuma, Arizona",
+     "Houston, Texas",
+     "Anchorage, Alaska"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of the following is not a breed of chicken?",
+    "o": [
+     "Australorp",
+     "Houdan",
+     "Chinese Crested"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the biggest artery in the human body?",
+    "o": [
+     "pulmonary",
+     "aorta",
+     "umbilical"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Healthy people over 17 can donate what part of their blood every two weeks?",
+    "o": [
+     "Platelets",
+     "Blood serum",
+     "White blood cells"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the largest artery in the body?",
+    "o": [
+     "Pulmonary artery",
+     "Aorta",
+     "Carotid artery"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What connects muscles to bones?",
+    "o": [
+     "Cartilage",
+     "Tendons",
+     "Nothing"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which animals have the most unique species endemic to Australia?",
+    "o": [
+     "Amphibians",
+     "Mammals",
+     "Insects"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who is considered to be the father of anthropology?",
+    "o": [
+     "Eugene Dubois",
+     "Louis Leakey",
+     "Franz Boas"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the largest living bird of prey on the planet?",
+    "o": [
+     "Eurasian Black Vulture",
+     "Philippine Eagle",
+     "Lappet-faced Vulture"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of the following is the Latin word for egg?",
+    "o": [
+     "Ovum",
+     "Avis",
+     "Cancer"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "During which lunar phase is the moon least visible?",
+    "o": [
+     "Waxing Crescent",
+     "Waxing Gibbous",
+     "First Quarter"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which ancient Greek historian is considered the Father of History?",
+    "o": [
+     "Socrates",
+     "Herodotus",
+     "Demitrios"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The presence of what chemical element causes the red color of rubies?",
+    "o": [
+     "carbon",
+     "chromium",
+     "argon"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the national flower of Wales?",
+    "o": [
+     "Rose",
+     "Daisy",
+     "Daffodil"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which line contains only names of people who have or had AIDS?",
+    "o": [
+     "Magic Johnson, Isaac Asimov",
+     "Jim Morrison, Bob Marley",
+     "Freddie Mercury, Jimi Hendrix"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The pungent odor and biting taste of garlic are caused by which of the following chemical elements?",
+    "o": [
+     "Phosphorus",
+     "Carbon",
+     "Sulfur"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which was the first implemented high-level general purpose programming language?",
+    "o": [
+     "Fortran",
+     "BASIC",
+     "Cobol"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The Hall-Héroult chemical process is used for the production of what?",
+    "o": [
+     "Aluminum",
+     "Zirconium",
+     "Titanium"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What breed is known as the favourite breed of Queen Elizabeth II?",
+    "o": [
+     "Old English Sheepdog",
+     "Border Collie",
+     "Welsh Corgi"
+    ],
+    "a": "C"
    }
   ],
   "medium": [
@@ -15865,6 +20743,564 @@ window.ADDITIONAL_QUESTION_BANK = {
      "The aboriginal name for it"
     ],
     "a": "C"
+   },
+   {
+    "q": "What do we call cells with a nucleus?",
+    "o": [
+     "Eukaryotic",
+     "Mitochondrial",
+     "Golgi"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What period marks the beginning of extensive land colonization by plants?",
+    "o": [
+     "Permian",
+     "Cretaceous",
+     "Devonian"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "All domestic chickens can be traced back to which bird?",
+    "o": [
+     "The Macaw",
+     "The Red Jungle Fowl",
+     "The Wild Turkey"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who is regarded as the Father of Mathematics?",
+    "o": [
+     "Archimedes",
+     "Ernest Rutherford",
+     "Euclid"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of the following is not a type of chipmunk?",
+    "o": [
+     "Sonoma",
+     "Bushy-tailed",
+     "Long-eared"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The diet of the koala consists mainly of what plant species?",
+    "o": [
+     "Willow",
+     "Eucalyptus",
+     "Bamboo"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which of the following was declassified as a planet in 2006 by the International Astronomical Union?",
+    "o": [
+     "Uranus",
+     "Pluto",
+     "Neptune"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What do we call the type of ants that plant seeds to grow food?",
+    "o": [
+     "Formicadae",
+     "Harvester ants",
+     "Farmer ants"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which shark is the fastest swimmer?",
+    "o": [
+     "nurse shark",
+     "goblin shark",
+     "mako shark"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which is the mathematical property used in this addition equation: (57 + 63) + 14 = 57 + (63 + 14)?",
+    "o": [
+     "Associative property",
+     "Commutative property",
+     "Identity Property"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the apparent path of the sun around the sky called?",
+    "o": [
+     "Zodiac",
+     "Ecliptic",
+     "Revolution"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Representatives of three of these species produce venom of their own. Which is the odd species?",
+    "o": [
+     "Mosquitos",
+     "Scorpions",
+     "Lizards"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What disease took many lives in Russia, Poland and Romania during World War I ?",
+    "o": [
+     "Smallpox",
+     "Typhus",
+     "Malaria"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which of the following modern diseases evolved as a protection against malaria?",
+    "o": [
+     "Sickle Cell Anemia",
+     "Tay Sachs",
+     "Asthma"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Mars has the tallest known mountain in the Solar System. What is its name?",
+    "o": [
+     "Arsia Mons",
+     "Olympus Mons",
+     "Syrtis Major"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who wrote the first textbook on Geometry?",
+    "o": [
+     "Thales",
+     "Van Nostrand",
+     "Euclid"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the reaction called when an acid and a base are mixed together?",
+    "o": [
+     "double replacement",
+     "neutralization",
+     "single replacement"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was the first person to orbit the Earth?",
+    "o": [
+     "Yuri Gagarin",
+     "Georgi Dobrovolski",
+     "Neil Armstrong"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What does the Tasmanian devil do when it feels stressed or threatened?",
+    "o": [
+     "It starts screaming",
+     "It produces a strong odour",
+     "It attacks"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which of the following is NOT a type of yoga?",
+    "o": [
+     "Ashtanga yoga",
+     "Asana yoga",
+     "Hatha yoga"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The term clone, originally used in botany before it entered molecular genetics, means what in Greek?",
+    "o": [
+     "Twin",
+     "Twig",
+     "Root"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What term refers to wasting away or degeneration of a muscle?",
+    "o": [
+     "Dystrophy",
+     "Trophy",
+     "Atrophy"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What Greek mythological figure flew too close to the sun with his wings made of wax?",
+    "o": [
+     "Pasiphae",
+     "Icarus",
+     "Ariadne"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What protein is the main component of the hair fiber?",
+    "o": [
+     "Carnitine",
+     "Fibrin",
+     "Keratin"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of the following historical sites did not serve as a kind of observatory in the past?",
+    "o": [
+     "Abu Simbel, Egypt",
+     "The Great Sphinx of Giza, Egypt",
+     "Stonehenge, Great Britain"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What star is closest to the sun?",
+    "o": [
+     "Procima Beta",
+     "Proxima Centauri",
+     "Proxima Alpha"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What kind of animal is the smallest known reptile on the planet?",
+    "o": [
+     "Gecko",
+     "Turtle",
+     "Lizard"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which element was NOT discovered at the University of California in Berkeley, CA, USA?",
+    "o": [
+     "Fm",
+     "Yb",
+     "Es"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In astrology Saturn is believed to be the planetary ruler of which sign?",
+    "o": [
+     "Capricorn",
+     "Cancer",
+     "Pisces"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The horse of what fictional hero is called Tornado?",
+    "o": [
+     "Zorro",
+     "Don Juan",
+     "Don Quixote"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was Gene Kellys co-star in The Pirate?",
+    "o": [
+     "Ginger Rodgers",
+     "Frank Sinatra",
+     "Judy Garland"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In which city was Albert Einstein born ?",
+    "o": [
+     "Berlin",
+     "Munich",
+     "Ulm"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of the following owns the .fm domain name that is popular among radio stations?",
+    "o": [
+     "Federated States of Micronesia",
+     "Mexico",
+     "International Broadcasters Union"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the main cause for most pandemics in history?",
+    "o": [
+     "Human negligence",
+     "The domestication of animals",
+     "The bad hygiene of the people"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which of the following octopuses could most easily kill a human?",
+    "o": [
+     "The Common Octopus",
+     "The Blue Ringed Octopus",
+     "Seven Armed Octopus"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which word refers to a sound caused by abnormal or pathological heart valves?",
+    "o": [
+     "Wheezing",
+     "Aneurysm",
+     "Murmur"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Where in the human body is the Golgi organ located?",
+    "o": [
+     "Within the cell",
+     "Within the brain",
+     "In tendons"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Along with Neil Armstrong and Michael Collins, who was the third member of the Apollo 11 crew?",
+    "o": [
+     "James A. Lovell, Jr",
+     "Buzz Aldrin",
+     "William Anders"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What was the only mass extinction in which insects were affected?",
+    "o": [
+     "Permian/Triassic event",
+     "Cretaceous/Paleogene event",
+     "Ordovician/Silurian event"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of the following is not a function of the circulatory system?",
+    "o": [
+     "Excretion of unwanted substances",
+     "Transport of vital substances",
+     "Stabilizing body temperature"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which animal has the longest gestation period?",
+    "o": [
+     "Dung Beetle",
+     "Polar Bear",
+     "Black Salamander"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which elephant subspecies is the largest on the planet?",
+    "o": [
+     "Savanna Elephant",
+     "Indian Elephant",
+     "Sri Lankan Elephant"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which Rough Collie was awarded a star on the Hollywood Walk of Fame?",
+    "o": [
+     "Honey",
+     "Odie",
+     "Lassie"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What Gorilla is the largest primate on the planet?",
+    "o": [
+     "Mountain Gorilla",
+     "Western Lowland Gorilla",
+     "Eastern Lowland Gorilla"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "During what geological period did the earliest vascular plants evolve?",
+    "o": [
+     "Silurian",
+     "Cretaceous",
+     "Devonian"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What chemical compound is commonly known as vitamin C?",
+    "o": [
+     "Acetylsalicylic acid",
+     "Hyaluronic acid",
+     "Ascorbic acid"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In baseball, when a quarterback throws a pass, the ball follows what type of path?",
+    "o": [
+     "Line",
+     "Parabola",
+     "Ray"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What hyena species is the largest surviving on the planet?",
+    "o": [
+     "Aardwolf",
+     "Striped Hyena",
+     "Spotted Hyena"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What type of food do Tasmanian devils prefer in the wild?",
+    "o": [
+     "Insects",
+     "Carrion",
+     "Sheep"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who helped invent the blender?",
+    "o": [
+     "Fred Waring",
+     "Carl Sontheimer",
+     "Carl Frederick Winson"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which type of blood cells can be stored the longest?",
+    "o": [
+     "Erythrocytes (red blood cells)",
+     "Platelets",
+     "Leukocytes (white blood cells)"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Saturn is the Roman name of which Greek deity?",
+    "o": [
+     "Styx",
+     "Kronos",
+     "Pan"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Jupiter, the largest planet in the Solar system, is the ruling planet of which astrological sign?",
+    "o": [
+     "Sagittarius",
+     "Aries",
+     "Gemini"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Hyenas are most closely related to what creatures?",
+    "o": [
+     "Mongoose",
+     "Badger",
+     "Bears"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the breed of animal created from the crossing of a male lion and a female tiger?",
+    "o": [
+     "Liger",
+     "Ligon",
+     "Tigon"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Dinosaurs lived during which geologic era?",
+    "o": [
+     "Mesozoic",
+     "Cretazoic",
+     "Protozoic"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Human toes and fingers go by what common name?",
+    "o": [
+     "Carpal's",
+     "Tarsals",
+     "Phalanges"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which insect would a myrmecophobic person want to stay away from?",
+    "o": [
+     "ants",
+     "moths",
+     "bees"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the path taken by a bullet fired from a rifle into the air (ignoring friction)?",
+    "o": [
+     "A parabola",
+     "A straight line",
+     "A logarithmic line"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "During what geological time period did the ammonites evolve?",
+    "o": [
+     "The Silurian period",
+     "The Triassic period",
+     "The Devonian period"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What did the CERN laboratory in Geneva, Switzerland, produce for the first time in 1996?",
+    "o": [
+     "Antimatter",
+     "An atom without electrons",
+     "An atom without protons"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "How permeable is the cell membrane?",
+    "o": [
+     "It is semi permeable",
+     "It varies in permeablity",
+     "It is fully permeable"
+    ],
+    "a": "A"
    }
   ],
   "hard": [
@@ -17973,6 +23409,573 @@ window.ADDITIONAL_QUESTION_BANK = {
      "Cockroach"
     ],
     "a": "C"
+   },
+   {
+    "q": "What is the worlds smallest winged insect?",
+    "o": [
+     "Psocids",
+     "Stylopids",
+     "Tanzanian parasitic wasp"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What part of the nervous system regulates involuntary actions such as heartbeat or digestion?",
+    "o": [
+     "autonomic nervous system",
+     "central nervous system",
+     "peripheral nervous system"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The venomous lizard Gila monster was named after what?",
+    "o": [
+     "The Gila Expedition 1857",
+     "The Gila River basin",
+     "Alberto Gilardino"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What type of dog did Richard Nixon receive from a Texan while he was a candidate for Vice President?",
+    "o": [
+     "German Shepherd",
+     "Welsh Corgy",
+     "Cocker Spaniel"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which programming language is based on Horn clauses?",
+    "o": [
+     "Prolog",
+     "PL/I",
+     "Erlang"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The four Jovian planets in the Solar system are Jupiter, Saturn, Neptune and which other planet?",
+    "o": [
+     "Mars",
+     "Uranus",
+     "Venus"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is a fast-spinning neutron star that emits pulses of radio waves called?",
+    "o": [
+     "Millisecondar",
+     "Pulsar",
+     "Magnetar"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the constellation Ursa Major commonly known as?",
+    "o": [
+     "The Great Fisherman",
+     "Hercules",
+     "The Big Dipper"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What type of conic section would this mathematical equation produce: (x^2)/4+(y^2)/9=81?",
+    "o": [
+     "Ellipse",
+     "Circle",
+     "Line"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who created the Fujita scale in the late 1960s?",
+    "o": [
+     "Theodore Fujita",
+     "Alvin Fujita",
+     "Patrick Fujita"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which is the smallest elephant subspecies on the planet?",
+    "o": [
+     "Sri Lankan Elephant",
+     "Sumatran Elephant",
+     "Forest Elephant"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "How is the discipline of biology dedicated to the study of fungi called?",
+    "o": [
+     "Fungitics",
+     "Myology",
+     "Mycology"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What dog breed has an elongated body, very short legs, short shiny coat and a long snout?",
+    "o": [
+     "Dachshund",
+     "English Foxhound",
+     "Dogo Guatemalteco"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "How are hard drives and floppy disks read?",
+    "o": [
+     "Laser",
+     "Magnetically",
+     "Sensor"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The North Star, Polaris, is located within which constellation?",
+    "o": [
+     "Ursa Major",
+     "Canis Lupus",
+     "Ursa Minor"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "How are most foxes generally classified according to their diet?",
+    "o": [
+     "Specialized eaters",
+     "Insectivores",
+     "Omnivores"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "If HCl and NaOH are combined, what compound is produced other than water?",
+    "o": [
+     "NaCl",
+     "ClOH",
+     "HNa"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What term is used the denote the terrestrial stage of the development of the young newt?",
+    "o": [
+     "Imago",
+     "Eft",
+     "Elf"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What type of animal is a mudpuppy?",
+    "o": [
+     "fish",
+     "skink",
+     "salamander"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Of these roof types, which one is least likely to have gables?",
+    "o": [
+     "Pitched Roof",
+     "Hipped Roof",
+     "Gambrel Roof"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which ancient Greek astronomer cataloged 48 of the constellations?",
+    "o": [
+     "Plato",
+     "Aristarchus",
+     "Ptolemy"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What part of a ducks body is recommended for treating coughs in traditional Chinese medicine?",
+    "o": [
+     "Bill",
+     "Eyes",
+     "Gizzard"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "The Peking Man is an example of what species of the genus Homo?",
+    "o": [
+     "Homo sapiens",
+     "Homo erectus",
+     "Pithecanthropus"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What unit in the metric system do astronomers use to measure the wavelength of light?",
+    "o": [
+     "photon",
+     "nanometer",
+     "eccentricity"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the largest living subspecies of giraffe on the planet?",
+    "o": [
+     "South African Giraffe",
+     "Nubian Giraffe",
+     "Masai Giraffe"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which is the largest subspecies of ostrich on the planet?",
+    "o": [
+     "Southern Ostrich",
+     "Red-necked Ostrich",
+     "Masai Ostrich"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which is the largest of Uranus moons?",
+    "o": [
+     "Miranda.",
+     "Titania.",
+     "Oberon."
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which whale expels a reddish-brown fluid when threatened, much like an octopus?",
+    "o": [
+     "Pygmy sperm whale",
+     "Dwarf sperm whale",
+     "Andrew’s beaked whale"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is a common nickname for the Yorkshire Terriers?",
+    "o": [
+     "Yorkie",
+     "They have no nickname.",
+     "Yorkle"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In algebra, what is an Abelian group?",
+    "o": [
+     "A group that is commutative",
+     "A group that is reflexive",
+     "A group that is distributive"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What type of glands are the Glands of Montgomery?",
+    "o": [
+     "Sebaceous glands",
+     "Lacrimal glands",
+     "Salivary glands"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the chemical symbol for Ytterbium?",
+    "o": [
+     "Ym",
+     "Yb",
+     "Ye"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What are cheetahs that have mutated patterning that creates blotches instead of spots called?",
+    "o": [
+     "Black Cheetahs",
+     "King Cheetahs",
+     "Smudge Cheetahs"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What are the two twin stars in the constellation Gemini?",
+    "o": [
+     "Castor Pollux",
+     "Spica Arcturus",
+     "Voltron Yularis"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the closest point to the sun in the Earths orbit called?",
+    "o": [
+     "Perihelion",
+     "Autumnal Equinox",
+     "Aphelion"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What animals does malacology study?",
+    "o": [
+     "Mollusks",
+     "Monotremes",
+     "Jellyfish"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the only marsupial in the world that has a backwards pouch?",
+    "o": [
+     "wombat",
+     "echidna",
+     "kangaroo"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the home planet of Darth Vader, one of the main villains in Star Wars?",
+    "o": [
+     "The Death Star",
+     "Tatooine",
+     "Alderaan"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What famous beer brand uses the Clydesdale horse as its mascot?",
+    "o": [
+     "Upland",
+     "Anheuser-Busch",
+     "Fosters"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What toxic chemical was released in the Tokyo subway by the Aum Shinrikyo sect in 1995?",
+    "o": [
+     "Strychnine",
+     "Sulphur trioxide",
+     "Sarin"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Paul MacCready designed the first working solar plane. What was its name?",
+    "o": [
+     "Solar Challenger",
+     "Solar Impulse",
+     "Gossamer Penguin"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of the following types of brain cells amplify the neural signals and maintain homeostasis?",
+    "o": [
+     "glial cells",
+     "axons",
+     "neurons"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "How is an atom having the valance of 1 called?",
+    "o": [
+     "Monad",
+     "Nucleuid",
+     "Mono particle"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What body part is involved in the medical procedure called orchiopexy?",
+    "o": [
+     "Testicle",
+     "Tendons",
+     "Teeth"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What celestial formations are considered to be the birthplaces of stars?",
+    "o": [
+     "Nebulae",
+     "Spiral galaxies",
+     "Galactic halos"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "How is the lemur Aye-aye classified according to its diet?",
+    "o": [
+     "Omnivore",
+     "Herbivore",
+     "Specialized eater"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The earliest known European example of Homo sapiens was discovered in 1868 and was given what name?",
+    "o": [
+     "Neaanderthal Man",
+     "Cro Magnon Man",
+     "Austrlopithecus"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Humans (Homo Sapiens) evolved from which hominid species?",
+    "o": [
+     "Homo neanderthalensis",
+     "Homo rhodesiensis",
+     "Homo erectus"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What type of duct is the Wharton's duct found in the human body?",
+    "o": [
+     "Bile duct",
+     "Salivary duct",
+     "Tear duct"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Isao Miyoshi is a very clever recycler from Japan. What did he recycle?",
+    "o": [
+     "Pachinko machines",
+     "Dentures",
+     "Old Macintosh computers"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What famous scientist discovered Jupiters four largest satellites?",
+    "o": [
+     "Giovanni Cassini",
+     "Johannes Kepler",
+     "Galileo Galilei"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What do mathematicians call a quadrilateral with exactly one pair of parallel sides?",
+    "o": [
+     "An ellipse",
+     "A square",
+     "A trapezoid"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "The medical prefix oophoro, which derives from Greek, refers to which part of the body?",
+    "o": [
+     "Uterus",
+     "Muscle",
+     "Ovary"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What other common name is used for the Kittis Hog-nosed Bat, the smallest bat species in the world?",
+    "o": [
+     "Wasp bat",
+     "Hummingbird bat",
+     "Bumblebee bat"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In what part of the human body are the Wormian bones, named after Ole Worm, located?",
+    "o": [
+     "Pelvis",
+     "Cranium",
+     "Thorax"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Early amphibians such as Icthyostega evolved during what geological period?",
+    "o": [
+     "Permian",
+     "Silurian",
+     "Devonian"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which disease is treated by Synthroid (levothyroxine)?",
+    "o": [
+     "Hypothyroidism",
+     "Multiple Sclerosis",
+     "Congestive Heart Failure"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The North American Beaver is Canadas National symbol that adorns which Canadian coin?",
+    "o": [
+     "Nickle",
+     "Quarter",
+     "Penny"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What human internal organ contains Luschkas crypts?",
+    "o": [
+     "Gallbladder",
+     "Stomach",
+     "Uterus"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In which part of the digestive system are the so-called Brunner's glands located?",
+    "o": [
+     "Stomach",
+     "Colon",
+     "Duodenum"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Tympanoplasty is a type of reconstructive surgery performed on which part of the body?",
+    "o": [
+     "Eardrum",
+     "Knees",
+     "Fingers or toes"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What type of conic section wouyld this yield: y=3x^2-9?",
+    "o": [
+     "Line",
+     "Ray",
+     "Parabola"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "The family “phocoenidae” describe which group of cetacean?",
+    "o": [
+     "Porpoises",
+     "Indus and Ganges river dolphins",
+     "Dolphins"
+    ],
+    "a": "A"
    }
   ]
  },
@@ -18928,7 +24931,7 @@ window.ADDITIONAL_QUESTION_BANK = {
     "o": [
      "Margaret Mitchell",
      "Ann Marie Tyler",
-     "Pansey OHara"
+     "Pansey O'Hara"
     ],
     "a": "A"
    },
@@ -19777,6 +25780,888 @@ window.ADDITIONAL_QUESTION_BANK = {
      "Misery"
     ],
     "a": "B"
+   },
+   {
+    "q": "What is vir in Latin?",
+    "o": [
+     "A human",
+     "A man",
+     "A virus"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Identify the Operator in the sentence: The football match must have been played last Saturday.",
+    "o": [
+     "have",
+     "must",
+     "been"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In which of the first six books does Ron face Voldemort?",
+    "o": [
+     "Never",
+     "Goblet of Fire",
+     "Sorcerers Stone"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Complete the following proverb: Learn to walk before you ...",
+    "o": [
+     "Crawl",
+     "Leap",
+     "Run"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Yoga literally means this.",
+    "o": [
+     "Exercise",
+     "Union",
+     "Lifting"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "If he denied the charges outright, then his denial cannot be described as this.",
+    "o": [
+     "Kind",
+     "Complete",
+     "Open"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which college did William Shakespeare attend?",
+    "o": [
+     "Cambridge",
+     "UCLA",
+     "He did not go to college"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Writer J. R. R. Tolkien served in the British army during which war?",
+    "o": [
+     "World War II",
+     "World War I",
+     "Spanish Civil War"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is Harrys first line in the book Harry Potter and the Deathly Hallows?",
+    "o": [
+     "What's this doing here?",
+     "What the?",
+     "Hush up Hedwig"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "This is how we refer to a person who writes any type of literary products.",
+    "o": [
+     "director",
+     "creator",
+     "author"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the name of the book written by Pamela Anderson and published in 2004?",
+    "o": [
+     "Lost",
+     "Star",
+     "Pink"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In Phillip Pullman's The Subtle Knife, who does Lyra, the protagonist of the first book, meet first in the new world?",
+    "o": [
+     "Will",
+     "Angelica",
+     "Moxie"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Finish the proverb: Blood is thicker than ...",
+    "o": [
+     "Sweat",
+     "Wine",
+     "Water"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which is the only novel by Charles Dickens that doesn't have scenes set in London?",
+    "o": [
+     "Hard Times",
+     "A Christmas Carol",
+     "Oliver Twist"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "He was the first man, according to Norse mythology.",
+    "o": [
+     "Arvak",
+     "Ask",
+     "Annar"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "This photographer, who taught at MIT for 10 years, developed the Zone System.",
+    "o": [
+     "Minor White",
+     "Alfred Stieglitz",
+     "Paul Curtis"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The name of the flower dandelion comes from this language.",
+    "o": [
+     "Anglo-Saxon",
+     "Portuguese",
+     "French"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Yoga originates from this country.",
+    "o": [
+     "Russia",
+     "India",
+     "Egypt"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What was the name of Margaret Mitchell’s only book written in 1936?",
+    "o": [
+     "Gone With The Wind",
+     "Inherit The Wind",
+     "Death on the Nile"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Give me the English word for the Spanish word hermano.",
+    "o": [
+     "herring",
+     "brother",
+     "golf course"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Writer J. R. R. Tolkien was born on January 3, 1892 in which country?",
+    "o": [
+     "Germany",
+     "South Africa",
+     "USA"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Sid Halley, the protagonist of several novels by Dick Francis, is disabled. What is the nature of his disability?",
+    "o": [
+     "He has only one hand.",
+     "He is deaf.",
+     "He is a paraplegic."
+    ],
+    "a": "A"
+   },
+   {
+    "q": "How does Peter get to London in the book Peter and the Shadow Thieves?",
+    "o": [
+     "He takes a taxi.",
+     "He flies.",
+     "He goes by boat."
+    ],
+    "a": "C"
+   },
+   {
+    "q": "The first legends about werewolves originated on this continent.",
+    "o": [
+     "Asia",
+     "Europe",
+     "Africa"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the title of the popular partly autobiographical book written by Casanova?",
+    "o": [
+     "Story of My Life",
+     "Walking on Clouds",
+     "Casanova"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The famous pirate Long John Silver, a fictional character from the book Treasure Island, has what body part missing?",
+    "o": [
+     "Arm",
+     "Leg",
+     "Ear"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In England, names of places ending in chester, like Manchester and Winchester come from a Latin word meaning what?",
+    "o": [
+     "house",
+     "meadow",
+     "camp"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "The Afrikaans language is one of the official languages in this African country.",
+    "o": [
+     "Botswana",
+     "South Africa",
+     "Namibia"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the name of the last novel written by author Virginia Woolf before she took her own life?",
+    "o": [
+     "The Voyage Out",
+     "The Years",
+     "Between the Acts"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Chakras are centers for this intangible quality.",
+    "o": [
+     "Emotion",
+     "Energy",
+     "Soul"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Stephen Cranes war novel The Red Badge of Courage is set during this war.",
+    "o": [
+     "WWII",
+     "American Civil War",
+     "Spanish–American War"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Pas de basque, pas de chat, pas de deux are terms related to ballet. What does the French word pas mean in English?",
+    "o": [
+     "step",
+     "jump",
+     "position"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Give me the English variant for the Spanish first name Guillermo.",
+    "o": [
+     "James",
+     "William",
+     "George"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the missing phrase from the Chinese proverb, A single day of sub-zero temperature is not enough to create ...?",
+    "o": [
+     "Three feet of ice",
+     "Ice cream",
+     "An ice palace"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What military conflict is depicted in Stephen Cranes novel The Red Badge of Courage?",
+    "o": [
+     "the Mexican–American War",
+     "the American Civil War",
+     "the Vietnam War"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the English name for the first book of the Bible?",
+    "o": [
+     "Mathew",
+     "Genesis",
+     "Exodus"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The last words of what great 20th century writer were: Does nobody understand?",
+    "o": [
+     "F.Scott Fitzgerald",
+     "James Joyce",
+     "Franz Kafta"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In chapter 6 of the novel Twilight, Mike Newton organises a beach trip to this beach.",
+    "o": [
+     "Forrest Beach",
+     "First Beach",
+     "Forks Beach"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who wrote the play Man and Superman?",
+    "o": [
+     "Sidney Sheldon",
+     "G. B. Shaw",
+     "Rousseau"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Freya was the goddess of this.",
+    "o": [
+     "The flowers",
+     "Love and beauty",
+     "Poetry"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the second book of the Bible?",
+    "o": [
+     "Acts",
+     "Exodus",
+     "Mark"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What was the first play Shakespeare wrote?",
+    "o": [
+     "The Tempest",
+     "Henry VI, Part One",
+     "A Midsummer's Night Dream"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is Americas first continuously-published newspaper?",
+    "o": [
+     "Boston News-Letter",
+     "Boston Globe",
+     "Boston Star"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "This color is used to heal the solar-plexus, also known as the power center.",
+    "o": [
+     "Yellow",
+     "Violet",
+     "Red"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the name of the mermaid that flirts with Peter in the book Peter and the Shadow Thieves?",
+    "o": [
+     "Singer",
+     "Beauty",
+     "Teacher"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Julien Sorel is the protagonist of this satirical French novel, set during the Bourbon Restoration.",
+    "o": [
+     "The Red and the Black",
+     "The Man in the Iron Mask",
+     "Queen Margot"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What are the first names of author D. H. Lawrence?",
+    "o": [
+     "David Hugh",
+     "David Herbert",
+     "Denis Harold"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the form into which Harry Potters godfather transforms in the book Harry Potter and the Prisoner of Azkaban?",
+    "o": [
+     "A dog",
+     "A bird",
+     "A snake"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What novel by Charles Dickens is set before and during the French Revolution?",
+    "o": [
+     "A Tale of Two Cities",
+     "Dombey and Son",
+     "Hard Times"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In what novel does Charles Dickens depict Mr. Thomas Gradgrind, the teacher who teaches his students nothing but facts?",
+    "o": [
+     "Dombey and Son",
+     "Bleak House",
+     "Hard Times"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Hyperplasia is the abnormal increase in the number of these.",
+    "o": [
+     "Cells",
+     "Species",
+     "Teeth"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who wrote the book The Color Purple that was adapted into a Broadway play?",
+    "o": [
+     "C.S Lewis",
+     "Betty Pierce",
+     "Alice Walker"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the name of Barack Obamas first book?",
+    "o": [
+     "The Audacity of Hope",
+     "Dreams from My Father",
+     "The Audacity of Truth"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who is the author of After the Fall, The Crucible, A View From the Bridge and All My Sons?",
+    "o": [
+     "Jason Miller",
+     "David Mamet",
+     "Arthur Miller"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What was/were the final word(s) of The Lorax when he left in the self-titled childrens book?",
+    "o": [
+     "Unless",
+     "What's left?",
+     "Success"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who is the author of the self-help book How to Win Friends and Influence People?",
+    "o": [
+     "Dale Carnegie",
+     "John Maxwell",
+     "George Bush"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "According to the Pawnee's this star was evil, since it had driven the Sun out of the sky.",
+    "o": [
+     "Evening star",
+     "Sirius",
+     "Morning star"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "How does this thought by Mark Twain end: To be good is noble; but to show others how to be good is nobler and...?",
+    "o": [
+     "practically impossible.",
+     "saintly.",
+     "is no trouble."
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who wrote the book To Kill a Mockingbird?",
+    "o": [
+     "Mark Twain",
+     "Harper Lee",
+     "James Baldwin"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who wrote The Ascent of Everest?",
+    "o": [
+     "Karl Marx",
+     "Sir John Hunt",
+     "Tenzing Norgay"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who is the crime-solving cat hero of the Rita Mae Brown books?",
+    "o": [
+     "Old Deuteronomy",
+     "Mama Morton",
+     "Mrs. Murphy"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which famous 19th century author had the pen-name Boz?",
+    "o": [
+     "Charles Dickens",
+     "Bozzie Haversham",
+     "Mark Twain"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who wrote The Colorado Kid, Duma Key, and Blockade Billy?",
+    "o": [
+     "John Connolly",
+     "Peter Straub",
+     "Stephen King"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of the following is not one of the Famous Five books by Enid Blyton?",
+    "o": [
+     "Peter",
+     "George",
+     "Julian"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The English poet William Blake wrote two beautiful poems concerning what two animals?",
+    "o": [
+     "The fox and the chickens",
+     "The elephant and the mouse",
+     "The tiger and the lamb"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "From what novel by Englishman Thomas Hardy did the term cliffhanger originate in 1873?",
+    "o": [
+     "Two on a Tower",
+     "The Woodlanders",
+     "A Pair of Blue Eyes"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In the soap opera Days of our Lives, Lawrence Alamain is this persons brother.",
+    "o": [
+     "John Black",
+     "Bo Brady",
+     "Roman"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who is the ghost of Ravenclaw in the Harry Potter books?",
+    "o": [
+     "The Bloody Baron",
+     "Sprout",
+     "The Gray Lady"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who wrote the 19th century novel Ben Hur?",
+    "o": [
+     "Rousseau",
+     "Lew Wallace",
+     "Karl Marx"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who went first into the barrier in the book Harry Potter and the Chamber of Secrets?",
+    "o": [
+     "Ron",
+     "Percy",
+     "Harry"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which of the following were mentioned in the book The Ersatz Elevator?",
+    "o": [
+     "The King of Arizona",
+     "The President of Nepal",
+     "The Grand Admiral of Canada"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who wrote The female knee is a joint and not an entertainment?",
+    "o": [
+     "Percy Hammond",
+     "Sir Walter Scott",
+     "Dr. Phil"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who wrote The Prince of Beverly Hills, Strategic Moves, and Orchid Beach?",
+    "o": [
+     "Jackie Collins",
+     "Stuart Woods",
+     "Brad Meltzer"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What are the names of author J. P. Donleavy?",
+    "o": [
+     "John Patrick",
+     "James Patrick",
+     "Joseph Peter"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Shalom aleichem and Salam alaikum are common greetings in Hebrew and Arabic, respectively. What is the meaning of both?",
+    "o": [
+     "Good day",
+     "How are you",
+     "Peace to you"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which President was a former newspaper publisher?",
+    "o": [
+     "Zachary Taylor",
+     "James Garfield",
+     "Warren Harding"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In the soap opera Days of our Lives, who is the twin brother of Sami Brady?",
+    "o": [
+     "Eric Brady",
+     "Shawn Brady",
+     "Philip Brady"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What American author penned the novel The Tropic of Cancer during his nomadic life in Paris?",
+    "o": [
+     "William Burrows",
+     "Henry Miller",
+     "Ernest Hemingway"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who wrote the adventure novel Treasure Island which tells the story of pirates and buried gold?",
+    "o": [
+     "Jules Verne",
+     "Robert Louis Stevenson",
+     "Rafael Sabatini"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which famous book by British writer H.G. Wells presents the Martians as having octopus-like bodies?",
+    "o": [
+     "I Robot",
+     "War of the Worlds",
+     "The Island of Doctor Moreau"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What little girl had to face The Red Room in the second chapter of a famous novel?",
+    "o": [
+     "Elizabeth Bennet",
+     "Jane Eyre",
+     "Elinor Dashwood"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The travels of what famous sailor are described in a 13th century travel book known as The Million?",
+    "o": [
+     "Jan Kalvin",
+     "Marco Polo",
+     "Christopher Columbus"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who wrote The Postcard Killers, Roses Are Red, and London Bridges?",
+    "o": [
+     "Jefferson Bass",
+     "James Patterson",
+     "Michael Connolly"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "J. D. Salinger's novel The Catcher in the Rye opens in the week before this major holiday.",
+    "o": [
+     "Thanksgiving Day",
+     "Christmas",
+     "Memorial Day"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What famous English author named one of his famous fun-loving characters after his son Christopher?",
+    "o": [
+     "J. M. Barrie",
+     "Beatrix Potter",
+     "A. A. Milne"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of these great books was first published in 1771?",
+    "o": [
+     "Gulliver's Travels",
+     "Roberts Rules of Order",
+     "The Encyclopedia Britannica"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What phrase did Minny use to refer to what she did to Miss Hilly in the book The Help?",
+    "o": [
+     "the Wicked Evil",
+     "the Mean and Nasty",
+     "the Terrible Awful"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Name the cat hero described in Shirley Rousseau Murphys books?",
+    "o": [
+     "Midnight Louie",
+     "Joe Grey",
+     "Nermal"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What childrens book author named one of his central characters after his son?",
+    "o": [
+     "A. A. Milne",
+     "Lewis Carroll",
+     "C. S. Lewis"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In the Harry Potter books, Hagrid was forbidden to use an actual wand. What did he use instead?",
+    "o": [
+     "A pink umbrella",
+     "A tree branch",
+     "A cane"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which Biblical prophet, mentioned in two books of the Bible, was swallowed by a great leviathan?",
+    "o": [
+     "Jeremiah",
+     "Jonah",
+     "Jeroboam"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which fairy is Peters guardian in the book Peter and the Shadow Thieves?",
+    "o": [
+     "Violet Vinger",
+     "Rosy Tone",
+     "Tinker Bell"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What Irish playwright and author said, I can resist everything except temptation.?",
+    "o": [
+     "G. B. Shaw",
+     "Oscar Wilde",
+     "Roald Dahl"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What childrens novel features Neverland, the magical island where people cease to age?",
+    "o": [
+     "Pinocchio",
+     "Peter and Wendy",
+     "Alice's Adventures in Wonderland"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What was the relationship between Matthew and Marilla, the couple who adopted Anne in Lucy Montgomery's book?",
+    "o": [
+     "Brother and Sister",
+     "Husband and Wife",
+     "Father and Daughter"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In the book Peter and the Shadow Thieves, the starstuff was in what tower?",
+    "o": [
+     "Golden Tower",
+     "White Tower",
+     "Bloody Tower"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "We know that a scrooge is a miserly, unhappy person. From which Dickens novel do we get this word?",
+    "o": [
+     "A Christmas Carol",
+     "Nickolas Nickalby",
+     "A Tale of Two Cities"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the pen name of Eric Blair who wrote the memoir Down and Out in Paris and London?",
+    "o": [
+     "Graham Greene",
+     "Salman Rushdie",
+     "George Orwell"
+    ],
+    "a": "C"
    }
   ],
   "medium": [
@@ -21579,6 +28464,888 @@ window.ADDITIONAL_QUESTION_BANK = {
      "Xebec"
     ],
     "a": "B"
+   },
+   {
+    "q": "In the 19th century, English writer Mary Shelley wrote which famous gothic novel?",
+    "o": [
+     "Dracula",
+     "Frankenstein",
+     "The Picture of Dorian Gray"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "John Steinbeck wrote the highly acclaimed novel The Grapes of Wrath. Where does the title come from?",
+    "o": [
+     "The Battle Hymn of the Republic",
+     "A famous sermon by Cotton Mather",
+     "A poem by Shakespeare"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Fanny Price is the main character of which novel written by Jane Austen?",
+    "o": [
+     "Mansfield Park",
+     "Emma",
+     "Sense and Sensibility"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Tracey E. Bergman played in which soap opera set in Genoa City, Wisconsin?",
+    "o": [
+     "The Guiding Light",
+     "As the World Turns",
+     "The Young and the Restless"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the title of chapter 11 of the book Harry Potter and the Chamber of Secrets?",
+    "o": [
+     "The Dueling Club",
+     "Quidditch",
+     "The Writing on the Wall"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is Ray Bradbury's home city of Waukegan called in some of his novels?",
+    "o": [
+     "Green Town",
+     "Blue Town",
+     "Grim Town"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who wrote the book In a Free State?",
+    "o": [
+     "V. S. Naipaul",
+     "R. K. Narayan",
+     "Sidney Sheldon"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What Nobel Prize-winning Irish poet and dramatist contributed greatly to the Theatre of the Absurd?",
+    "o": [
+     "Oscar Wilde",
+     "Oliver Goldsmith",
+     "Samuel Beckett"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of these is a rational fear according to the book the The Wide Window by Lemony Snicket?",
+    "o": [
+     "Fear of heights",
+     "Fear of monsters under your bed",
+     "Fear of lemon meringue pie"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The phrase Love is blind was coined by Shakespeare and appears in which of the following plays?",
+    "o": [
+     "The Allegory of Mortimer",
+     "Two Gentlemen of Verona",
+     "The Critic"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the name of the character played by Susan Lucci on the ABC soap opera All My Children?",
+    "o": [
+     "Dixie Cooney Martin",
+     "Erica Kane",
+     "Babe Chandler"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What common name was given to Rembrandts famous painting, The Company of Frans Banning Cocq and Willem van Ruytenburch?",
+    "o": [
+     "The Night Watch",
+     "The Guard of the Tower",
+     "The Evening Council"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In the novel The Hunger Games, when faced with the cornucopia, Katniss planned to grab what weapon?",
+    "o": [
+     "rope",
+     "knives",
+     "bow and arrows"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of these is the French word for peace?",
+    "o": [
+     "amour",
+     "confiance",
+     "paix"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who is the author of the novel East of Eden?",
+    "o": [
+     "John Steinbeck",
+     "Steven Spielberg",
+     "Eugene O'Neill"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What was the location of the orphanage from which Anne was adopted in the book Anne of Green Gables?",
+    "o": [
+     "Nova Scotia",
+     "New Brunswick",
+     "Maine"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who wrote the Unfinished Symphony?",
+    "o": [
+     "Schiller",
+     "Schwartz",
+     "Schubert"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who wrote the book Harry Potter and the Prisoner of Azkaban?",
+    "o": [
+     "Judy Blum",
+     "J. K. Rowling",
+     "E. B. White"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which of the following is Annes surname in the book Anne of Green Gables?",
+    "o": [
+     "Blythe",
+     "Pye",
+     "Shirley"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of these men has not written a book about Bigfoot/Sasquatch?",
+    "o": [
+     "Peter Byrne",
+     "Lawrence Hayden",
+     "Grover Kranz"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What potion from the Harry Potter books causes the drinker to become older?",
+    "o": [
+     "Confusing Concoction",
+     "Swelling Solution",
+     "Aging Potion"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who wrote the plays Pericles Prince of Tyre, Cymbeline and Titus Andronicus?",
+    "o": [
+     "William Shakespeare",
+     "Christopher Marlowe",
+     "Richard Sheridan"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who does Peter have to warn about Ombra in the childrens novel Peter and the Shadow Thieves?",
+    "o": [
+     "Molly",
+     "Louise",
+     "Tina"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What color was Quirrels turban in the Harry Potter books?",
+    "o": [
+     "purple",
+     "blue",
+     "red"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who wrote the 2006 novel The Inheritance of Loss?",
+    "o": [
+     "Khushwant Singh",
+     "Kiran Desai",
+     "Arundhati Roy"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In the soap opera Days of our Lives, what did Marlena give Sami for her 17th birthday?",
+    "o": [
+     "A gun",
+     "Her everlasting love",
+     "A diamond pendant"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of the following refers to the female side of the family?",
+    "o": [
+     "Distaff",
+     "Maternal patronage",
+     "Maternity"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who is the Gryffindor ghost in the Harry Potter books?",
+    "o": [
+     "Moaning Myrtle",
+     "Nearly Headless Nick",
+     "The Gray Lady"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who is the teacher in the Harry Potter books that is made fun of by the Marauders map?",
+    "o": [
+     "Lupin",
+     "Snape",
+     "Trelawny"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In the Harry Potter books, if a person is a parselmouth, then he or she is able to understand what?",
+    "o": [
+     "Women",
+     "Snakes",
+     "Elfs"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which of the following composers wrote the Moonlight Sonata for piano?",
+    "o": [
+     "Wolfgang Amadeus Mozart",
+     "Ludwig von Beethoven",
+     "Claude DeBussey"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The character Nick Carraway is from which of the following novels?",
+    "o": [
+     "Ulysses",
+     "The Great Gatsby",
+     "Angels Demons"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Phileas Fogg is the main fictional character in what famous novel?",
+    "o": [
+     "Around the World in Eighty Days",
+     "War and Peace",
+     "The Sound and the Fury"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "During which war is Joseph Heller's satirical novel Catch-22 set?",
+    "o": [
+     "Korean War",
+     "WWII",
+     "Vietnam War"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What did Yule May steal from Miss Hilly in the novel The Help?",
+    "o": [
+     "a ruby ring",
+     "a sterling silver fork",
+     "a garnet ring"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who wrote the allegorical novella Animal Farm?",
+    "o": [
+     "Pearl S. Buck",
+     "George Orwell",
+     "Lewis Wallace"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What nickname is eventually given to Hilly Holbrook in the novel The Help?",
+    "o": [
+     "Two-Slice Hilly",
+     "Two-Bit Hilly",
+     "Two-Step Hilly"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Besides Horton Hears a Who, what was Horton the Elephants other book?",
+    "o": [
+     "Horton Morton Went ACourtin",
+     "Horton Hatches the Egg",
+     "Horton and the Dust Speck"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What author of fiction wrote the eight novels known as The Kent Family Chronicles?",
+    "o": [
+     "Ernest Hemingway",
+     "John Jakes",
+     "Langston Hughes"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who wrote the modernist poem The Waste Land?",
+    "o": [
+     "T.S. Eliot",
+     "Robert Frost",
+     "George Eliot"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What profession does Peeta Mellarks father have in the book The Hunger Games?",
+    "o": [
+     "baker",
+     "butcher",
+     "tanner"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The famous Leporello Catalogue Aria is from which Mozart opera?",
+    "o": [
+     "Don Giovanni",
+     "La Boheme",
+     "Cosi Fan Tutti"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which phrase refers to love of life?",
+    "o": [
+     "joie de vivre",
+     "joie dadore",
+     "joie de livre"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Michael Palin's interest in which famous writer inspired both a comic novel and a travel documentary?",
+    "o": [
+     "Ernest Hemingway",
+     "George Orwell",
+     "Somerset Maugham"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What if you wanted to be the mayor of your town? What would that profession be called in Spanish?",
+    "o": [
+     "tabernero",
+     "clerigo",
+     "alcalde"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What poem was written by William Blake in 1794?",
+    "o": [
+     "The Tyger",
+     "L Allegro",
+     "Khubla Khan"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the father of Jem and Scout in the novel To Kill a Mockingbird?",
+    "o": [
+     "Atticus Finch",
+     "Bob Jones",
+     "Harper Lee"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "According to the Harry Potter books, who is Harrys godfather?",
+    "o": [
+     "Sirius Black",
+     "Remus Lupin",
+     "James Potter"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of the following novels was not written by Jane Austen?",
+    "o": [
+     "Wuthering Heights",
+     "Northanger Abbey",
+     "Pride and Prejudice"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Shakespeare died on April 23, 1616. What other famous author died on the same day?",
+    "o": [
+     "Dante Alighieri",
+     "Miguel de Cervantes Saavedra",
+     "Ben Jonson"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Herman Melville's novel Moby-Dick contains a description of the symbolism of what animal?",
+    "o": [
+     "Penguin",
+     "Shark",
+     "Whale"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the word for egg in French?",
+    "o": [
+     "oeuf",
+     "quiche",
+     "crêpe"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In the Harry Potter books, what is the name of Hagrid's three-headed dog?",
+    "o": [
+     "Fluffy",
+     "Aragog",
+     "Norbert"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who wrote the concertos called The Four Seasons?",
+    "o": [
+     "Vivaldi",
+     "Schumann",
+     "Mozart"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Once born, the child carried by Susannah/Mia was called what?",
+    "o": [
+     "Stephen",
+     "Arthur",
+     "Mordred"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the Spanish word for mirror?",
+    "o": [
+     "Pelo",
+     "Queso",
+     "Espejo"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who gave the Mona Lisa painting its name?",
+    "o": [
+     "Leonardo Da Vinci",
+     "Giorgio Vasari",
+     "Lisa Giocondo"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who wrote the Southern Gothic novel Absalom, Absalom!?",
+    "o": [
+     "Harriet Beecher Stowe",
+     "Ernest Hemingway",
+     "William Faulkner"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of the following is an evil mythological hybrid of a woman and a bird?",
+    "o": [
+     "Ogress",
+     "Titan",
+     "Harpy"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Portrait of a Killer - Jack the Ripper: Case Closed is a 2002 book by which crime novelist?",
+    "o": [
+     "Antonia Fraser",
+     "Patricia Cornwell",
+     "Michael Connely"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the name of Ronald Weasleys younger sister in the Harry Potter books?",
+    "o": [
+     "Hermione",
+     "Ginny",
+     "Penelope"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In the premiere of the 1955 Broadway play Inherit the Wind, who played the role of the prosecutor?",
+    "o": [
+     "Henry Fonda",
+     "Ed Begley",
+     "Jack Warden"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the French word for snow?",
+    "o": [
+     "neige",
+     "pluie",
+     "soleil"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "How does one say cup in French?",
+    "o": [
+     "tasse",
+     "cuillère",
+     "fourchette"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of the following is not a character described in the novel Catch-22?",
+    "o": [
+     "Orr",
+     "Nurse Ratched",
+     "Nurse Duckett"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What was Mrs. Corleone's first name in the Mario Puzo novel The Godfather?",
+    "o": [
+     "Kay",
+     "Pam",
+     "Nan"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who wrote The Spotted Sphinx, a novel about a cheetah named Pippa?",
+    "o": [
+     "Joy Adamson",
+     "Charles Dickens",
+     "Margaret Mitchell"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which modern author created the character Ari Ben Canaan?",
+    "o": [
+     "Albert Camus",
+     "Leon Uris",
+     "Saul Bellow"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was known as the Father of Impressionism?",
+    "o": [
+     "Edgar Degas",
+     "Camille Pissarro",
+     "Claude Monet"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Name the author of The Lady or the Tiger, The Magic Egg, Mr. Tolmin and The Widows Curse?",
+    "o": [
+     "Mark Twain",
+     "Frank R. Stockton",
+     "Bernard Capes"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which of the following characters in the Harry Potter books is a poltergeist?",
+    "o": [
+     "Moaning Myrthle",
+     "Peeves",
+     "The Bloody Baron"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What does the Danish word fødselsdag mean in English? (foudgshlsdag)",
+    "o": [
+     "Your Birthday",
+     "Mothers Day",
+     "February"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of the Bronte sisters wrote the famous novel Jane Eyre?",
+    "o": [
+     "Anne Bronte",
+     "Elizabeth Bronte",
+     "Charlotte Bronte"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of the following group of animals is not referred to as a herd?",
+    "o": [
+     "Rhinoceroses",
+     "Chinchillas",
+     "Boars"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What was the Agatha Christie novel that related Hercule Poirot's final adventure?",
+    "o": [
+     "Evil Under The Sun",
+     "Curtain",
+     "The Final Solution"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is Percy Weasleys girlfriends name in the Harry Potter books?",
+    "o": [
+     "Lavender Brown",
+     "Clarissa Silvermist",
+     "Penelope Clearwater"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the last person Harry talked to in the book?",
+    "o": [
+     "Dumbledore",
+     "Hermoine",
+     "Ron"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the Tagalog word for tree?",
+    "o": [
+     "bahay",
+     "puno",
+     "kahoy"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which of the following was a leading British engineer and architect of the 19th century?",
+    "o": [
+     "Isambard Kingdom Brunel",
+     "Horatio Nelson",
+     "Graham Swift"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of the following is a type of plaster used to paint on?",
+    "o": [
+     "Gesso",
+     "Obsidium",
+     "Obstantium"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of the following is not one of the siblings of Helen of Troy?",
+    "o": [
+     "Castor",
+     "Asclepius",
+     "Clytemnestra"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who wrote the novel Dr. Zhivago which was banned in the Soviet Union until 1988?",
+    "o": [
+     "Boris Pasternak",
+     "William F. Buckley",
+     "Ivan Gogol"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which Latin dance is not performed in International Style Ballroom competitions?",
+    "o": [
+     "Samba",
+     "Rumba",
+     "Merengue"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In the soap opera Days of our Lives, Susan first appeared as Kristen Blakes what?",
+    "o": [
+     "Child",
+     "Boyfriend",
+     "Impostor"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the great love of Italian poet Dante Alighieris life?",
+    "o": [
+     "Angelina",
+     "Beatrice",
+     "Christina"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What phrase is a synonym of jungle?",
+    "o": [
+     "Kindred ground",
+     "Solid ground",
+     "Uncultivated ground"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which Broadway play is based on Christopher Isherwoods book, I am a camera?",
+    "o": [
+     "Cabaret",
+     "Chicago",
+     "South Pacific"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Name the author of The Childrens Hour, The Little Foxes, Watch on Rhine and Toys in the Attic?",
+    "o": [
+     "Lillian Hellman",
+     "Israel Horovitz",
+     "S. N. Behrman"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Where does Peter live in the childrens novel Peter and the Shadow Thieves?",
+    "o": [
+     "Never Land",
+     "Mollusk Island",
+     "Fairy Hollow"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In Kathryn Stocketts book The Help, Skeeter and Hilly were roommates at what University?",
+    "o": [
+     "Sewanee",
+     "Ole Miss",
+     "Mississippi State"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who wrote the book Running with Scissors?",
+    "o": [
+     "David Sedaris",
+     "Augusten Burroughs",
+     "Ann Coulter"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the name of the magic sea in the book The Great and Secret Show?",
+    "o": [
+     "Aquaratine",
+     "Ataraxia",
+     "Quiddity"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the veterinarians full name in the book All Creatures Great and Small?",
+    "o": [
+     "Dr. James Herriot",
+     "Dr. Calvert James",
+     "Dr. James Siegfried"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the slang term used for romance novels in literature?",
+    "o": [
+     "Chick Lit",
+     "Bodice Rippers",
+     "Torrid Teasers"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In the 1897 play Cyrano de Bergerac, who was the one love of the great-nosed poet?",
+    "o": [
+     "Roxanne",
+     "Manuella",
+     "Susan"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What playwright is the author of The Way of the World, The Mourning Bride and Love for Love?",
+    "o": [
+     "Christopher Marlowe",
+     "William Congreve",
+     "Richard B. Sheridan"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which famous writer introduced the term moron into everyday vocabulary?",
+    "o": [
+     "Shakespeare",
+     "Moliere",
+     "Voltaire"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which German word means knowledge in English?",
+    "o": [
+     "Kenntniss",
+     "Trinken",
+     "Kuchen"
+    ],
+    "a": "A"
    }
   ],
   "hard": [
@@ -23107,7 +30874,7 @@ window.ADDITIONAL_QUESTION_BANK = {
     "q": "What is the name of Dolores Claiborne's wealthy employer in the Stephen King novel Dolores Claiborne?",
     "o": [
      "Joe St. George",
-     "Jamie ONeal",
+     "Jamie O'Neal",
      "Vera Donovan"
     ],
     "a": "C"
@@ -23356,13 +31123,13 @@ window.ADDITIONAL_QUESTION_BANK = {
     "a": "C"
    },
    {
-    "q": "What was the name of the Atlanta street where fictional character Scarlett OHara lived with Aunt Pittypat?",
+    "q": "What was the name of the Atlanta street where fictional character Scarlett O'Hara lived with Aunt Pittypat?",
     "o": [
-     "Southern Pine",
      "Weeping Willow",
-     "Peachtree"
+     "Peachtree",
+     "Southern Pine"
     ],
-    "a": "C"
+    "a": "B"
    },
    {
     "q": "Ape and Essance; Eyeless in Gaza; Point Counter Point?",
@@ -23381,6 +31148,897 @@ window.ADDITIONAL_QUESTION_BANK = {
      "Geoffrey Chaucer"
     ],
     "a": "B"
+   },
+   {
+    "q": "What was the Mona Lisa painting called when it was in the collection at the palace at Fontainebleau?",
+    "o": [
+     "A courtesan in a gauze veil",
+     "Wife of a wealthy Florentine",
+     "Madam Lisa Gioconda"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who composed Blood on the Fields, the first piece of jazz music to win the Pulitzer Prize for Music?",
+    "o": [
+     "Duke Ellington",
+     "Don Ellis",
+     "Wynton Marsalis"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What word means to be not reputable or decent?",
+    "o": [
+     "Prehensile",
+     "Jocose",
+     "Louche"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of these professions has Mr. Wickham not tried in the book Pride and Prejudice?",
+    "o": [
+     "Clergy",
+     "Groundskeeper",
+     "Law"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which one of these goddesses is NOT similar to Aphrodite in some way?",
+    "o": [
+     "Turan",
+     "Ishtar",
+     "Saraswati"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "The most common hardcore move two step was taken from which dance?",
+    "o": [
+     "Mosh",
+     "Pogo",
+     "Skanking"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What did Fudges father dump on top of his head in the book Tales of a Fourth Grade Nothing?",
+    "o": [
+     "cornflakes",
+     "chips",
+     "chowder"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What Italian painter of the early Renaissance and died at the age of 27?",
+    "o": [
+     "Masaccio",
+     "Francesco Capelli",
+     "Marco Cardisco"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of these novels by Charles Dickens was left unfinished?",
+    "o": [
+     "A Tale of Two Cities",
+     "Our Mutual Friend",
+     "The Mystery of Edwin Drood"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "The popular Globe Theatre was owned by actors in what famous playing company of the Elizabethan age?",
+    "o": [
+     "The Burbage Players",
+     "Shakespeares Troupe",
+     "Lord Chamberlains Men"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is Fudges real name in the novel Tales of a Fourth Grade Nothing?",
+    "o": [
+     "Frank Oslow Hatcher",
+     "Farley Drexel Hatcher",
+     "Franklin Osmond Hatcher"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What Impressionist painter created Peasant Woman Carrying Two Bundles of Hay?",
+    "o": [
+     "Pissarro",
+     "Pater",
+     "Master of the Saint Lucy Legend"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which one of these Renaissance artists was at first apprenticed to a goldsmith?",
+    "o": [
+     "Raphael Sanzio",
+     "Alessandro Botticelli",
+     "Leonardo da Vinci"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who wrote the notable works Crime and Punishment”, The Idiot” and The Brothers Karamazov”?",
+    "o": [
+     "Fyodor Dostoyevsky",
+     "Leo Tolstoy",
+     "Anton Chekhov"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In which of Lemony Snickets books does Jaques Snicket die?",
+    "o": [
+     "The Bad Beginning",
+     "The Miserable Mill",
+     "The Vile Village"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What was the name of the handsome, selfish teacher in Harry Potter and the Chamber of Secrets?",
+    "o": [
+     "Professor Severus Snape",
+     "Professor Godric Gryffindor",
+     "Professor Gilderoy Lockhart"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Okay, so you want to be a judge in Madrid. What word would you be called?",
+    "o": [
+     "cambiadiscos",
+     "plomero",
+     "juez"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the name of the main character in The Dark Tower?",
+    "o": [
+     "Roland King",
+     "Roland Eld",
+     "Roland Deschain"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which word means pertaining to grandparents?",
+    "o": [
+     "aval",
+     "avanital",
+     "avital"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What Tagalog word means Monday?",
+    "o": [
+     "Martes",
+     "Miyerkules",
+     "Lunes"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What was the name of the only brother of the sister authors Charlotte, Emily and Anne Bronte?",
+    "o": [
+     "Branwell",
+     "Edward",
+     "Arthur"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which word means a person learning the alphabet?",
+    "o": [
+     "abecedarian",
+     "avuncularian",
+     "abcederrian"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who is the author of Ain-i-Akbari?",
+    "o": [
+     "Tulsidas",
+     "R. K. Narayan",
+     "Abul Fazal"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who is the mother of the nine muses in Greek mythology?",
+    "o": [
+     "Mnemosyne",
+     "Urania",
+     "Melpomene"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The mentoring system is all the rage. Which word refers to a person being mentored?",
+    "o": [
+     "mentator",
+     "monitor",
+     "mentee"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What spell is used in the Harry Potter books to produce fire?",
+    "o": [
+     "Incarcerous",
+     "Incendio",
+     "Fire Charm"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What painter of the Parma school of the Italian Renaissance created “Jupiter and Io”?",
+    "o": [
+     "Antonio da Correggio",
+     "Andrea Busati",
+     "Allesandro Alberti"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Apart from George Orwell's novel 1984, which novel by G.K .Chesterton, is set in the year 1984?",
+    "o": [
+     "The Man Who Was Thursday",
+     "The Napoleon of Notting Hill",
+     "The Everlasting Man"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who is generally considered the first great Rococo painter?",
+    "o": [
+     "Titian",
+     "Sandro Boticcelli",
+     "Jean-Antoine Watteau"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who wrote the novel The White Tiger which was published in 2008?",
+    "o": [
+     "Arvind Adiga",
+     "John Milton",
+     "V. S. Naipaul"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who is the Beatrice that writer Lemony Snicket always dedicates his books to?",
+    "o": [
+     "A metaphor for V. F. D.",
+     "Beatrice Quagmire",
+     "Beatrice Baudelaire"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Hattie Durham becomes romantically involved with which character in Tribulation Force?",
+    "o": [
+     "Ken Ritz",
+     "Buck",
+     "Nicolae"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which author created these characters: Celeste Chalfonte, Nickle, and sisters Juts and Weezy?",
+    "o": [
+     "Rita Mae Brown",
+     "Belva Plain",
+     "Lilian Jackson Braun"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "For which opera did Gershwin become posthumously famous?",
+    "o": [
+     "Rhapsody in Blue",
+     "An American in Paris",
+     "Porgy and Bess"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of the following novels is subtitled A Narrative of the Time of Nero?",
+    "o": [
+     "The Physician",
+     "The Last Emperor",
+     "Quo Vadis"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In The Subtle Knife” Angelica’s younger brother is Paolo. Who is her older brother?",
+    "o": [
+     "Oliver Payne",
+     "Tullio",
+     "Will"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who wrote the plays Marty, The Tenth Man and Gideon?",
+    "o": [
+     "William Inge",
+     "John Updike",
+     "Paddy Chayefsky"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What spell summons an item to the spell caster in the Harry Potter books?",
+    "o": [
+     "Aparecium",
+     "Anapneo",
+     "Accio"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "The name of of which extinct species means working man in Greek?",
+    "o": [
+     "Homo habilis",
+     "Homo antecessor",
+     "Homo ergaster"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who of the following was not an impressionist?",
+    "o": [
+     "Berthe Morisot",
+     "Jean-Léon Gérôme",
+     "Gustave Caillebotte"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who lost the list of passwords for the Gryffindor tower in Harry Potter and the Prisoner of Azkaban?",
+    "o": [
+     "Dean Thomas",
+     "Ron Weasley",
+     "Neville Longbottom"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What word defines a person who lives in seclusion for religious reasons?",
+    "o": [
+     "Anchorite",
+     "Garderobe",
+     "Wimple"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What creature from Arthurian legends has a serpents head, a leopards body and deers feet?",
+    "o": [
+     "Questing Beast",
+     "Cockatrice",
+     "Azure Dragon"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which word means a group of unofficial often secret and scheming advisers?",
+    "o": [
+     "Xeriscape",
+     "Pratfall",
+     "Camarilla"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the first Chinese writer to win the Nobel Prize for Literature?",
+    "o": [
+     "Xia Zhinian",
+     "Gao Xingjian",
+     "Choi Chi Fung"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the name of Katniss Everdeens 12 year-old sister in the novel The Hunger Games?",
+    "o": [
+     "Primrose",
+     "Violet",
+     "Carnation"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the Minister of Magics name in book six?",
+    "o": [
+     "Weasly",
+     "Scrimgeour",
+     "Fudge"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What playwright wrote Tambourlaine, Dido and Edward II?",
+    "o": [
+     "William Shakespeare",
+     "Christopher Marlowe",
+     "Ben Jonson"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Jud Crandall and Louis Creed are characters in which Stephen King story?",
+    "o": [
+     "The Lawnmower Man",
+     "Pet Sematary",
+     "Christine"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Where would you find The Book of Kells?",
+    "o": [
+     "Next to the Book of Durrow",
+     "Glasgow, Scotland",
+     "Next to the Blarney Stone"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which expression would you use to say I love you in Danish?",
+    "o": [
+     "Jeg elsker dig.",
+     "Je taime.",
+     "Volim te."
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What were Hermione's and Chos patronus forms in the Harry Potter books?",
+    "o": [
+     "Swan and Otter",
+     "Stag and Frog",
+     "Frog and Swan"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In the soap opera Days of our Lives, a few months after his birth, Eric Brady was kidnapped by whom?",
+    "o": [
+     "Stefano DiMera.",
+     "Tony DiMera",
+     "Bo Brady"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the British artist, born in 1839 in France, who painted Street in Moret and Sand Heaps?",
+    "o": [
+     "Walter Sickert",
+     "John Sargent",
+     "Alfred Sisley"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who has the hots for Harry in the first half of the book?",
+    "o": [
+     "Ginny",
+     "Romilda",
+     "Luna"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What playwright penned Waiting for Lefty, Golden Boy, Till the Day I Die and Awake and Sing?",
+    "o": [
+     "Samuel Beckett",
+     "Clifford Odets",
+     "J.D. Salinger"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who is the author of the novel Inkspell?",
+    "o": [
+     "Frank Baum",
+     "Judy Blume",
+     "Cornelia Funke"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which Jane Austen novel focuses on Catherine Morland, a girl who likes reading Gothic novels?",
+    "o": [
+     "Emma",
+     "Lady Suzan",
+     "Northanger Abbey"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which spell is used in the Harry Potter novels to unlock a door?",
+    "o": [
+     "Alohomora",
+     "Avada Kedavra",
+     "Homenum Revelio"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In the book, The Subtle Knife by Phillip Pullman, who is Will Parry's father?",
+    "o": [
+     "Lee Scoresby",
+     "Stanislaus Grumman",
+     "Lord Asriel"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who is head of Slytherin house in the book Harry Potter and the Deathly Hallows?",
+    "o": [
+     "McGonagal",
+     "Snape",
+     "Slughorn"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "My dad is an avid fisherman. If he were a Spanish fisherman, what would his profession be called?",
+    "o": [
+     "pescador",
+     "cartero",
+     "florista"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who wrote the collection of 100 novellas known as The Decameron?",
+    "o": [
+     "Eilhart von Oberge",
+     "Emperor Huizong",
+     "Giovanni Boccaccio"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What ancient Greek tragedian wrote the plays Oedipus Rex, Antigone, Oedipus at Colonus, Ajax?",
+    "o": [
+     "Terrance",
+     "Sophocles",
+     "Aeschylus"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who wrote The Mephisto Club, The Apprentice, and The Surgeon?",
+    "o": [
+     "Lisa Gardner",
+     "Donald Trump",
+     "Tess Gerritsen"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of the following fictional characters, depicted by Lemony Snicket, is a poet?",
+    "o": [
+     "Duncan Quagmire",
+     "Uncle Monty",
+     "Isadora Quagmire"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Sportin Life is the likable villain in which Gershwin show?",
+    "o": [
+     "Showboat",
+     "Porgy and Bess",
+     "West Side Story"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which character helped Frodo and Sam rescue Merry and Pippin from the trees?",
+    "o": [
+     "Tom Bombadil",
+     "Barliman Butterbur",
+     "Beorn"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who wrote the opera Mozart et Salieri?",
+    "o": [
+     "Saint-Saiens",
+     "Rimsky-Korsakov",
+     "Berlioz"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In the Harry Potter books, what is Harrys classmate Hermione's full name?",
+    "o": [
+     "Hermione Jean Granger",
+     "Hermione James Dumbledore",
+     "Hermione Cassandra Granger"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the name of writer Terry Pratchett's daughter, born in 1976?",
+    "o": [
+     "Joan",
+     "Mariah",
+     "Rhianna"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who wrote the romantic Sanskrit novel Kadambari?",
+    "o": [
+     "Jaidev",
+     "Bana Bhatt",
+     "Vedvyas"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Within the Olympian tradition, Dionysos was said to be the son of Zeus and which mortal woman?",
+    "o": [
+     "Medea",
+     "Metis",
+     "Semele"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Don Tommasino, Paulie Gatto and Genco Abandando are all characters in which book?",
+    "o": [
+     "The Family",
+     "The Last Don",
+     "The Godfather"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which word refers to a very long-winded person?",
+    "o": [
+     "mzee",
+     "lopomo",
+     "A.S.S. Graduate"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What classic satirical novel by Jonathan Swift was banned in Ireland for being wicked and obscene?",
+    "o": [
+     "A Journal to Stella",
+     "A Modest Proposal",
+     "Gulliver's Travels"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In the novel The Golden Compass, what do the storytellers call those on the General Oblation Board?",
+    "o": [
+     "Gobblers",
+     "The Skraelings",
+     "Panserbjorne"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The priest in the novel Wolves of the Calla has appeared previously in which Stephen King novel?",
+    "o": [
+     "Salem's Lot",
+     "Pet Sematary",
+     "Cujo"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who composed the music to the classical ballet La Bayadere, which is in ancient India?",
+    "o": [
+     "Ludwig Minkus",
+     "Andrei Droznin",
+     "Pyotr Ilyich Tchaikovsky"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who is the author of the plays Nathan the Wise, The Education of Mankind, The Freethinker?",
+    "o": [
+     "Doris Lessing",
+     "Dorothy Lessing",
+     "Gotthold Lessing"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Virgin Annunciate was the last work of which Italian painter from Sicily?",
+    "o": [
+     "Sandro Boticcelli",
+     "Giorgio Vasari",
+     "Antonello da Messina"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who wrote The Last of the Mohicans, an epic novel, featuring the hero Natty Bumppo?",
+    "o": [
+     "Cynthia Profiler",
+     "Trevor Rees-Jones",
+     "James Fenimore Cooper"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which word refers to the ecstatic female worshippers of god Dionysos?",
+    "o": [
+     "satyrs",
+     "maenads",
+     "herms"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In The Golden Compass, what is Lyra's daemons favorite form to sleep in?",
+    "o": [
+     "Tiny Lion",
+     "Canary",
+     "Ermine"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What was Rembrandts last name?",
+    "o": [
+     "Rembrandt is his last name",
+     "Van Rijn",
+     "Bosch"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The Dunwich Horror; The Colour Out of Space; The Dream-Quest of Unknown Kadath?",
+    "o": [
+     "Lord Dunsany",
+     "H.P. Lovecraft",
+     "C.J. Cherryh"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "At the time of the fictional War of the Ring, who were the only surviving leaders of the Noldor?",
+    "o": [
+     "Galadriel and Celeborn",
+     "Celebrimbor and Cirdan",
+     "Elrond and Celebrian"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What kind of creature was Buckbeak from the book Harry Potter and the Prisoner of Azkaban?",
+    "o": [
+     "Hippogriff",
+     "Unicorn",
+     "Manticore"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In which novel does the character Dustfinger appear?",
+    "o": [
+     "The Sphere of Secrets",
+     "Inkheart",
+     "The Purple Emperor"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What was the name of Alex's guardian in the novel Ark Angel?",
+    "o": [
+     "Mrs. Jones",
+     "Jack Starbright",
+     "Alan Blunt"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the spell incantation for conjuring a Patronus in the Harry Potter books?",
+    "o": [
+     "Expelliarmus",
+     "Impedimenta",
+     "Expecto Patronum"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What was the name of Nero Wolfe's nemesis?",
+    "o": [
+     "Anson Street",
+     "Albert Hall",
+     "Arnold Zeck"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What was the nickname of Jacopo Robusti (1518-1594), an Italian artist, often compared to Furioso?",
+    "o": [
+     "Uccello",
+     "Tintoretto",
+     "Scheggia"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which of these is not one of Dean Koontzs pseudonyms?",
+    "o": [
+     "Leonard Chris",
+     "Leigh Nichols",
+     "Marion Marquart"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who is Lyra's uncle in Philip Pullman's novel The Golden Compass?",
+    "o": [
+     "The Librarian",
+     "Lord Asriel",
+     "The Master"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What Swedish scholar published the book Atland in several volumes, starting in 1679?",
+    "o": [
+     "Bernhard Helander",
+     "Ronald Stade",
+     "Olaus Rudbeck"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which author describes the worlds of the Belgariad and the Malloreon?",
+    "o": [
+     "Robert Jordan",
+     "David Eddings",
+     "Terry Goodkind"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is Meggies mothers name in the book Inkspell?",
+    "o": [
+     "Resa",
+     "Diane",
+     "Jenny"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What does Inkspell character Dustfinger call Meggies father?",
+    "o": [
+     "Smelly",
+     "Bigfoot",
+     "Silvertongue"
+    ],
+    "a": "C"
    }
   ]
  },
@@ -25327,6 +33985,735 @@ window.ADDITIONAL_QUESTION_BANK = {
      "Super Bowl V",
      "Super Bowl IV",
      "Super Bowl II"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What color is a major league baseball?",
+    "o": [
+     "Green",
+     "White",
+     "Blue"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is it called when you hit a baseball out of the park?",
+    "o": [
+     "Home Run",
+     "Stolen Base",
+     "3 Pointer"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What do you call the man or woman who runs a football team and tells the players what to do?",
+    "o": [
+     "Coach",
+     "Wide Receiver",
+     "Quarterback"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What country won the most gold medals at the 2010 Winter Olympics, held in Vancouver, Canada?",
+    "o": [
+     "Canada",
+     "Russia",
+     "The USA"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What country won the 2010 FIFA World Cup, held in South Africa?",
+    "o": [
+     "Brazil",
+     "Spain",
+     "The Netherlands"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Where were the 1936 Summer Olympics held?",
+    "o": [
+     "Berlin",
+     "Moscow",
+     "Athens"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In 1956 Ted Kennedy was a starting end on what Ivy League football team?",
+    "o": [
+     "Princeton",
+     "Harvard",
+     "Yale"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Where did the word golf originate?",
+    "o": [
+     "Ireland",
+     "Canada",
+     "Scotland"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Gerald Ford played football for the team of what university?",
+    "o": [
+     "Michigan",
+     "Notre Dame",
+     "Nebraska"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Where is the Hockey Hall of Fame located?",
+    "o": [
+     "Colorado Springs, Colorado",
+     "Toronto, Canada",
+     "Goshen, New York"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which team did English soccer star David Beckham play for before joining Real Madrid in 2003?",
+    "o": [
+     "Manchester United",
+     "FC Bayern",
+     "DC United"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the wooden stick used to hit a baseball called?",
+    "o": [
+     "Baseball Club",
+     "Baseball Bat",
+     "Baseball Wand"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which team won the second Super Bowl?",
+    "o": [
+     "The Washington Redskins",
+     "The New York Jets",
+     "The Green Bay Packers"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What does a Golf Ball Marshal do?",
+    "o": [
+     "They search for lost golf balls",
+     "They carry golf sticks",
+     "They are retired golf players"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What NFL team won the 1999 Super Bowl?",
+    "o": [
+     "New England Patriots",
+     "Denver Broncos",
+     "San Diego Chargers"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What NBA coach stated that, You can only receive what you are willing to give?",
+    "o": [
+     "Phil Jackson",
+     "Avery Johnson",
+     "Pat Riley"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What do you wear on your hand when playing the field in baseball?",
+    "o": [
+     "Baseball Glove",
+     "Baseball Helmet",
+     "Baseball Mittens"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What nation won the fourth World Cup (of football/soccer) in 1950?",
+    "o": [
+     "Uruguay",
+     "England",
+     "Brazil"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What was the host as well as the winner of the first Soccer World Cup which was was held in 1930?",
+    "o": [
+     "Uruguay",
+     "Germany",
+     "Brazil"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the first baseball player to be named rookie of the year?",
+    "o": [
+     "Mickey Mantle",
+     "Jackie Robinson",
+     "Barry Bonds"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which Major League Baseball pitcher was nicknamed, The Spaceman?",
+    "o": [
+     "Bill Lee",
+     "Dennis Rodman",
+     "Bill Romanowski"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which was the first NBA basketball team to sign a female player?",
+    "o": [
+     "The New York Knicks",
+     "Chicago Bulls",
+     "The Indiana Pacers"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who lost the Battle of Marathon?",
+    "o": [
+     "Cyrus I",
+     "Xerces I",
+     "Darius I"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What US college football team plays on blue grass?",
+    "o": [
+     "Kentucky",
+     "Louisville",
+     "Boise State"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Where is the International Tennis Hall of Fame located?",
+    "o": [
+     "London, England",
+     "Newport, Rhode Island",
+     "New York, NY"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was the first player selected by the Dallas Cowboys in the football draft?",
+    "o": [
+     "Bedford Wynne",
+     "Bob Lilly",
+     "Don Meredith"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the player who throws the ball to the hitter called in baseball?",
+    "o": [
+     "Pitcher",
+     "Coach",
+     "Catcher"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Where was Olympic track star Usain Bolt born?",
+    "o": [
+     "Brazil",
+     "Jamaica",
+     "Zimbabwe"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was the first man to run a mile in under 4 minutes?",
+    "o": [
+     "Bill Hayes",
+     "Roger Bannister",
+     "Jim Thorpe"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was the first NHL player to score 100 points in a season?",
+    "o": [
+     "Gretsky",
+     "Richard",
+     "Esposito"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who is the first swimmer in history to have won eight gold medals in a single Olympics?",
+    "o": [
+     "Michael Phelps",
+     "Matt Biondi",
+     "Ian Thorpe"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who is the first player to top 20,000 points in NBA?",
+    "o": [
+     "Bob Pettit",
+     "Spud Webb",
+     "Clyde Drexler"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who said: You win some, you lose some, you crash some.?",
+    "o": [
+     "Dale Earnhardt",
+     "Jim Loscutoff",
+     "Mike Ditka"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which baseball player became the first to hit at least 20 home runs in a month?",
+    "o": [
+     "Ken Griffey, Jr.",
+     "Babe Ruth",
+     "Sammy Sosa"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the first player to score over 1000 goals in soccer?",
+    "o": [
+     "David Beckham",
+     "Pele",
+     "Rinaldo"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which US President invented the baseball seventh inning stretch?",
+    "o": [
+     "Harding",
+     "Taft",
+     "Hoover"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was the first man to drive a car at at least 60 miles per hour?",
+    "o": [
+     "Cale Yarborough",
+     "Carl G. Fisher",
+     "Barney Oldfield"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which one of the following MLB veterans hit over 20 home runs in a single season?",
+    "o": [
+     "Tim Raines",
+     "J.T. Snow",
+     "Keith Hernandez"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What quarter back led in passing yards in 2002?",
+    "o": [
+     "Rich Gannon",
+     "Donovan McNabb",
+     "Brett Farve"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Where did Chicago Bears defensive lineman, William Fridge Perry, play college football?",
+    "o": [
+     "Clemson",
+     "Eastern Carolina",
+     "South Carolina AT"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the first Major League baseball player to win the MVP Award two years in a row?",
+    "o": [
+     "Babe Ruth",
+     "Barry Bonds",
+     "Jimmie Foxx"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the first player to score 20,000 career points?",
+    "o": [
+     "George Mikan",
+     "Jerry West",
+     "Bob Pettit"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which one of the following players reached the 200+ home run career mark?",
+    "o": [
+     "Tim Wallach",
+     "Bo Jackson",
+     "John Kruk"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of the following is not one of the players who have won five US Open titles?",
+    "o": [
+     "Pete Sampras",
+     "John McEnroe",
+     "Roger Federer"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was the first African American NFL quarterback?",
+    "o": [
+     "Willie Thrower",
+     "Doug Williams",
+     "Jack Tosser"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of the listed NBA players has the most career points?",
+    "o": [
+     "Michael Jordan",
+     "Karl Malone",
+     "Kareem Abdul-Jabbar"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the first woman to run 100 meters in under 11 seconds in the Olympics?",
+    "o": [
+     "Ingrid Swednersen",
+     "Evelyn Ashford",
+     "Margaret Abbott"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "On the first day of the 2008 Olympic Games, three American women took all medals in which event?",
+    "o": [
+     "Shooting - 10m air rifle",
+     "Swimming - 400m freestyle",
+     "Fencing - sabre"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What university did Bob Gibson attend?",
+    "o": [
+     "University of Kansas",
+     "University of Missouri",
+     "Creighton University"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In which of the following events are men and women allowed to compete together?",
+    "o": [
+     "Team Roping",
+     "Calf Roping",
+     "Breakaway Roping"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What was the nickname of San Diego State University during 2006?",
+    "o": [
+     "Indians",
+     "Warriors",
+     "Aztecs"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which one of the following soccer stars, who were all born in 1984, is not from Europe?",
+    "o": [
+     "Carlos Tevez",
+     "Darren Bent",
+     "Arjen Robben"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "This player collected his 3000th hit in 1985. Who was this California Angels player ?",
+    "o": [
+     "Reggie Jackson",
+     "Rod Carew",
+     "Don Baylor"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is Pilates based on?",
+    "o": [
+     "Yoga and Gymnastics",
+     "Body Building and Yoga",
+     "Yoga and Aerobics"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which old timer struck out a total of 4 times in 1920 while playing with the Indians?",
+    "o": [
+     "Jimmy Foxx",
+     "Billy Martin",
+     "Joe Sewell"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What team did Oklahoma beat in the 2000 Orange Bowl to win the national title?",
+    "o": [
+     "Miami",
+     "ISU",
+     "Florida Sate"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who led the 2005 LSU team in receptions?",
+    "o": [
+     "Skler Green",
+     "Carlos Rachel",
+     "Dwayne Bowe"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What professional team did hockey great Wayne Gretzky start his career with?",
+    "o": [
+     "Los Angeles Kings",
+     "Edmonton Oilers",
+     "St Louis Blues"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who played quarterback for the New York Jets from 2000-2008?",
+    "o": [
+     "Chad Pennington",
+     "Brett Farve",
+     "Dan Marino"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the first college coach of a five-man basketball team?",
+    "o": [
+     "Amos Alonzo Stagg",
+     "Adolph Rupp",
+     "Duke Maas"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the oldest player in the 2004 Red Sox team?",
+    "o": [
+     "Mike Timlin",
+     "Tim Wakefield",
+     "Ellis Burks"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Where is the Baseball Hall of Fame located?",
+    "o": [
+     "Cooperstown, N.Y",
+     "Hoboken, NJ",
+     "New York, NY"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Fat Tire Week takes place in what town in the state of Colorado?",
+    "o": [
+     "Crested Butte",
+     "Fort Collins",
+     "Aspen"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In 2003-04, who became the new owner of Chelsea?",
+    "o": [
+     "Not listed here as an option",
+     "Roman Abramovich",
+     "Malcolm Glaizer"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What was the first WWE title change at SummerSlam?",
+    "o": [
+     "Hulk Hogan Vs Zues",
+     "Shawn Micheal's Vs Vader",
+     "Bret Hart Vs The Undertaker"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which Canadian is the inventor of basketball?",
+    "o": [
+     "James Naismith",
+     "Ned Hanlan",
+     "Paul Tracey"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which university mascot made the April 28, 1997 cover of Sports Illustrated?",
+    "o": [
+     "Uga",
+     "Handsome Dan",
+     "Smokey"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Where is the New England Revolution team based?",
+    "o": [
+     "Houston",
+     "Salt Lake",
+     "Foxborough"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Several countries had only one representative at the 2008 Olympic Games. Which is not one of them?",
+    "o": [
+     "Timor-Leste",
+     "Grenada",
+     "Haiti"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who lost the boxing heavyweight championship to Joe Louis?",
+    "o": [
+     "James J. Braddock",
+     "Jack Dempsey",
+     "Jess Willard"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which UEFA member cannot have a team in the Champions League?",
+    "o": [
+     "Liechtenstein",
+     "San Marino",
+     "Andorra"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which Hall of Fame pitcher was known as Rapid Robert?",
+    "o": [
+     "Bob Turley",
+     "Bob Feller",
+     "Bob Esposito"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "From whom did Muhammad Ali get the championship the first time?",
+    "o": [
+     "Leon Spinks",
+     "Sonny Liston",
+     "Cassius Clay"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who had the longest hitting streak until 1941?",
+    "o": [
+     "Ty Cobb",
+     "Willie Keeler",
+     "George Sisler"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which Phillies player led the team in stolen bases in 1980?",
+    "o": [
+     "Garry Maddox",
+     "Lonnie Smith",
+     "Pete Rose"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who won the first NBA slam dunk contest in 1984?",
+    "o": [
+     "Larry Nance",
+     "Dominique Wilkins",
+     "Michael Jordan"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who is the first coach to win four Super Bowls?",
+    "o": [
+     "Don Shula",
+     "Chuck Noll",
+     "Bill Walsh"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which driver swept both races at Phoenix in 2006?",
+    "o": [
+     "Kevin Harvick",
+     "Matt Kenseth",
+     "Jeff Burton"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who acquired soccer club A.C. Milan in 1986?",
+    "o": [
+     "Benito Craxi",
+     "Silvio Berlusconi",
+     "Tinto Brass"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which famous artist also went to try his hand at chess?",
+    "o": [
+     "Pablo Picasso",
+     "Marcel Duchamp",
+     "Man Ray"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "New York Mets pitcher Tom Glavine began his baseball career with which team?",
+    "o": [
+     "Boston Red Sox",
+     "Atlanta Braves",
+     "Philadephia Philles"
     ],
     "a": "B"
    }
@@ -27284,6 +36671,735 @@ window.ADDITIONAL_QUESTION_BANK = {
      "Wrigley Field"
     ],
     "a": "A"
+   },
+   {
+    "q": "What was the first football club for which David Beckham played professionally?",
+    "o": [
+     "Manchester United",
+     "Liverpool",
+     "Tottenham Hotspur"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the first baseball player to have his uniform number retired?",
+    "o": [
+     "Joe Dimaggio",
+     "Babe Ruth",
+     "Lou Gehrig"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What sport other than baseball did Bing Crosby have an interest in?",
+    "o": [
+     "football",
+     "basketball",
+     "thoroughbred horse racing"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the first Major Leaguer to win the All-Star Game MVP Award?",
+    "o": [
+     "Mickey Mantle",
+     "Maury Wills",
+     "Babe Ruth"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was the first American pair to win a World Figure Skating Championship Gold Medal?",
+    "o": [
+     "Babilonia Gardner",
+     "Karol Michael Kennedy",
+     "Kyoko Ina Jason Dunjeon"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What golfer won his 18th major championship in 1986?",
+    "o": [
+     "Ben Hogan",
+     "Tiger Woods",
+     "Jack Nicklaus"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the head football coach at the University of Alabama after Harold Red Drew?",
+    "o": [
+     "Gene Stallings",
+     "Wallace Wade",
+     "JB Ears Whitworth"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of the baseball players known as Sparky, has the first and middle name of George Lee?",
+    "o": [
+     "Sparky Anderson",
+     "Sparky Frickshun",
+     "Sparky Farkas"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What European politician and former Prime Minister co-wrote the anthem of a famous football club?",
+    "o": [
+     "Silvio Berlusconi",
+     "Tony Blair",
+     "Vladimir Putin"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which National Olympic Committee organized Equestrian events during the 2008 Olympic Games?",
+    "o": [
+     "NOC of Hong-Kong",
+     "NOC of Singapur",
+     "NOC of Taiwan"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What European football club has been nicknamed The Yellow Submarine?",
+    "o": [
+     "Villarreal",
+     "Nantes",
+     "Chelsea"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Where was the famed Alabama football coach Paul Bryant born?",
+    "o": [
+     "Moro Bottom, Ark.",
+     "Louisville, Ky",
+     "Junction, TX"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the national sport of Bangladesh?",
+    "o": [
+     "Kho Kho",
+     "Kabaddi",
+     "Rugby"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was the New England Patriots first round pick in 2006?",
+    "o": [
+     "Laurence Maroney",
+     "Sammy Morris",
+     "Tom Brady"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who became owner of Major League Baseball, New york Mets in 1961?",
+    "o": [
+     "Joan Payson",
+     "Nelson Doubleday",
+     "Lorinda De Roulet"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the winner of the WWF champion vs. the NWA champion match in 1980?",
+    "o": [
+     "Harley Race",
+     "Ric Flair",
+     "Bob Backlund"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "A major concept of karate is attitude. What is it called in Japanese?",
+    "o": [
+     "Kokoro",
+     "Sapporo",
+     "Kumite"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who said Driving a race car is like dancing with a chain saw.?",
+    "o": [
+     "Jeff Gordon",
+     "Brian Vickers",
+     "Cale Yarborough"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "From 2000-2007, Dale Earnhardt, Jr. drove for what famous sponsor?",
+    "o": [
+     "Pepsi",
+     "Miller",
+     "Budweiser"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was running back for the Atlanta Falcons from 2002-2007?",
+    "o": [
+     "Cory Dillion",
+     "Tiki Barber",
+     "Warrick Dunn"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the fourth former Miami Hurricanes player to be inducted into the Pro Football Hall of Fame?",
+    "o": [
+     "Michael Irvin",
+     "Jim Otto",
+     "Jim Kelly"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What was the fist US title change at SummerSlam?",
+    "o": [
+     "Chris Benoit Vs Chris Jericho",
+     "John Cena Vs Carlito",
+     "Chris Benoit Vs Orlando Jordan"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which 20-year-old first baseman made his debut for the New York Mets during the 1974 season?",
+    "o": [
+     "Rudy Pemberton",
+     "Brock Pemberton",
+     "Lou Brock"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What city hosted the Olympics in 1994, only two years after the previous games were held?",
+    "o": [
+     "Barcelona",
+     "Lillehammer",
+     "Atlanta"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which player hit 336 homers in 1423 games while playing for the Toronto Blue Jays?",
+    "o": [
+     "Dave Winfield",
+     "Carlos Delgado",
+     "Joe Carter"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What bull was commonly referred to as “The World’s Most Dangerous Bull”?",
+    "o": [
+     "Grasshopper",
+     "Yellow Jacket",
+     "Bodacious"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which slugger from the Chicago Cubs had the most career Home Runs playing for his team?",
+    "o": [
+     "Ron Santo",
+     "Sammy Sosa",
+     "Ernie Banks"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the nickname of the University of Cincinnati?",
+    "o": [
+     "Bearcats",
+     "Tigers",
+     "Bearpack"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which player was given the Calder Cup trophy in the 2005-2006 NHL season?",
+    "o": [
+     "Eric Staal",
+     "Vincent Lacavlier",
+     "Alexander Ovechkin"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which tennis player won the first Golden Slam in the history of tennis?",
+    "o": [
+     "John McEnroe",
+     "Martina Navratilova",
+     "Steffi Graf"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What city hosted the 1998 debut of snowboarding as an official Olympic sport?",
+    "o": [
+     "Salt Lake City",
+     "Nagano",
+     "Albertville"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What type of engine uses a combustion chamber that is shaped like half a sphere?",
+    "o": [
+     "DECT-8",
+     "Hemi",
+     "V-Tech"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Three Alou brothers played for the Giants. What were their first names?",
+    "o": [
+     "Matty, Moises, Edgardo",
+     "Felipe, Matty, Jesus",
+     "Hullub, Bob, Goto"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the top European club competition in mens basketball?",
+    "o": [
+     "Euroleague",
+     "Champions League",
+     "ULEB Cup"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which German soccer star was voted European Soccer Player of the Year in both 1972 and 1976?",
+    "o": [
+     "Michael Balack",
+     "Lev Yashin",
+     "Franz Beckenbauer"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which player top scored at the 2006 FIFA World Cup?",
+    "o": [
+     "Miroslav Klose",
+     "Zinadine Zidane",
+     "Luca Toni"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which driver swept both races at Pocono in 2006, winning also both poles?",
+    "o": [
+     "Denny Hamlin",
+     "Martin Truex, Jr.",
+     "Clint Bowyer"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which professional soccer player spent his entire club career (25 years) in A.C. Milan?",
+    "o": [
+     "Vialli",
+     "Marco van Basten",
+     "Paolo Maldini"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What former tag team partner of Tony Atlas inducted him into the WWE Hall of Fame?",
+    "o": [
+     "S.D. Jones",
+     "Chief Jay Strongbow",
+     "Rocky Johnson"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which two football players played high school football together at Mount Carmel High School?",
+    "o": [
+     "Marvin Harrison and Jerry Rice",
+     "Tiki and Ronde Barber",
+     "Donovan McNabb and Simeon Rice"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the second wrestler to become Mr. Money in the Bank?",
+    "o": [
+     "Edge",
+     "Mick Foley",
+     "RVD"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which A.C Milan former player was close to becoming president of his native country?",
+    "o": [
+     "Cesare Maldini",
+     "marco Van Basten",
+     "George Weah"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the first NFL Super Bowl MVP who was not born in the USA?",
+    "o": [
+     "Len Dawson",
+     "Kurt Warner",
+     "Mark Rypien"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the first player to play in three perfect games?",
+    "o": [
+     "Don Zimmer",
+     "Pedro Martinez",
+     "Paul O'Neil"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In which of the Grand Slam tournaments are matches played on clay courts?",
+    "o": [
+     "Wimbledon",
+     "Australian Open",
+     "Roland Garros"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the first NBA player to score 60 points in a game?",
+    "o": [
+     "Joe Fulks",
+     "Frank Selvy",
+     "Wilt Chamberlain"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was appointed NFL Commissioner after the retirement of Paul Tagliabue?",
+    "o": [
+     "Bert Bell",
+     "Terrell Owens",
+     "Roger Goodell"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In paintball, you perform a Safe Velocity Test by means of what device?",
+    "o": [
+     "Velocity detector",
+     "A simple stopwatch",
+     "Velocity chronograph"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the first lady to win 6 consecutive Ladies singles titles at Wimbledon?",
+    "o": [
+     "Arantxa Sanchez Vicario",
+     "Steffi Graf",
+     "Martina Navratilova"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which first baseman was drafted by the St. Louis Cardinals in 1999?",
+    "o": [
+     "Albert Pujols",
+     "Jim Edmonds",
+     "So Taguchi"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which quarterback led the New York Jets to the super bowl in the 1968- 1969 season?",
+    "o": [
+     "Terry Bredshaw",
+     "Joe Namath",
+     "Joe Montana"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which Premier teams home ground is nearest to Twickenham Stadium?",
+    "o": [
+     "Saracens",
+     "Harlequins",
+     "Wasps"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which team won the Brazilian Championship in 1978, beating Sao Paulo?",
+    "o": [
+     "Bahia/BA",
+     "Guarani/SP",
+     "Atletico/PR"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What kind of handlebar would you normally find on a road bike?",
+    "o": [
+     "Drop handlebar",
+     "Fallen handlebar",
+     "Straight handlebar"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the first switch hitter in the Baseball Hall of Fame?",
+    "o": [
+     "Mickey Mantle",
+     "Eddie Murray",
+     "Frankie Frisch"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the New England Patriots first round pick in 2008?",
+    "o": [
+     "Jason Webster",
+     "Daniel Graham",
+     "Jerod Mayo"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What federation, based in Lausanne, Switzerland, governs competitive swimming?",
+    "o": [
+     "FINA",
+     "FIFA",
+     "FITA"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the first lady to perform a successful triple Axel in a figure skating competition?",
+    "o": [
+     "Nancy Kerrigan",
+     "Midori Ito",
+     "Tonya Harding"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Footballs Iron Man, Brett Farve was a quarterback for which team prior to signing with Green Bay?",
+    "o": [
+     "Atlanta Falcons",
+     "Chicago Bears",
+     "He was always a Packer"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What former catcher managed the New York Mets in 1973?",
+    "o": [
+     "Wes Westrum",
+     "Gil Hodges",
+     "Yogi Berra"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is Dale Earnhardt Juniors full name?",
+    "o": [
+     "Dale Ralph Earnhardt, Jr.",
+     "Dale Randall Earnhardt, Jr.",
+     "Ralph Dale Earnhardt, Jr."
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which Bear Bryant quarterback said When you win, nothing hurts.?",
+    "o": [
+     "Jerry Rome",
+     "Mike Ditka",
+     "Joe Namath"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "The golfer who wins the PGA Championship is presented with what trophy?",
+    "o": [
+     "The Wanamaker Trophy",
+     "A Wilkinson Sword",
+     "A Green Jacket"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is Jeff Hardys favorite sport besides wrestling?",
+    "o": [
+     "Football",
+     "Basketball",
+     "Motocross"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the only undefeated boxing heavyweight champ, later killed in an airplane accident?",
+    "o": [
+     "Floyd Patterson",
+     "Ezzard Charles",
+     "Rocky Marciano"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of the listed soccer teams is from Norway?",
+    "o": [
+     "IF Elfsborg",
+     "Silkeborg IF",
+     "Rosenborg BK"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the first Houston Astros player ever to win the Rookie of the Year Award?",
+    "o": [
+     "Jeff Bagwell",
+     "Brad Ausmus",
+     "Craig Biggio"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "When Yogi Berra first joined the Yankees, they already had a great catcher. Who was he?",
+    "o": [
+     "Sherm Lollar",
+     "Bill Dickey",
+     "Gus Triandos"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who won the Sharpie 500 in Bristol on August 26, 2006?",
+    "o": [
+     "Kyle Busch",
+     "Matt Kenseth",
+     "Kevin Harvick"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who did LSU hire as Defensive Coordinator before the start of the 2005 season?",
+    "o": [
+     "Bo Pelini",
+     "Jimbo Fisher",
+     "Stacy Searels"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In 1984, who became the first American ever to win the all-around title at the Olympics?",
+    "o": [
+     "Mary Lou Retton",
+     "Bret Conor",
+     "Paul Hamm"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What delicious nickname is used to refer to the English football club Everton?",
+    "o": [
+     "The Truffles",
+     "The Toffees",
+     "The Chocolates"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which of the following players did not have his number retired by the Boston Red Sox?",
+    "o": [
+     "Luis Aparicio",
+     "Bobby Doerr",
+     "Ted Williams"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of the following is not one of Gilbert Arenas nicknames?",
+    "o": [
+     "Gilly-Willy",
+     "G.A.",
+     "The Assassin"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Amy Dumas, an American professional wrestler, goes by what ring name?",
+    "o": [
+     "Mickie James",
+     "Victoria",
+     "Lita"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which American chess player was called The Pride and Sorrow of Chess?",
+    "o": [
+     "Emmanuel Lasker",
+     "Paul Keres",
+     "Paul Morphy"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the first major league baseball player from Japan?",
+    "o": [
+     "Hideki Nomo",
+     "Masanori Murakami",
+     "Hideki Irabu"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was the first Major League Baseball pitcher to strike out ten consecutive batters?",
+    "o": [
+     "Ron Davis",
+     "Blake Stein",
+     "Tom Seaver"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the 1st European-born hockey player to be drafted first overall in the NHL entry draft?",
+    "o": [
+     "Ulf Dahlén",
+     "Mats Sundin",
+     "Jaromir Jagr"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In 1992, 1984, and 2005, who was Penn State Nittany Lions football teams head coach?",
+    "o": [
+     "Joe Paterno",
+     "Tim Curley",
+     "Galen Hall"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What team was formed by Abe Saperstein?",
+    "o": [
+     "Washington generals",
+     "Harlem Globetrotters",
+     "New York Liberty"
+    ],
+    "a": "B"
    }
   ],
   "hard": [
@@ -29239,6 +39355,735 @@ window.ADDITIONAL_QUESTION_BANK = {
      "Darrell Rasner"
     ],
     "a": "B"
+   },
+   {
+    "q": "Who was drafted by the Houston Rockets in the first overall selection of the 1984 NBA draft?",
+    "o": [
+     "Hakeem Olajuwon",
+     "Charles Barkley",
+     "Michael Jordan"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which second baseman was known as the silent captain of the Red Sox?",
+    "o": [
+     "Joe Morgan",
+     "Bid McPhee",
+     "Bobby Doerr"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of the following is the nickname of The Atlanta Braves?",
+    "o": [
+     "The Bravos",
+     "The Georgians",
+     "Teds Boys"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the the New England Patriots first round draft pick in 2007?",
+    "o": [
+     "Jerod Mayo",
+     "Brandon Meriweather",
+     "Ellis Hobbs"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What player quarterbacked the Missouri Tigers in the 1997 Holiday Bowl?",
+    "o": [
+     "Corby Jones",
+     "Chase Daniel",
+     "Brad Perry"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who became head coach of the Steelers in 1992?",
+    "o": [
+     "Bill Cowher",
+     "Joe Green",
+     "Tom Landry"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who is the former head coach of the Minnesota Vikings, succeeded by Brad Childress?",
+    "o": [
+     "John Gruden",
+     "Mike Tice",
+     "Marty Schottenheimer"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What New England Patriots player was named AP Defensive Rookie of the Year for 2008?",
+    "o": [
+     "Vince Wilfork",
+     "Jerod Mayo",
+     "Logan Mankins"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which quarterback did not play at the University of Georgia?",
+    "o": [
+     "Fran Tarkington",
+     "Mike Bobo",
+     "Todd Blackledge"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which goaltender has the nickname King Henrik?",
+    "o": [
+     "Henrik Suave",
+     "Henrik Lundqvist",
+     "Henrik Nittymaki"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who plays the role of washed-up-golf-pro-turned teacher Chubbs Peterson in the comedy Happy Gilmore?",
+    "o": [
+     "Apollo Creed",
+     "Carl Weathers",
+     "Billy Dee Williams"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was the first Commissioner of Major League Baseball?",
+    "o": [
+     "Kenesaw Mountain Landis",
+     "A.B. Happy Chandler",
+     "Bowie Kent Kuhn"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What boxer died in the 14th round in a fight against Ray Mancini on November 13, 1982?",
+    "o": [
+     "Duk Koo Kim",
+     "Thomas Hearns",
+     "Roberto Duran"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which New York Yankee pitcher was known as Louisiana Lightning?",
+    "o": [
+     "Bob Turley",
+     "Ron Guidry",
+     "Fritz Peterson"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What Chinese literary genre is based on Chinese martial arts?",
+    "o": [
+     "Shi",
+     "Wuxia",
+     "Baihua"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which player, born in Venezuela, played for the New York Mets in 1962?",
+    "o": [
+     "Rafael Santana",
+     "Luis Aparicio",
+     "Elio Chacon"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which driver won the Golden Corral 500 on March 20, 2006 in Atlanta?",
+    "o": [
+     "Kasey Kahne",
+     "Dale Earnhardt, Jr.",
+     "Carl Edwards"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What running back led the LSU team in rushing in 2005?",
+    "o": [
+     "Craig Davis",
+     "Joseph Addai",
+     "Alley Broussard III"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which boxer became the youngest world champion in 1976?",
+    "o": [
+     "Wilfredo Benitez",
+     "Roberto Duran",
+     "Sugar Ray Leonard"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Carlton Fisk was best known by what nickname?",
+    "o": [
+     "Pudge",
+     "Hoppy",
+     "Sweets"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The Thrilla in Manila, a boxing match between Muhammad Ali and Joe Frazier, was held in which city?",
+    "o": [
+     "Quezon City",
+     "Davao City",
+     "Pasig City"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of the following is a Czech soccer team?",
+    "o": [
+     "SK Sigma Olomouc",
+     "FC Nitra",
+     "NK Domzale"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the quarterback for the Baltimore Ravens when they won the super bowl in 2000?",
+    "o": [
+     "Tony banks",
+     "Brooks Bollinger",
+     "Trent Dilfer"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which great soccer goalkeeper was nicknamed „The black spider”?",
+    "o": [
+     "Lev Yashin",
+     "Maradona",
+     "Zinedine Zidane"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of the following New York Rangers retired after the 2008-09 season?",
+    "o": [
+     "Markus Naslund",
+     "Brendan Shanhan",
+     "Wade Redden"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who is the owner of the Denver Broncos?",
+    "o": [
+     "Pat Bowlen",
+     "Kevin Plank",
+     "Jon Litner"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who became the first wrestler to win a gold medal in three different Olympics?",
+    "o": [
+     "Dan Gable",
+     "Dan Saunderson",
+     "Aleksandr Medved"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which player scored the winning penalty to secure Italy's 4th World Cup victory in 2006?",
+    "o": [
+     "Luca Toni",
+     "Fabio Grosso",
+     "Franseco Totti"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was on the cover of the first issue of Transworld Skateboarding magazine?",
+    "o": [
+     "Steve Caballero",
+     "Stacy Peralta",
+     "Christian Hosoi"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What National League pitcher threw a perfect game against the New York Mets on Fathers day in 1964?",
+    "o": [
+     "Jim Bunning",
+     "Sandy Koufax",
+     "Bob Gibson"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What was the first Hardcore title change at SummerSlam?",
+    "o": [
+     "Bossman Vs Hardcore Holly",
+     "Crash Holly Vs Mean Street Posse",
+     "Al Snow Vs Bossman"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the first Major League Baseball player born in what was then called Czechoslovakia?",
+    "o": [
+     "Reno Bertoia",
+     "Elmer Valo",
+     "Ernie Orvitz"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was the first baseball player to hit a home run in Minute Maid Park?",
+    "o": [
+     "Scott Rolen",
+     "Richard Hidalgo",
+     "Jeff Bagwell"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of the following is not a player whose number was retired by the New York Jets?",
+    "o": [
+     "Joe Namath",
+     "Don Maynard",
+     "Weeb Ewbank"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was drafted by the Orlando Magic as the 1st overall pick in the 1992 NBA draft?",
+    "o": [
+     "Shaquille O'Neal",
+     "Anfernee Hardaway",
+     "Christian Laettner"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of the Grand Slams has not been won by Pete Sampras?",
+    "o": [
+     "Roland Garros",
+     "Wimbledon",
+     "US Open"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "At the 2006 Cyber Sunday, the fans decided to see Mickie James vs. Lita in what kind of match?",
+    "o": [
+     "Diva LumberJack",
+     "No DQ",
+     "Bra Panty"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What Blue Jay pitcher was nicknamed Terminator?",
+    "o": [
+     "Duane Ward",
+     "Jimme Key",
+     "Tom Henke"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the first NHL goalie to get a shutout?",
+    "o": [
+     "Georges Vezina",
+     "Charlie Broadieaux",
+     "Roger Stanley"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the President of Entertainment and Sports Programming Network (ESPN) in 2008?",
+    "o": [
+     "Peter Ubberofft",
+     "Phil Knight",
+     "George Bodenheimer"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the first catcher to catch 4 no-hitters in his career?",
+    "o": [
+     "Bill Dickey",
+     "Ray Schalk",
+     "Johnny Bench"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was the Charlotte Bobcats first head coach?",
+    "o": [
+     "Bernie Bickerstaff",
+     "Dan Scwartzer",
+     "Lou Hollins"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which facility, located in Quezon City, Philippines, was nicknamed The Big Dome?",
+    "o": [
+     "Cuneta Astrodome",
+     "Araneta Coliseum",
+     "Makati Sports Complex"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which of the following Swedish twin pairs are not ice hockey players?",
+    "o": [
+     "Henrik and Joel Lundqvist",
+     "Andreas and Thomas Ravelli",
+     "Patrick are Peter Sundstorm"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which member of the 2006 Chargers coaching staff was fired following the season?",
+    "o": [
+     "Marty Schottenheimer",
+     "James Lofton",
+     "Wade Phillips"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who is the only slugger in the following list that has had a 50+ home run season?",
+    "o": [
+     "Andruw Jones",
+     "Frank Thomas",
+     "Mo Vaughn"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What shortstop for the 1983 Phillies wore uniform # 11?",
+    "o": [
+     "Tony Ghelfi",
+     "Purfi Altamirano",
+     "Ivan DeJesus"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the first gymnast ever to score a perfect 10.0?",
+    "o": [
+     "Cathy Rigby",
+     "Nadia Comaneci",
+     "Mary Lou Retton"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which WWE star has used the ring names Vampiro Americano, Death Mask and Johnny Hawk?",
+    "o": [
+     "JBL",
+     "Bret Hart",
+     "Cena"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which pitcher was not on the Mets staff in 1969?",
+    "o": [
+     "Gery Gentry",
+     "Jon Matlack",
+     "Nolan Ryan"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which Ethiopian is widely considered one of the greatest long distance runners in history?",
+    "o": [
+     "Paavo Nurmi",
+     "Haile Gebrselassie",
+     "Wilson Boit Kipketer"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What Dominican Republic born baseball player, played shortstop for the New York Mets in 1979?",
+    "o": [
+     "Frank Taveras",
+     "Ray Sadecki",
+     "Mike Phillips"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who replaced coach Don Faurot when he retired in 1956?",
+    "o": [
+     "Al Onofrio",
+     "Dan Devine",
+     "Frank Broyles"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who scored a hat-trick when United trashed Southampton 6-1 i the 2001 premiership?",
+    "o": [
+     "Ruud Van Nistelrooy",
+     "Andy Cole",
+     "Paul Scholes"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the first lady to win the Figure Skating World Championships?",
+    "o": [
+     "Madge Syers-Cave",
+     "Herma Szabo",
+     "Maribel Vinson Owen"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What Notre Dame coach said, Show me a good and gracious loser, and Ill show you a failure.?",
+    "o": [
+     "Knute Rockne",
+     "Lou Holtz",
+     "Ara Parsegian"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What pitcher pitched a no hitter on July 4th 1983?",
+    "o": [
+     "Bob Stanley",
+     "Bill Sudakis",
+     "Dave Righetti"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which baseball pitcher pitched 11 perfect innings, only to lose the game in the 12th?",
+    "o": [
+     "Johnnie Sain",
+     "Harvey Haddix",
+     "Warren Sphan"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was the first gymnast in Olympic history to score a perfect 10?",
+    "o": [
+     "Olga Korbut (USSR)",
+     "Mary Lou Retton (USA)",
+     "Nadia Comaneci (Romania)"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who did the Toronto Blue Jays pick in their first ever expansion draft?",
+    "o": [
+     "Jerry Johnson",
+     "Doug Ault",
+     "Bob Bailor"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who served as the Mets pitching coach in 1986?",
+    "o": [
+     "Bill Robinson",
+     "Mel Stottlemeyer",
+     "Sid Fernandez"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What was Kobe Bryant's dads nickname?",
+    "o": [
+     "Hot Hands",
+     "Jellybean",
+     "Highflyer"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which member of the 1972 Miami Dolphins once said, Perfection ends a lot of arguments.?",
+    "o": [
+     "WR Paul Warfield",
+     "RB Larry Csonka",
+     "QB Bob Griese"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "This Wisconsin-born end had the nickname Crazylegs?",
+    "o": [
+     "Elroy Hirsch",
+     "Lance Alworth",
+     "Len Goodman"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who is the first man to land a quadruple-triple combination?",
+    "o": [
+     "Evgeni Plushenko",
+     "Elvis Stojko",
+     "Timothy Goebel"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the nickname of H.A. Wheeler, the former track promoter at Lowes?",
+    "o": [
+     "Hurricane",
+     "Happy",
+     "Humpy"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the last name of the great shortstop whose nickname was Little Louie?",
+    "o": [
+     "Aparicio",
+     "Brock",
+     "Appling"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who is Mizzous arch rival in all sports?",
+    "o": [
+     "Kansas Jayhawks",
+     "Nebraska",
+     "Illinois"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the birthplace of St. Louis Cardinals outfielder, So Taguchi?",
+    "o": [
+     "Hyogo Prefecture",
+     "Santa Fe",
+     "Los Angles"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which alpine skier is known as Herminator?",
+    "o": [
+     "Bode Miller (USA)",
+     "Herman Maier (Austria)",
+     "Pirmin Zurbriggen (Switzerland)"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was baseball announcer Joe Garagiolas best friend in childhood ?",
+    "o": [
+     "Yogi Berra",
+     "Red Barber",
+     "Stan Musial"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who is the first major leaguer to hit two grand slams in the same inning?",
+    "o": [
+     "Robin Ventura",
+     "Todd Hundley",
+     "Fernando Tatis"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Georgetown University's mascot is a bulldog. What is its nickname?",
+    "o": [
+     "Hoyas",
+     "Panthers",
+     "Wildcats"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which female pole vaulter was first to clear 5m?",
+    "o": [
+     "Stacy Dragila (USA)",
+     "Yelena Isinbayeva (Russia)",
+     "Svetlana Feofanova (Russia)"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which of the following soccer teams plays in the French Le Championat?",
+    "o": [
+     "DSC Arminia Bilefeld",
+     "AJ Auxerre",
+     "Charleroi SC"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In 1992, Tony Hawk started what skateboard company together with Per Welinder?",
+    "o": [
+     "Alien Workshop",
+     "Birdhouse Projects",
+     "Flip"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which of the tennis players was born in Novi Sad, Yugoslavia (now Vojvodina, Serbia and Montenegro)?",
+    "o": [
+     "Ivan Lendl",
+     "Monica Seles",
+     "Martina Navratilova"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was Muhammad Alis last opponent before his boxing license was suspended in 1967?",
+    "o": [
+     "Ernie Terell",
+     "Cleveland Williams",
+     "Zora Folley"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Abe was the originator, owner, and player for the Harlem Globetrotters. What was Abe's last name?",
+    "o": [
+     "Saperstein",
+     "Mikan",
+     "Davis"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the Greenbay Packers first round draft pick in 1961?",
+    "o": [
+     "Phil Nugent",
+     "Herb Adderly",
+     "Paul Dudley"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In 1990, the Toronto Blue Jays traded Tony Frenandez and Fred McGriff to San Diego for whom?",
+    "o": [
+     "Roberto Alomar and Duane Ward",
+     "Joe Carter and Sandy Alomar",
+     "Joe Carter and Roberto Alomar"
+    ],
+    "a": "C"
    }
   ]
  },
@@ -29560,6 +40405,15 @@ window.ADDITIONAL_QUESTION_BANK = {
     "a": "B"
    },
    {
+    "q": "In this US state it is illegal to tattoo an unconscious person.",
+    "o": [
+     "Texas",
+     "Florida",
+     "Nevada"
+    ],
+    "a": "A"
+   },
+   {
     "q": "Which hormone is often called the \"love hormone\" because it supports bonding?",
     "o": [
      "Oxytocin",
@@ -29826,6 +40680,1086 @@ window.ADDITIONAL_QUESTION_BANK = {
      "Synapse",
      "Axon",
      "Retina"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the study of how people think, feel and behave called?",
+    "o": [
+     "Psychology",
+     "Philosophy",
+     "Sociology"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which part of the nervous system includes the brain and spinal cord?",
+    "o": [
+     "Endocrine system",
+     "Central nervous system",
+     "Peripheral nervous system"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the fear of dogs called?",
+    "o": [
+     "Cynophobia",
+     "Ophidiophobia",
+     "Ailurophobia"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the fear of snakes called?",
+    "o": [
+     "Cynophobia",
+     "Arachnophobia",
+     "Ophidiophobia"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the fear of flying called?",
+    "o": [
+     "Claustrophobia",
+     "Agoraphobia",
+     "Aviophobia"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the fear of germs and dirt called?",
+    "o": [
+     "Nyctophobia",
+     "Mysophobia",
+     "Hydrophobia"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the fear of the dark called?",
+    "o": [
+     "Nyctophobia",
+     "Photophobia",
+     "Xenophobia"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the fear of open or crowded public places called?",
+    "o": [
+     "Acrophobia",
+     "Claustrophobia",
+     "Agoraphobia"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which sense is most closely linked to memory and emotion?",
+    "o": [
+     "Touch",
+     "Taste",
+     "Smell"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What do we call the smallest amount of a stimulus a person can detect?",
+    "o": [
+     "Absolute threshold",
+     "Sensory overload",
+     "Reaction time"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"self-esteem\"?",
+    "o": [
+     "How well you sleep",
+     "How you value yourself",
+     "How fast you learn"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is a \"comfort zone\"?",
+    "o": [
+     "A quiet room for resting",
+     "Familiar situations where you feel at ease",
+     "A therapy technique"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the term for thinking about your own thinking?",
+    "o": [
+     "Metacognition",
+     "Recall",
+     "Introspection bias"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the feeling of unease when your actions clash with your values?",
+    "o": [
+     "Guilt",
+     "Envy",
+     "Boredom"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which emotion is usually linked with the \"freeze\" response?",
+    "o": [
+     "Pride",
+     "Fear",
+     "Joy"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What are the six emotions usually described as universally recognized?",
+    "o": [
+     "Calm, stress, worry, pride, shame, guilt",
+     "Love, hate, joy, envy, hope, pride",
+     "Happiness, sadness, fear, anger, surprise, disgust"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"active listening\"?",
+    "o": [
+     "Listening while doing other tasks",
+     "Fully focusing on the speaker and showing it",
+     "Talking more than listening"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"resilience\" in psychology?",
+    "o": [
+     "The ability to memorize quickly",
+     "The ability to recover from difficulties",
+     "The ability to stay awake longer"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What do we call the drive to do something for an external reward?",
+    "o": [
+     "Habituation",
+     "Intrinsic motivation",
+     "Extrinsic motivation"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the \"placebo\" in a drug trial?",
+    "o": [
+     "A side effect",
+     "The strongest dose tested",
+     "A dummy treatment with no active ingredient"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is a \"control group\" in an experiment?",
+    "o": [
+     "The group that receives the most treatment",
+     "The group that does not receive the treatment",
+     "The group that runs the study"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the study of how the brain and behavior are connected called?",
+    "o": [
+     "Neuroscience",
+     "Linguistics",
+     "Genetics"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which part of the eye converts light into nerve signals?",
+    "o": [
+     "Cornea",
+     "Iris",
+     "Retina"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which part of the ear converts sound into nerve signals?",
+    "o": [
+     "Auditory canal",
+     "Cochlea",
+     "Eardrum"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the name for the loss of ability to feel pleasure?",
+    "o": [
+     "Anosmia",
+     "Anhedonia",
+     "Apathy"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Roughly how long is one full sleep cycle in adults?",
+    "o": [
+     "About 90 minutes",
+     "About 4 hours",
+     "About 20 minutes"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"sleep debt\"?",
+    "o": [
+     "Sleeping too much",
+     "A dream disorder",
+     "Accumulated lack of sleep"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the term for a sudden clear insight, often called the \"aha\" moment?",
+    "o": [
+     "Trial and error",
+     "Rote learning",
+     "Insight learning"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What do we call learning by repeating something until it sticks?",
+    "o": [
+     "Insight learning",
+     "Latent learning",
+     "Rote learning"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"multitasking\" usually shown to do to performance?",
+    "o": [
+     "Reduce it",
+     "Have no effect",
+     "Improve it greatly"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the term for a set of expectations about how someone should behave?",
+    "o": [
+     "Social role",
+     "Stereotype threat",
+     "Groupthink"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is a \"stereotype\"?",
+    "o": [
+     "A personality test",
+     "A memory technique",
+     "A fixed, oversimplified belief about a group"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"prejudice\"?",
+    "o": [
+     "A negative attitude toward a group",
+     "A therapy method",
+     "A careful judgment"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What does \"empathy\" differ from \"sympathy\" by?",
+    "o": [
+     "Lasting longer",
+     "Feeling with someone rather than for them",
+     "Being louder"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which type of memory holds information for only a few seconds?",
+    "o": [
+     "Procedural memory",
+     "Long-term memory",
+     "Sensory memory"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What kind of memory let's you ride a bicycle without thinking?",
+    "o": [
+     "Episodic memory",
+     "Semantic memory",
+     "Procedural memory"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What kind of memory holds facts like capital cities?",
+    "o": [
+     "Procedural memory",
+     "Semantic memory",
+     "Sensory memory"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the name for a strong emotional bond between an infant and caregiver?",
+    "o": [
+     "Bonding reflex",
+     "Attachment",
+     "Imprinting"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"peer group\" pressure most likely to influence in teenagers?",
+    "o": [
+     "Eye colour",
+     "Height",
+     "Behavior and choices"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"burnout\" most associated with?",
+    "o": [
+     "Short-term excitement",
+     "Chronic work stress",
+     "Physical injury"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the general name for medicines that treat depression?",
+    "o": [
+     "Antihistamines",
+     "Antidepressants",
+     "Antibiotics"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which practice focuses attention on the present moment without judgment?",
+    "o": [
+     "Brainstorming",
+     "Mindfulness",
+     "Free association"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the common name for the body's main stress hormone?",
+    "o": [
+     "Oxytocin",
+     "Cortisol",
+     "Insulin"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is a \"coping strategy\"?",
+    "o": [
+     "A way of measuring IQ",
+     "A way of dealing with stress",
+     "A sleep stage"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which is a healthy coping strategy?",
+    "o": [
+     "Avoiding everyone",
+     "Talking to someone you trust",
+     "Working without breaks"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"body image\"?",
+    "o": [
+     "A type of exercise",
+     "A medical scan",
+     "How a person perceives their own body"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is a \"habit loop\" usually described as?",
+    "o": [
+     "Cue, routine, reward",
+     "Think, feel, act",
+     "Start, stop, repeat"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "How long does research suggest forming a new habit typically takes?",
+    "o": [
+     "Around two months on average",
+     "About one week",
+     "Exactly 21 days"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"procrastination\" most often driven by?",
+    "o": [
+     "Avoiding uncomfortable feelings",
+     "Lack of intelligence",
+     "Poor eyesight"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"willpower\" often compared to in older psychology research?",
+    "o": [
+     "A fixed personality trait",
+     "A muscle that tires with use",
+     "A type of memory"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What does \"FOMO\" stand for?",
+    "o": [
+     "Focus on my objectives",
+     "Feeling of mental overload",
+     "Fear of missing out"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"small talk\" mainly used for socially?",
+    "o": [
+     "Making decisions",
+     "Building rapport",
+     "Sharing detailed facts"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"personal space\" in psychology?",
+    "o": [
+     "The invisible zone people keep around themselves",
+     "A private room",
+     "Time spent alone"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"first impression\" research most associated with?",
+    "o": [
+     "Written tests",
+     "Judgments formed within seconds",
+     "Long interviews"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which colour is most often associated with calmness in studies?",
+    "o": [
+     "Orange",
+     "Red",
+     "Blue"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"white noise\" often used for?",
+    "o": [
+     "Testing hearing loss",
+     "Masking sounds to aid sleep or focus",
+     "Measuring stress"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is a \"growth mindset\"?",
+    "o": [
+     "Believing ability can improve with effort",
+     "Believing luck decides everything",
+     "Believing talent is fixed"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is a \"fixed mindset\"?",
+    "o": [
+     "Believing effort always wins",
+     "Believing in teamwork",
+     "Believing ability cannot change much"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"self-talk\"?",
+    "o": [
+     "Reading aloud",
+     "The inner voice you use with yourself",
+     "Talking to strangers"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"gratitude journaling\" used to improve?",
+    "o": [
+     "Physical strength",
+     "Eyesight",
+     "Wellbeing and mood"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the \"fight, flight or freeze\" response controlled by?",
+    "o": [
+     "The skeletal system",
+     "The autonomic nervous system",
+     "The digestive system"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which part of the nervous system calms the body after a threat passes?",
+    "o": [
+     "Motor cortex",
+     "Sympathetic nervous system",
+     "Parasympathetic nervous system"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is a \"panic attack\"?",
+    "o": [
+     "A long period of sadness",
+     "A sleep disorder",
+     "A sudden episode of intense fear with physical symptoms"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"social anxiety\"?",
+    "o": [
+     "Intense fear of being judged in social situations",
+     "Dislike of loud noise",
+     "Fear of heights"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"phobia\" different from ordinary fear by?",
+    "o": [
+     "Lasting only seconds",
+     "Being always rational",
+     "Being intense and out of proportion"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"exposure\" in the treatment of phobias?",
+    "o": [
+     "Gradually facing the feared thing",
+     "Avoiding the feared thing",
+     "Taking medicine only"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"group therapy\"?",
+    "o": [
+     "Therapy for families only",
+     "Therapy by video",
+     "Therapy with several clients together"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is a \"support group\"?",
+    "o": [
+     "A team of doctors",
+     "People with a shared experience meeting to help each other",
+     "A government programme"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"stigma\" around mental health?",
+    "o": [
+     "Negative judgment attached to a condition",
+     "A type of treatment",
+     "A medical symptom"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"emotional intelligence\" mainly about?",
+    "o": [
+     "Doing mental arithmetic",
+     "Remembering faces",
+     "Recognizing and managing emotions"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"assertiveness\"?",
+    "o": [
+     "Getting your own way always",
+     "Avoiding conflict",
+     "Expressing needs clearly while respecting others"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"passive-aggressive\" behavior?",
+    "o": [
+     "Shouting openly",
+     "Expressing anger indirectly",
+     "Staying completely calm"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"burn-in\" not related to, in psychology terms?",
+    "o": [
+     "Stress recovery",
+     "Anything — it is a screen problem, not a psychological one",
+     "Attention span"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"reframing\" in psychology?",
+    "o": [
+     "Repeating a thought",
+     "Forgetting a problem",
+     "Looking at a situation from a different angle"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is a \"trigger\" in mental health?",
+    "o": [
+     "A medication",
+     "Something that sets off a strong emotional reaction",
+     "A type of therapy"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"grounding\" used for?",
+    "o": [
+     "Bringing attention back to the present during distress",
+     "Improving memory",
+     "Building muscle"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the \"5-4-3-2-1\" technique used for?",
+    "o": [
+     "Counting sleep cycles",
+     "Grounding during anxiety, using the senses",
+     "Ranking priorities"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"catastrophizing\"?",
+    "o": [
+     "Planning carefully",
+     "Assuming the worst possible outcome",
+     "Ignoring a problem"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"black-and-white thinking\"?",
+    "o": [
+     "Weighing evidence",
+     "Thinking in images",
+     "Seeing things only as all good or all bad"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"rumination\"?",
+    "o": [
+     "Repeatedly dwelling on the same negative thoughts",
+     "Daydreaming pleasantly",
+     "Planning ahead"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"gaslighting\"?",
+    "o": [
+     "Making someone doubt their own memory or perception",
+     "Praising too much",
+     "Giving strong advice"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"boundary setting\" in relationships?",
+    "o": [
+     "Agreeing to everything",
+     "Making clear what behaviour you accept",
+     "Ending all contact"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is a \"toxic\" relationship usually characterized by?",
+    "o": [
+     "Long distance",
+     "Repeated harm to wellbeing",
+     "Occasional disagreement"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"loneliness\" distinguished from solitude by?",
+    "o": [
+     "Lasting less time",
+     "Being unwanted rather than chosen",
+     "Occurring only at night"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is a \"coping mechanism\" called when it causes harm over time?",
+    "o": [
+     "Maladaptive",
+     "Adaptive",
+     "Neutral"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"attention span\"?",
+    "o": [
+     "How fast you read",
+     "How much you remember",
+     "How long you can focus on one thing"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"daydreaming\" also called in research?",
+    "o": [
+     "Hypnosis",
+     "Mind-wandering",
+     "Lucid dreaming"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"muscle memory\" actually stored as?",
+    "o": [
+     "Procedural memory in the brain",
+     "Memory inside the muscles",
+     "A reflex in the spine"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"the honeymoon phase\" in a new job or relationship?",
+    "o": [
+     "A required trial period",
+     "A stage of conflict",
+     "An early period where everything feels positive"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"culture shock\"?",
+    "o": [
+     "Fear of travel",
+     "Dislike of foreign food",
+     "Disorientation when moving to an unfamiliar culture"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"homesickness\"?",
+    "o": [
+     "Distress caused by being away from home",
+     "Boredom at home",
+     "Fear of houses"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"imprinting\" in animal behavior?",
+    "o": [
+     "Learning by reward",
+     "Copying adults",
+     "Young animals bonding to the first moving thing they see"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which scientist studied imprinting in geese?",
+    "o": [
+     "B.F. Skinner",
+     "Ivan Pavlov",
+     "Konrad Lorenz"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"instinct\"?",
+    "o": [
+     "An inborn pattern of behavior",
+     "A conscious decision",
+     "A learned habit"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"a reflex\"?",
+    "o": [
+     "A planned action",
+     "A type of memory",
+     "An automatic response to a stimulus"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"trial and error\" learning?",
+    "o": [
+     "Following instructions",
+     "Trying options until one works",
+     "Copying an expert"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"observational learning\" also called?",
+    "o": [
+     "Priming",
+     "Conditioning",
+     "Modelling"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"delayed gratification\"?",
+    "o": [
+     "Taking the first reward",
+     "Refusing all rewards",
+     "Waiting for a bigger reward later"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"impulsivity\"?",
+    "o": [
+     "Planning too much",
+     "Avoiding decisions",
+     "Acting without thinking ahead"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"perseverance\"?",
+    "o": [
+     "Giving up early",
+     "Continuing despite difficulty",
+     "Working quickly"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"motivation\" broadly defined as?",
+    "o": [
+     "What starts and sustains behavior",
+     "How much you know",
+     "How fast you move"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"apathy\"?",
+    "o": [
+     "Extreme excitement",
+     "Sudden anger",
+     "Lack of interest or motivation"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"mood\" different from emotion by?",
+    "o": [
+     "Being always negative",
+     "Being physical only",
+     "Lasting longer and being less intense"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"temperament\" in child development?",
+    "o": [
+     "A baby's inborn behavioral style",
+     "A learned skill",
+     "A parenting method"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"the terrible twos\" describing?",
+    "o": [
+     "A school year",
+     "A sleep disorder",
+     "A stage of toddler defiance and independence"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"separation anxiety\" in young children?",
+    "o": [
+     "Distress when a caregiver leaves",
+     "Refusal to eat",
+     "Fear of strangers"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"stranger anxiety\" usually first seen around?",
+    "o": [
+     "Age 5",
+     "6 to 9 months",
+     "Birth"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"adolescence\" mainly characterized by in the brain?",
+    "o": [
+     "Loss of neurons",
+     "Completed brain growth",
+     "Ongoing development of the frontal lobe"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"peer influence\" strongest during?",
+    "o": [
+     "Adolescence",
+     "Infancy",
+     "Old age"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"identity\" in Erikson's adolescent stage contrasted with?",
+    "o": [
+     "Isolation",
+     "Role confusion",
+     "Despair"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"a midlife crisis\" popularly described as?",
+    "o": [
+     "A period of questioning life choices in middle age",
+     "A medical condition",
+     "A sleep disorder"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"dementia\"?",
+    "o": [
+     "A decline in memory and thinking that affects daily life",
+     "A mood disorder",
+     "Normal ageing"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the most common cause of dementia?",
+    "o": [
+     "Alzheimer's disease",
+     "Parkinson's disease",
+     "Stroke"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"cognitive reserve\"?",
+    "o": [
+     "A memory backup",
+     "Mental resilience built by education and activity",
+     "A brain scan result"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"loneliness\" associated with in health research?",
+    "o": [
+     "Longer sleep",
+     "Worse physical and mental health",
+     "Better focus"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"social support\" shown to do for stress?",
+    "o": [
+     "Increase it",
+     "Reduce its impact",
+     "Have no effect"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"the placebo\" counterpart that causes negative effects called?",
+    "o": [
+     "Nocebo",
+     "Antebo",
+     "Neubo"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"self-care\"?",
+    "o": [
+     "Actions taken to protect your own wellbeing",
+     "Selfishness",
+     "Medical treatment"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"sleep hygiene\"?",
+    "o": [
+     "Habits that support good sleep",
+     "A sleep disorder",
+     "Cleaning the bedroom"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the recommended approach to screens before bed?",
+    "o": [
+     "Reduce them, as light delays sleep",
+     "Increase them to relax",
+     "They make no difference"
     ],
     "a": "A"
    }
@@ -30156,6 +42090,15 @@ window.ADDITIONAL_QUESTION_BANK = {
     "a": "B"
    },
    {
+    "q": "This literary character, created by Thomas Harris, is a psychiatrist and serial killer, who practices cannibalism.",
+    "o": [
+     "Ed Gein",
+     "Hannibal Lecter",
+     "Professor Moriarty"
+    ],
+    "a": "B"
+   },
+   {
     "q": "Which psychologist is known for the idea of a \"growth mindset\"?",
     "o": [
      "Angela Duckworth",
@@ -30424,6 +42367,1302 @@ window.ADDITIONAL_QUESTION_BANK = {
      "Cerebral cortex"
     ],
     "a": "C"
+   },
+   {
+    "q": "Which psychologist described \"classical conditioning\" while studying digestion in dogs?",
+    "o": [
+     "Ivan Pavlov",
+     "Edward Thorndike",
+     "John Watson"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In classical conditioning, what is the bell before it is paired with food?",
+    "o": [
+     "A neutral stimulus",
+     "An unconditioned stimulus",
+     "A conditioned response"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In classical conditioning, what is the food itself?",
+    "o": [
+     "An unconditioned stimulus",
+     "A conditioned stimulus",
+     "A neutral response"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is it called when a conditioned response reappears after a rest period?",
+    "o": [
+     "Spontaneous recovery",
+     "Extinction",
+     "Generalization"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is it called when a response spreads to similar stimuli?",
+    "o": [
+     "Discrimination",
+     "Generalization",
+     "Extinction"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In operant conditioning, what does removing something unpleasant to encourage behavior create?",
+    "o": [
+     "Positive punishment",
+     "Negative reinforcement",
+     "Negative punishment"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"positive punishment\"?",
+    "o": [
+     "Adding something unpleasant to reduce a behavior",
+     "Removing a reward",
+     "Adding a reward"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which schedule of reinforcement produces the steadiest response rate?",
+    "o": [
+     "Fixed interval",
+     "Variable ratio",
+     "Continuous"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which psychologist wrote \"Walden Two\" and designed the operant chamber?",
+    "o": [
+     "Carl Rogers",
+     "Kurt Lewin",
+     "B.F. Skinner"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the \"law of effect,\" and who proposed it?",
+    "o": [
+     "Behaviors are inherited — Galton",
+     "Behaviors with good outcomes are repeated — Thorndike",
+     "Behaviors fade over time — Ebbinghaus"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which concept describes the highest level of Maslow's pyramid being reached only rarely?",
+    "o": [
+     "Esteem",
+     "Self-actualization",
+     "Safety"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What are the two lowest levels of Maslow's hierarchy?",
+    "o": [
+     "Love and esteem",
+     "Physiological and safety needs",
+     "Esteem and self-actualization"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the \"self-fulfilling prophecy\"?",
+    "o": [
+     "An expectation that causes itself to come true",
+     "A memory error",
+     "A prediction that always fails"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the \"actor-observer bias\"?",
+    "o": [
+     "Preferring familiar faces",
+     "Blaming your own actions on the situation but others' on character",
+     "Remembering actors better"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the \"self-serving bias\"?",
+    "o": [
+     "Taking credit for success and blaming failure on others",
+     "Judging yourself too harshly",
+     "Helping others before yourself"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"social facilitation\"?",
+    "o": [
+     "Copying a leader",
+     "Performing better on easy tasks when watched",
+     "Working slower in a group"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"diffusion of responsibility\"?",
+    "o": [
+     "Feeling less responsible when others are present",
+     "Sharing tasks fairly",
+     "Delegating work"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"obedience\" in social psychology?",
+    "o": [
+     "Agreeing with a group",
+     "Copying a friend",
+     "Following the orders of an authority figure"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"conformity\"?",
+    "o": [
+     "Acting alone",
+     "Following a direct order",
+     "Changing behavior to match a group"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which type of conformity happens because we believe the group is right?",
+    "o": [
+     "Informational conformity",
+     "Compliance",
+     "Normative conformity"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which type of conformity happens because we want to be accepted?",
+    "o": [
+     "Internalization",
+     "Normative conformity",
+     "Informational conformity"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"the mere presence effect\" better known as in performance research?",
+    "o": [
+     "Social loafing",
+     "Social facilitation",
+     "Deindividuation"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"priming\" in psychology?",
+    "o": [
+     "Preparing for an exam",
+     "Exposure to one stimulus influencing response to another",
+     "Rehearsing a list"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"the framing effect\"?",
+    "o": [
+     "Groups decide faster",
+     "Pictures are remembered better",
+     "Choices change depending on how options are worded"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"optimism bias\"?",
+    "o": [
+     "Ignoring good news",
+     "Believing bad things are less likely to happen to you",
+     "Expecting the worst"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"negativity bias\"?",
+    "o": [
+     "Giving more weight to bad experiences than good ones",
+     "Seeing only the positive",
+     "Forgetting sad events"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"the recency effect\"?",
+    "o": [
+     "Remembering the last items in a list best",
+     "Remembering the middle best",
+     "Remembering the first items best"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"the primacy effect\"?",
+    "o": [
+     "Remembering the first items in a list best",
+     "Remembering random items",
+     "Remembering the last items best"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"state-dependent memory\"?",
+    "o": [
+     "Memory fades at night",
+     "Recall improves when your internal state matches the learning state",
+     "Memory depends on the country you live in"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"context-dependent memory\"?",
+    "o": [
+     "Recall improves with age",
+     "Recall improves in the place where you learned",
+     "Recall is better in silence"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"encoding\" in memory?",
+    "o": [
+     "Turning information into a form the brain can store",
+     "Retrieving information",
+     "Forgetting information"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What are the three stages of memory usually described as?",
+    "o": [
+     "Input, output, review",
+     "Sense, think, act",
+     "Encoding, storage, retrieval"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"elaborative rehearsal\"?",
+    "o": [
+     "Writing something once",
+     "Repeating a word over and over",
+     "Linking new information to what you already know"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"interference\" in forgetting?",
+    "o": [
+     "Other memories getting in the way of recall",
+     "Brain damage",
+     "Lack of sleep"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"proactive interference\"?",
+    "o": [
+     "Old memories interfering with new ones",
+     "Losing memories with age",
+     "New memories interfering with old ones"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"retroactive interference\"?",
+    "o": [
+     "Forgetting after injury",
+     "Old memories interfering with new ones",
+     "New memories interfering with old ones"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"flashbulb memory\"?",
+    "o": [
+     "A memory of a photograph",
+     "A vivid memory of a surprising, emotional event",
+     "A memory that fades quickly"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which brain chemical is most linked to alertness and the stress response?",
+    "o": [
+     "Norepinephrine",
+     "Melatonin",
+     "Serotonin"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which brain chemical is most linked to muscle movement and memory, and is low in Alzheimer's?",
+    "o": [
+     "Acetylcholine",
+     "Dopamine",
+     "GABA"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which neurotransmitter is the brain's main inhibitory, calming signal?",
+    "o": [
+     "GABA",
+     "Dopamine",
+     "Glutamate"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which neurotransmitter is the brain's main excitatory signal?",
+    "o": [
+     "Glutamate",
+     "Serotonin",
+     "GABA"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which disorder is linked to a loss of dopamine-producing cells?",
+    "o": [
+     "Asthma",
+     "Diabetes",
+     "Parkinson's disease"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the term for the brain's ability to reorganize after injury?",
+    "o": [
+     "Myelination",
+     "Neurogenesis",
+     "Neuroplasticity"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the fatty coating that speeds signals along a nerve fiber?",
+    "o": [
+     "Myelin sheath",
+     "Dendrite",
+     "Synapse"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which part of a neuron receives incoming signals?",
+    "o": [
+     "Axon",
+     "Dendrites",
+     "Myelin"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which part of a neuron carries the signal away from the cell body?",
+    "o": [
+     "Synapse",
+     "Axon",
+     "Dendrite"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"REM sleep\" named after?",
+    "o": [
+     "Rapid eye movement",
+     "Restful evening mode",
+     "Reduced energy motion"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which sleep disorder involves repeatedly stopping breathing during sleep?",
+    "o": [
+     "Sleep apnea",
+     "Narcolepsy",
+     "Somnambulism"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"sleep paralysis\"?",
+    "o": [
+     "Sleepwalking",
+     "Being unable to move while falling asleep or waking",
+     "Talking in your sleep"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which developmental psychologist described four parenting styles?",
+    "o": [
+     "Mary Ainsworth",
+     "Jean Piaget",
+     "Diana Baumrind"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which parenting style combines high warmth with clear limits?",
+    "o": [
+     "Authoritarian",
+     "Authoritative",
+     "Permissive"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which parenting style combines strict rules with low warmth?",
+    "o": [
+     "Authoritative",
+     "Neglectful",
+     "Authoritarian"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the term for a child's belief that everyone sees the world as they do?",
+    "o": [
+     "Conservation",
+     "Egocentrism",
+     "Animism"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which attachment style is shown by a child who is upset when the caregiver leaves but comforted on return?",
+    "o": [
+     "Secure attachment",
+     "Disorganized attachment",
+     "Avoidant attachment"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What does \"nature\" refer to in the nature versus nurture debate?",
+    "o": [
+     "Schooling",
+     "Genetic inheritance",
+     "Family upbringing"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"attribution theory\" about?",
+    "o": [
+     "How people explain the causes of behavior",
+     "How memories fade",
+     "How language develops"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the \"fundamental attribution error\" also called?",
+    "o": [
+     "Correspondence bias",
+     "Framing bias",
+     "Anchoring effect"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"cognitive appraisal\" in Lazarus's theory of stress?",
+    "o": [
+     "How you interpret whether an event is threatening",
+     "The recovery period",
+     "The physical stress response"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which theory says emotion and bodily arousal happen at the same time?",
+    "o": [
+     "Cannon-Bard theory",
+     "James-Lange theory",
+     "Schachter-Singer theory"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which theory says emotion comes from arousal plus a cognitive label?",
+    "o": [
+     "Schachter-Singer two-factor theory",
+     "Cannon-Bard theory",
+     "James-Lange theory"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which researcher is best known for studying facial expressions across cultures?",
+    "o": [
+     "Paul Ekman",
+     "Edward Hall",
+     "Albert Mehrabian"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What are Ekman's \"microexpressions\"?",
+    "o": [
+     "Changes in voice pitch",
+     "Small hand gestures",
+     "Very brief involuntary facial expressions"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who developed the study of personal space known as proxemics?",
+    "o": [
+     "Paul Ekman",
+     "Edward T. Hall",
+     "Erving Goffman"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which sociologist described social life using the metaphor of a theatre?",
+    "o": [
+     "Emile Durkheim",
+     "George Mead",
+     "Erving Goffman"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"impression management\"?",
+    "o": [
+     "Remembering names",
+     "Controlling how others perceive you",
+     "Judging others quickly"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"the halo effect\" contrasted with, when one bad trait colours everything?",
+    "o": [
+     "The primacy effect",
+     "The horn effect",
+     "The contrast effect"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"the contrast effect\"?",
+    "o": [
+     "Comparing two experts",
+     "Judging something relative to what came just before",
+     "Seeing colours differently"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"anchoring\" in negotiation?",
+    "o": [
+     "Walking away early",
+     "The first number shaping the whole discussion",
+     "Splitting the difference"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"decision fatigue\"?",
+    "o": [
+     "Choosing too quickly",
+     "Worse choices after making many decisions",
+     "Fear of choosing"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"choice overload\"?",
+    "o": [
+     "Too many options making decisions harder",
+     "Choosing without thinking",
+     "Having only one option"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"satisficing\" as a decision strategy?",
+    "o": [
+     "Refusing to decide",
+     "Picking the first option that is good enough",
+     "Comparing every option"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which economist and psychologist pair developed prospect theory?",
+    "o": [
+     "Kahneman and Tversky",
+     "Thaler and Sunstein",
+     "Simon and Newell"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What does prospect theory say about losses compared with gains?",
+    "o": [
+     "Gains feel stronger",
+     "Losses feel roughly twice as strong",
+     "They feel the same"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is a \"nudge\" in behavioral economics?",
+    "o": [
+     "A small change in how choices are presented",
+     "A financial penalty",
+     "A legal requirement"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which behavioral economist co-wrote \"Nudge\" and won a Nobel Prize?",
+    "o": [
+     "Dan Ariely",
+     "Robert Cialdini",
+     "Richard Thaler"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who wrote \"Influence\", describing six principles of persuasion?",
+    "o": [
+     "Robert Cialdini",
+     "Daniel Kahneman",
+     "Philip Zimbardo"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which Cialdini principle says we return favours?",
+    "o": [
+     "Authority",
+     "Reciprocity",
+     "Scarcity"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which Cialdini principle says rare things seem more valuable?",
+    "o": [
+     "Consistency",
+     "Liking",
+     "Scarcity"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the \"foot-in-the-door\" technique?",
+    "o": [
+     "A large request first",
+     "Two requests at once",
+     "A small request first, then a bigger one"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the \"door-in-the-face\" technique?",
+    "o": [
+     "Repeating the same request",
+     "An unreasonable request first, then a smaller one",
+     "A small request first"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"sunk cost\" in decision making?",
+    "o": [
+     "A future expense",
+     "The cheapest option",
+     "Money or effort already spent that cannot be recovered"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"temporal discounting\"?",
+    "o": [
+     "Planning for retirement",
+     "Forgetting deadlines",
+     "Valuing immediate rewards more than later ones"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"present bias\" most likely to cause?",
+    "o": [
+     "Careful planning",
+     "Excessive saving",
+     "Choosing short-term rewards over long-term goals"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"implementation intention\"?",
+    "o": [
+     "A reward system",
+     "A vague wish",
+     "A specific \"if-then\" plan for acting on a goal"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"goal setting theory\" most associated with?",
+    "o": [
+     "Specific, challenging goals improving performance",
+     "Working without targets",
+     "Avoiding pressure"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who developed goal-setting theory with Gary Latham?",
+    "o": [
+     "Frederick Herzberg",
+     "Edwin Locke",
+     "Douglas McGregor"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which theory describes motivation through autonomy, competence and relatedness?",
+    "o": [
+     "Expectancy theory",
+     "Self-determination theory",
+     "Two-factor theory"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who developed self-determination theory?",
+    "o": [
+     "Vroom and Porter",
+     "Deci and Ryan",
+     "Locke and Latham"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the \"overjustification effect\"?",
+    "o": [
+     "Punishment improving learning",
+     "Rewards reducing intrinsic interest in an activity",
+     "Rewards always increasing motivation"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"learned optimism\"?",
+    "o": [
+     "Ignoring problems",
+     "Being born cheerful",
+     "Training yourself to explain events more positively"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"explanatory style\"?",
+    "o": [
+     "How you speak to strangers",
+     "How you habitually explain good and bad events",
+     "How you write reports"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"post-traumatic growth\"?",
+    "o": [
+     "A delayed trauma symptom",
+     "A memory disorder",
+     "Positive change following a struggle with trauma"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"vicarious trauma\"?",
+    "o": [
+     "Trauma from an accident",
+     "Trauma remembered from childhood",
+     "Distress from repeated exposure to others' trauma"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"compassion fatigue\" most common in?",
+    "o": [
+     "Manufacturing",
+     "Office administration",
+     "Caring professions"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"emotional labour\"?",
+    "o": [
+     "Unpaid overtime",
+     "Managing feelings as part of a job",
+     "Physical work"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"the Zeigarnik effect\" used to explain in television?",
+    "o": [
+     "Laugh tracks",
+     "Cliffhangers keeping viewers engaged",
+     "Product placement"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"habituation\" in advertising terms?",
+    "o": [
+     "Ads becoming more effective",
+     "Viewers memorizing jingles",
+     "Ads losing impact with repeated exposure"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"the mere-exposure effect\" used for in marketing?",
+    "o": [
+     "Discount pricing",
+     "Shock tactics",
+     "Repeated exposure increasing liking"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"cognitive behavioral therapy\" usually structured as?",
+    "o": [
+     "Lifelong and open-ended",
+     "Short-term and goal-focused",
+     "Group-only"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"behavioural activation\" used to treat?",
+    "o": [
+     "Depression",
+     "Colour blindness",
+     "Dyslexia"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"psychoeducation\"?",
+    "o": [
+     "Training therapists",
+     "Teaching people about their condition",
+     "Testing intelligence"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What does \"EMDR\" therapy primarily treat?",
+    "o": [
+     "Insomnia",
+     "Post-traumatic stress",
+     "Phobias only"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"the therapeutic alliance\"?",
+    "o": [
+     "A group of clinics",
+     "The working relationship between client and therapist",
+     "A treatment plan"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who described the \"id, ego and superego\" model of the mind?",
+    "o": [
+     "Alfred Adler",
+     "Carl Jung",
+     "Sigmund Freud"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"the pleasure principle\" associated with in Freud's model?",
+    "o": [
+     "The id",
+     "The superego",
+     "The ego"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"the reality principle\" associated with?",
+    "o": [
+     "The id",
+     "The superego",
+     "The ego"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which defense mechanism means returning to childlike behavior under stress?",
+    "o": [
+     "Repression",
+     "Regression",
+     "Rationalization"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which defense mechanism means inventing logical excuses for your actions?",
+    "o": [
+     "Displacement",
+     "Sublimation",
+     "Rationalization"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which defense mechanism means taking out feelings on a safer target?",
+    "o": [
+     "Displacement",
+     "Denial",
+     "Projection"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which defense mechanism means pushing distressing thoughts out of awareness?",
+    "o": [
+     "Repression",
+     "Reaction formation",
+     "Sublimation"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which defense mechanism means acting the opposite of how you feel?",
+    "o": [
+     "Denial",
+     "Reaction formation",
+     "Regression"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"the collective unconscious\" according to Jung?",
+    "o": [
+     "Group opinion",
+     "Public memory",
+     "Shared inherited symbols across humanity"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is a Jungian \"archetype\"?",
+    "o": [
+     "A therapy method",
+     "A universal symbolic character or pattern",
+     "A personality test"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"individuation\" in Jung's theory?",
+    "o": [
+     "Choosing a career",
+     "Becoming a whole, integrated self",
+     "Separating from family"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which psychologist introduced the term \"self-efficacy\"?",
+    "o": [
+     "Albert Bandura",
+     "Carl Rogers",
+     "Martin Seligman"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"self-efficacy\"?",
+    "o": [
+     "Overall self-worth",
+     "Physical ability",
+     "Belief in your ability to succeed at a task"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"reciprocal determinism\" in Bandura's theory?",
+    "o": [
+     "Behavior caused only by rewards",
+     "Person, behavior and environment influencing each other",
+     "Genes deciding behavior"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"the false memory\" phenomenon?",
+    "o": [
+     "Forgetting recent events",
+     "Deliberate lying",
+     "Remembering events that did not happen"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"suggestibility\" in memory research?",
+    "o": [
+     "Remembering in order",
+     "Refusing to answer",
+     "Being influenced by leading questions"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"eyewitness confidence\" shown to be a weak predictor of?",
+    "o": [
+     "Accuracy",
+     "Speed",
+     "Detail"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"cross-race effect\" in face recognition?",
+    "o": [
+     "Preferring familiar faces",
+     "Difficulty recognizing faces of other ethnic groups",
+     "Forgetting names"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"in-group bias\"?",
+    "o": [
+     "Favouring your own group",
+     "Distrusting your own group",
+     "Treating everyone equally"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"out-group homogeneity\"?",
+    "o": [
+     "Seeing other groups as all alike",
+     "Preferring strangers",
+     "Seeing your group as varied only"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which classic study divided schoolchildren by eye colour to teach about prejudice?",
+    "o": [
+     "The Asch experiment",
+     "The Robbers Cave study",
+     "Jane Elliott's blue eyes/brown eyes exercise"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"contact hypothesis\" in reducing prejudice?",
+    "o": [
+     "Education alone is enough",
+     "Positive contact between groups reduces prejudice",
+     "Separation reduces conflict"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"scapegoating\"?",
+    "o": [
+     "Blaming a group for problems they did not cause",
+     "Sharing blame fairly",
+     "Rewarding a leader"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"obedience\" research most associated with which shock machine study?",
+    "o": [
+     "Asch's line study",
+     "Zimbardo's prison study",
+     "Milgram's experiment"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What proportion of Milgram's participants delivered the maximum shock level?",
+    "o": [
+     "About one tenth",
+     "About two thirds",
+     "All of them"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"the agentic state\" in Milgram's explanation?",
+    "o": [
+     "Acting fully independently",
+     "Seeing yourself as an instrument of authority",
+     "Refusing orders"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"deindividuation\" most likely to occur in?",
+    "o": [
+     "Small familiar groups",
+     "Large anonymous crowds",
+     "Solitary work"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"social comparison theory\" about?",
+    "o": [
+     "Comparing groups statistically",
+     "Evaluating yourself by comparing with others",
+     "Competing for resources"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who proposed social comparison theory?",
+    "o": [
+     "Leon Festinger",
+     "Solomon Asch",
+     "Stanley Schachter"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"upward social comparison\"?",
+    "o": [
+     "Comparing yourself with someone better off",
+     "Comparing across time",
+     "Comparing with someone worse off"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"relative deprivation\"?",
+    "o": [
+     "Feeling worse off compared with others",
+     "Being objectively poor",
+     "Losing a possession"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"the bystander effect\" reduced by?",
+    "o": [
+     "Anonymity",
+     "Larger crowds",
+     "Being asked directly for help"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"prosocial behavior\"?",
+    "o": [
+     "Acting to benefit others",
+     "Acting to benefit yourself",
+     "Avoiding others"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"altruism\" in psychology?",
+    "o": [
+     "Helping at a cost to yourself",
+     "Helping for a reward",
+     "Refusing to help"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"empathy-altruism hypothesis\" proposed by Batson?",
+    "o": [
+     "Empathy produces genuinely selfless helping",
+     "Helping is learned only",
+     "All helping is selfish"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"moral licensing\"?",
+    "o": [
+     "Doing good making people more likely to behave badly later",
+     "Good acts reinforcing more good acts",
+     "Moral rules changing with age"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"the bystander intervention model\" made up of?",
+    "o": [
+     "Watch, wait, walk away",
+     "Notice, interpret, take responsibility, decide, act",
+     "Call, wait, leave"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"the sleeper effect\" in persuasion?",
+    "o": [
+     "Persuasion during sleep",
+     "A message forgotten instantly",
+     "A message becoming more persuasive over time"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"inoculation theory\" in persuasion?",
+    "o": [
+     "Weak counterarguments build resistance to persuasion",
+     "Repetition always persuades",
+     "Fear is most persuasive"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"the backfire effect\"?",
+    "o": [
+     "Forgetting a correction",
+     "Arguments always working",
+     "Correcting a belief sometimes strengthening it"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"belief perseverance\"?",
+    "o": [
+     "Changing beliefs easily",
+     "Holding a belief after the evidence is discredited",
+     "Refusing to form beliefs"
+    ],
+    "a": "B"
    }
   ],
   "hard": [
@@ -30752,6 +43991,15 @@ window.ADDITIONAL_QUESTION_BANK = {
     "a": "B"
    },
    {
+    "q": "In the Peanuts comic strip, how much does Lucy charge for psychiatric help at her booth?",
+    "o": [
+     "$1",
+     "$5",
+     "5 cents"
+    ],
+    "a": "C"
+   },
+   {
     "q": "Which 1954 study at Robbers Cave State Park examined conflict between groups of boys?",
     "o": [
      "Stanford Prison Experiment",
@@ -31018,6 +44266,1266 @@ window.ADDITIONAL_QUESTION_BANK = {
      "Hindsight bias",
      "Anchoring bias",
      "Optimism bias"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which study showed participants failing to notice a gorilla walking through a scene?",
+    "o": [
+     "The Bobo doll study",
+     "The invisible gorilla study",
+     "The marshmallow test"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the phenomenon of missing an obvious change in a scene called?",
+    "o": [
+     "Inattentional deafness",
+     "Change blindness",
+     "Perceptual constancy"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"inattentional blindness\"?",
+    "o": [
+     "Blindness caused by injury",
+     "Losing vision under stress",
+     "Failing to see something obvious while focused elsewhere"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which researchers ran the \"invisible gorilla\" experiment?",
+    "o": [
+     "Latané and Darley",
+     "Loftus and Palmer",
+     "Simons and Chabris"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which study showed that the wording of a question changes eyewitness memory?",
+    "o": [
+     "The Stroop study",
+     "Milgram's study",
+     "Loftus and Palmer's car crash study"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which memory model describes a central executive, phonological loop and visuospatial sketchpad?",
+    "o": [
+     "Levels of processing",
+     "Baddeley and Hitch's working memory model",
+     "Atkinson-Shiffrin model"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who proposed the \"levels of processing\" theory of memory?",
+    "o": [
+     "Craik and Lockhart",
+     "Atkinson and Shiffrin",
+     "Baddeley and Hitch"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which model of memory describes sensory, short-term and long-term stores?",
+    "o": [
+     "Working memory model",
+     "Dual coding theory",
+     "Atkinson-Shiffrin multi-store model"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the capacity of short-term memory according to George Miller's classic paper?",
+    "o": [
+     "Seven plus or minus two items",
+     "Three items",
+     "Twenty items"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the \"cocktail party effect\"?",
+    "o": [
+     "Forgetting names at parties",
+     "Noticing your name in a noisy room",
+     "Talking louder in crowds"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which psychologist coined the term \"self-actualization\" before Maslow popularized it?",
+    "o": [
+     "Carl Rogers",
+     "Kurt Goldstein",
+     "Gordon Allport"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is Carl Rogers's term for accepting a person without conditions?",
+    "o": [
+     "Empathic mirroring",
+     "Congruence",
+     "Unconditional positive regard"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What does \"congruence\" mean in Rogers's theory?",
+    "o": [
+     "Being consistent in habits",
+     "A match between the real self and the ideal self",
+     "Agreeing with the therapist"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which therapy focuses on changing unhelpful thoughts and behaviors?",
+    "o": [
+     "Psychoanalysis",
+     "Cognitive behavioral therapy",
+     "Gestalt therapy"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which therapy technique asks the patient to say whatever comes to mind?",
+    "o": [
+     "Token economy",
+     "Systematic desensitization",
+     "Free association"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"transference\" in psychoanalysis?",
+    "o": [
+     "Passing a case to another therapist",
+     "Redirecting feelings about someone onto the therapist",
+     "Moving to group therapy"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which classification system for mental disorders is published by the WHO?",
+    "o": [
+     "MMPI",
+     "DSM",
+     "ICD"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which edition of the DSM introduced the autism spectrum as a single diagnosis?",
+    "o": [
+     "DSM-III",
+     "DSM-IV",
+     "DSM-5"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"comorbidity\" in mental health?",
+    "o": [
+     "A disorder that is fatal",
+     "A disorder that resolves alone",
+     "Two or more disorders occurring together"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the \"diathesis-stress model\"?",
+    "o": [
+     "A vulnerability plus stress leads to disorder",
+     "Genes alone decide outcomes",
+     "Stress alone causes all disorders"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"anterograde\" versus \"retrograde\" amnesia distinguished by?",
+    "o": [
+     "Whether it affects speech",
+     "Whether new or old memories are lost",
+     "Whether it is temporary"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which condition involves a persistent false belief held despite clear evidence?",
+    "o": [
+     "Hallucination",
+     "Delusion",
+     "Obsession"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which condition involves perceiving something that is not there?",
+    "o": [
+     "Hallucination",
+     "Compulsion",
+     "Delusion"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is a \"compulsion\" in obsessive-compulsive disorder?",
+    "o": [
+     "An unwanted thought",
+     "A sudden mood shift",
+     "A repeated act done to reduce anxiety"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the split between \"positive\" and \"negative\" symptoms used to describe?",
+    "o": [
+     "Phobias",
+     "Schizophrenia",
+     "Depression"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which structure connects the brain's hemispheres and is cut in \"split-brain\" surgery?",
+    "o": [
+     "Thalamus",
+     "Brainstem",
+     "Corpus callosum"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which researcher won a Nobel Prize for split-brain research?",
+    "o": [
+     "David Hubel",
+     "Roger Sperry",
+     "Eric Kandel"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which researcher won a Nobel Prize for work on the biology of memory in sea slugs?",
+    "o": [
+     "Roger Sperry",
+     "Daniel Kahneman",
+     "Eric Kandel"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"long-term potentiation\"?",
+    "o": [
+     "A sleep stage",
+     "Loss of neurons with age",
+     "Strengthening of connections between neurons with use"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the \"Yerkes-Dodson\" relationship usually drawn as?",
+    "o": [
+     "A straight line",
+     "A circle",
+     "An inverted U"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"cognitive load\"?",
+    "o": [
+     "The weight of a brain",
+     "The speed of reading",
+     "The amount of information working memory handles at once"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the \"spacing effect\"?",
+    "o": [
+     "Learning spread over time is remembered better",
+     "Learning in one long session is best",
+     "Sleeping prevents learning"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the \"testing effect\"?",
+    "o": [
+     "Multiple choice is easier",
+     "Tests cause anxiety",
+     "Recalling material improves memory more than rereading"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"desirable difficulty\" in learning?",
+    "o": [
+     "Avoiding mistakes",
+     "Harder practice that improves long-term retention",
+     "Choosing easier material"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which effect describes better memory for information you generate yourself?",
+    "o": [
+     "The spacing effect",
+     "The serial position effect",
+     "The generation effect"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"the false consensus effect\"?",
+    "o": [
+     "Ignoring expert opinion",
+     "Overestimating how many people agree with you",
+     "Believing the majority is wrong"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"the illusion of control\"?",
+    "o": [
+     "Fear of losing control",
+     "Believing you influence outcomes you cannot",
+     "Ignoring instructions"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"the gambler's fallacy\"?",
+    "o": [
+     "Betting only on favorites",
+     "Believing past chance events change future odds",
+     "Quitting while ahead"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"base rate neglect\"?",
+    "o": [
+     "Forgetting basic facts",
+     "Rounding numbers wrongly",
+     "Ignoring general statistics in favor of specific detail"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"confabulation\"?",
+    "o": [
+     "Filling memory gaps with invented details",
+     "Losing speech after injury",
+     "Deliberate lying"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"source amnesia\"?",
+    "o": [
+     "Losing memories of childhood",
+     "Forgetting your own name",
+     "Remembering information but not where it came from"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"the misinformation effect\"?",
+    "o": [
+     "Forgetting instructions",
+     "Deliberate deception in studies",
+     "Later information distorting an earlier memory"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which psychologist developed the concept of \"flow\" alongside studies of creativity?",
+    "o": [
+     "Howard Gardner",
+     "Mihaly Csikszentmihalyi",
+     "Robert Sternberg"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which theory of intelligence proposes analytical, creative and practical types?",
+    "o": [
+     "Sternberg's triarchic theory",
+     "Spearman's g factor",
+     "Gardner's multiple intelligences"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What did Charles Spearman call the general factor underlying intelligence?",
+    "o": [
+     "g",
+     "IQ",
+     "EQ"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"crystallized intelligence\"?",
+    "o": [
+     "Working memory span",
+     "Accumulated knowledge and skills",
+     "Speed of reasoning"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"fluid intelligence\"?",
+    "o": [
+     "Vocabulary knowledge",
+     "Reasoning about new problems",
+     "Learned facts"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which psychologist proposed the \"hierarchy of needs\" was never drawn as a pyramid by himself?",
+    "o": [
+     "Abraham Maslow",
+     "Erik Erikson",
+     "Carl Rogers"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which brain imaging method measures blood flow to show activity?",
+    "o": [
+     "CT scan",
+     "EEG",
+     "fMRI"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which brain recording method measures electrical activity with scalp electrodes?",
+    "o": [
+     "PET",
+     "fMRI",
+     "EEG"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which imaging method uses a radioactive tracer to show brain metabolism?",
+    "o": [
+     "EEG",
+     "MRI",
+     "PET scan"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the \"default mode network\" active during?",
+    "o": [
+     "Rest and mind-wandering",
+     "Deep sleep only",
+     "Intense concentration"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which brain region is most involved in reward prediction errors?",
+    "o": [
+     "Occipital lobe",
+     "Cerebellum",
+     "Ventral tegmental area"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"the reward prediction error\" signal?",
+    "o": [
+     "The difference between expected and received reward",
+     "The delay before reward",
+     "The total reward earned"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which structure is central to the formation of new episodic memories?",
+    "o": [
+     "Pons",
+     "Amygdala",
+     "Hippocampus"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What did the case of patient H.M. reveal about memory?",
+    "o": [
+     "Procedural memory can survive when episodic memory is lost",
+     "All memory is stored in one place",
+     "Memory cannot be studied"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which condition is marked by damage from long-term thiamine deficiency and severe memory loss?",
+    "o": [
+     "Korsakoff's syndrome",
+     "Tourette syndrome",
+     "Huntington's disease"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"prosopagnosia\" commonly known as?",
+    "o": [
+     "Night blindness",
+     "Word blindness",
+     "Face blindness"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"synaesthesia\"?",
+    "o": [
+     "One sense triggering another, such as seeing colours in numbers",
+     "Loss of one sense",
+     "Heightened hearing"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"phantom limb\" sensation attributed to?",
+    "o": [
+     "A psychological delusion only",
+     "Reorganization of the brain's body map",
+     "A nerve infection"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which psychologist pioneered research on phantom limbs and mirror therapy?",
+    "o": [
+     "Oliver Sacks",
+     "V.S. Ramachandran",
+     "Antonio Damasio"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which neurologist wrote \"The Man Who Mistook His Wife for a Hat\"?",
+    "o": [
+     "V.S. Ramachandran",
+     "Eric Kandel",
+     "Oliver Sacks"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which neuroscientist proposed the \"somatic marker hypothesis\"?",
+    "o": [
+     "Michael Gazzaniga",
+     "Antonio Damasio",
+     "Joseph LeDoux"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What does the somatic marker hypothesis claim?",
+    "o": [
+     "Bodily feelings guide decision making",
+     "Emotions block reasoning",
+     "Memory is stored in the body"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which researcher is known for mapping the brain's fear circuitry?",
+    "o": [
+     "Elizabeth Loftus",
+     "Joseph LeDoux",
+     "Paul Ekman"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the \"Iowa Gambling Task\" designed to measure?",
+    "o": [
+     "Decision making under uncertainty",
+     "Short-term memory",
+     "Reading speed"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"the Wisconsin Card Sorting Test\" used to assess?",
+    "o": [
+     "Hearing",
+     "Vocabulary",
+     "Mental flexibility and executive function"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What are \"executive functions\"?",
+    "o": [
+     "Planning, inhibition and mental flexibility",
+     "Sensory processing",
+     "Reflexes"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"inhibitory control\"?",
+    "o": [
+     "Storing memories",
+     "Speeding up reactions",
+     "Stopping an automatic response"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"the Stroop effect\" evidence of?",
+    "o": [
+     "Automatic reading interfering with naming colours",
+     "Poor attention span",
+     "Colour blindness"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which test presents ambiguous pictures for people to tell stories about?",
+    "o": [
+     "MMPI",
+     "Rorschach test",
+     "Thematic Apperception Test"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"the Big Five\" trait of openness sometimes also called?",
+    "o": [
+     "Openness to experience",
+     "Extraversion",
+     "Agreeableness"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which Big Five trait most predicts job performance across roles?",
+    "o": [
+     "Conscientiousness",
+     "Neuroticism",
+     "Openness"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which Big Five trait describes emotional instability?",
+    "o": [
+     "Neuroticism",
+     "Agreeableness",
+     "Extraversion"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the \"person-situation debate\" about?",
+    "o": [
+     "Whether therapy works",
+     "Whether traits or circumstances better predict behavior",
+     "Whether IQ is inherited"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which psychologist argued situations predict behavior better than traits?",
+    "o": [
+     "Walter Mischel",
+     "Gordon Allport",
+     "Hans Eysenck"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who designed the marshmallow test of delayed gratification?",
+    "o": [
+     "Albert Bandura",
+     "B.F. Skinner",
+     "Walter Mischel"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What did later replications of the marshmallow test suggest?",
+    "o": [
+     "Delay is fixed at birth",
+     "The original results were fabricated",
+     "Family background explains much of the effect"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"the replication crisis\" in psychology?",
+    "o": [
+     "A shortage of researchers",
+     "A funding shortfall",
+     "Many published findings failing to reproduce"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"p-hacking\"?",
+    "o": [
+     "Peer reviewing quickly",
+     "Protecting participant privacy",
+     "Analysing data many ways until a result becomes significant"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"preregistration\" in research?",
+    "o": [
+     "Publishing the plan before collecting data",
+     "Registering participants",
+     "Pre-screening volunteers"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"publication bias\"?",
+    "o": [
+     "Authors publishing too fast",
+     "Positive results being published more often",
+     "Journals rejecting long papers"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"informed consent\" in a study?",
+    "o": [
+     "Consent after the study",
+     "Consent given by a guardian",
+     "Agreeing to take part knowing what it involves"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"debriefing\" in an experiment?",
+    "o": [
+     "Testing equipment",
+     "Explaining the true purpose to participants afterwards",
+     "Recruiting participants"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"demand characteristics\"?",
+    "o": [
+     "Researchers demanding results",
+     "Strict experiment rules",
+     "Participants guessing the aim and changing behavior"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is a \"double-blind\" study?",
+    "o": [
+     "Two studies run at once",
+     "Only participants are unaware",
+     "Neither participants nor researchers know the groups"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"ecological validity\"?",
+    "o": [
+     "How large the sample is",
+     "How well findings apply to real life",
+     "How long a study lasts"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"a longitudinal study\"?",
+    "o": [
+     "Comparing groups at one moment",
+     "Studying one person deeply",
+     "Following the same people over time"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"a cross-sectional study\"?",
+    "o": [
+     "Comparing different groups at one point in time",
+     "Following one group for years",
+     "Observing without measuring"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"correlation does not imply\" in research?",
+    "o": [
+     "Replication",
+     "Causation",
+     "Significance"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"the placebo effect\" strongest for?",
+    "o": [
+     "Broken bones",
+     "Blood type",
+     "Subjective symptoms such as pain"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"the Hawthorne effect\" named after?",
+    "o": [
+     "A Boston hospital",
+     "The lead researcher",
+     "A factory where the studies took place"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"social desirability bias\"?",
+    "o": [
+     "Avoiding surveys",
+     "Preferring popular options",
+     "Answering to look good rather than truthfully"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"the Barnum-Forer\" demonstration usually done with?",
+    "o": [
+     "Reaction-time tasks",
+     "Memory tests",
+     "Fake personality readings given to a whole class"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which measure describes how consistently a test produces the same result?",
+    "o": [
+     "Standardization",
+     "Validity",
+     "Reliability"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which measure describes whether a test measures what it claims to?",
+    "o": [
+     "Reliability",
+     "Validity",
+     "Normalization"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"construct validity\"?",
+    "o": [
+     "Whether scores are stable",
+     "Whether the sample is large",
+     "Whether a test captures the concept it targets"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"standardization\" in testing?",
+    "o": [
+     "Making a test harder",
+     "Translating a test",
+     "Uniform procedures and comparison norms"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"the normal distribution\" of IQ scores centred on?",
+    "o": [
+     "120 with a standard deviation of 20",
+     "50 with a standard deviation of 10",
+     "100 with a standard deviation of 15"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"the Flynn effect\" attributed to by most researchers?",
+    "o": [
+     "Genetic change",
+     "Environmental factors such as education and nutrition",
+     "Better test design only"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"stereotype threat\"?",
+    "o": [
+     "Fear of being stereotyped in public",
+     "Believing a stereotype about others",
+     "Underperforming because of fear of confirming a stereotype"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which psychologist identified stereotype threat?",
+    "o": [
+     "Claude Steele",
+     "Kenneth Clark",
+     "Gordon Allport"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which psychologists' doll studies influenced the Brown v. Board of Education ruling?",
+    "o": [
+     "Asch and Milgram",
+     "Kenneth and Mamie Clark",
+     "Sherif and Sherif"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who wrote \"The Nature of Prejudice\" in 1954?",
+    "o": [
+     "Gordon Allport",
+     "Muzafer Sherif",
+     "Theodor Adorno"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"the authoritarian personality\" research associated with?",
+    "o": [
+     "Carl Rogers",
+     "Theodor Adorno and colleagues",
+     "Hans Eysenck"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which psychologist proposed a three-factor model of personality including psychoticism?",
+    "o": [
+     "Hans Eysenck",
+     "Gordon Allport",
+     "Raymond Cattell"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "How many primary personality factors did Raymond Cattell propose?",
+    "o": [
+     "Sixteen",
+     "Five",
+     "Three"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"the lexical hypothesis\" in personality research?",
+    "o": [
+     "Traits change monthly",
+     "Important traits become encoded in everyday language",
+     "Traits are inherited"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"behavioural genetics\" mainly studying?",
+    "o": [
+     "Animal instincts",
+     "Gene editing",
+     "The influence of genes and environment on behavior"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What do twin studies compare to estimate heritability?",
+    "o": [
+     "Identical and fraternal twins",
+     "Twins and singletons",
+     "Siblings and cousins"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What does a heritability estimate describe?",
+    "o": [
+     "Whether a trait can change",
+     "How much of one person's trait is genetic",
+     "Variation within a population explained by genes"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"epigenetics\"?",
+    "o": [
+     "Changes in gene expression without changing the DNA sequence",
+     "Editing genes directly",
+     "Inheriting learned skills"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"the Dunedin study\" an example of?",
+    "o": [
+     "A long-running longitudinal birth cohort",
+     "A brain imaging study",
+     "A single-case study"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"the Grant Study\" of Harvard men best known for finding?",
+    "o": [
+     "Intelligence predicts health",
+     "Income predicts happiness",
+     "Relationships strongly predict later wellbeing"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"hedonic adaptation\"?",
+    "o": [
+     "Permanent mood change",
+     "Growing happier every year",
+     "Returning to a baseline level of happiness after events"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"the hedonic treadmill\" metaphor describing?",
+    "o": [
+     "Exercise improving mood",
+     "Chasing happiness without lasting gain",
+     "Rewarding effort"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"affective forecasting\"?",
+    "o": [
+     "Recalling past feelings",
+     "Measuring mood daily",
+     "Predicting how you will feel in the future"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which psychologist wrote \"Stumbling on Happiness\"?",
+    "o": [
+     "Daniel Gilbert",
+     "Martin Seligman",
+     "Jonathan Haidt"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which psychologist described the mind as a rider on an elephant?",
+    "o": [
+     "Paul Bloom",
+     "Steven Pinker",
+     "Jonathan Haidt"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"moral foundations theory\" associated with?",
+    "o": [
+     "Carol Gilligan",
+     "Jonathan Haidt",
+     "Lawrence Kohlberg"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which psychologist criticized Kohlberg's moral stages for a male bias?",
+    "o": [
+     "Mary Ainsworth",
+     "Carol Gilligan",
+     "Karen Horney"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which psychoanalyst challenged Freud's views on female psychology?",
+    "o": [
+     "Anna Freud",
+     "Melanie Klein",
+     "Karen Horney"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which psychoanalyst pioneered child analysis through play?",
+    "o": [
+     "Melanie Klein",
+     "Mary Ainsworth",
+     "Anna Freud"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who developed the concept of defense mechanisms in detail after Freud?",
+    "o": [
+     "Carl Jung",
+     "Erik Erikson",
+     "Anna Freud"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"object relations theory\" mainly concerned with?",
+    "o": [
+     "Early relationships shaping the inner world",
+     "Physical objects in memory",
+     "Learning by reward"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"the still face experiment\" designed to show?",
+    "o": [
+     "Facial recognition in newborns",
+     "Infants' distress when a caregiver stops responding",
+     "Pain responses"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which researcher created the still face experiment?",
+    "o": [
+     "Edward Tronick",
+     "Harry Harlow",
+     "John Bowlby"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"serve and return\" in child development?",
+    "o": [
+     "A discipline method",
+     "Responsive back-and-forth interaction with a caregiver",
+     "A feeding schedule"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What are \"adverse childhood experiences\" studied for?",
+    "o": [
+     "Their effect on height",
+     "Their link to later health and behavior problems",
+     "Their role in language learning"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"trauma-informed care\"?",
+    "o": [
+     "Practice that recognizes the impact of trauma",
+     "Therapy only for veterans",
+     "Emergency medicine"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"window of tolerance\" describing?",
+    "o": [
+     "The time limit of therapy",
+     "A range of IQ scores",
+     "The zone where a person can cope with stress effectively"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"polyvagal theory\" concerned with?",
+    "o": [
+     "Vision processing",
+     "The vagus nerve and responses to safety and threat",
+     "Language areas"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"interoception\"?",
+    "o": [
+     "Sensing internal bodily states",
+     "Sensing balance",
+     "Sensing temperature outside"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is \"proprioception\"?",
+    "o": [
+     "Sensing pain",
+     "Sensing taste",
+     "Sensing the position of your body parts"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"the McGurk effect\" evidence of?",
+    "o": [
+     "Hearing loss with age",
+     "Selective attention",
+     "Vision altering what sound we hear"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is \"binocular rivalry\"?",
+    "o": [
+     "Double vision",
+     "Perception alternating when each eye sees a different image",
+     "Depth perception"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is \"perceptual constancy\"?",
+    "o": [
+     "Seeing objects as stable despite changing images",
+     "Colour blindness",
+     "Fixed attention"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which Gestalt principle says we group nearby items together?",
+    "o": [
+     "Similarity",
+     "Proximity",
+     "Closure"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which Gestalt principle says we fill in missing parts of a shape?",
+    "o": [
+     "Closure",
+     "Figure-ground",
+     "Continuity"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which Gestalt principle separates an object from its background?",
+    "o": [
+     "Figure-ground",
+     "Common fate",
+     "Proximity"
     ],
     "a": "A"
    }
@@ -33121,6 +47629,564 @@ window.ADDITIONAL_QUESTION_BANK = {
      "Montana and New Mexico"
     ],
     "a": "C"
+   },
+   {
+    "q": "What is the number of members of the Senate for each US state?",
+    "o": [
+     "one",
+     "based on the states population",
+     "two"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the first US President with no middle name?",
+    "o": [
+     "Thomas Jefferson",
+     "George Washington",
+     "John Adams"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which of these is NOT a state capital?",
+    "o": [
+     "Des Moines",
+     "Dover",
+     "Dallas"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of these nicknames refers to the U.S. state of Delaware?",
+    "o": [
+     "First State",
+     "Second State",
+     "Mother State"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who is the second US president?",
+    "o": [
+     "Martin Van Buren",
+     "Thomas Jefferson",
+     "John Adams"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In which subject did Senator Barack Obama get his B.A.?",
+    "o": [
+     "Political Science",
+     "Pre-Law",
+     "History"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "This man was not a US President.",
+    "o": [
+     "Alexander Hamilton",
+     "George Washington",
+     "John Adams"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the first US President to die while in office?",
+    "o": [
+     "Martin Van Buren",
+     "John Tyler",
+     "William Henry Harrison"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the fourth US president?",
+    "o": [
+     "James Madison",
+     "James Monroe",
+     "Thomas Jefferson"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In 2000, Bill Clinton became the first US President to visit this country.",
+    "o": [
+     "Iran",
+     "Vietnam",
+     "Afghanistan"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "George Washington was related to which other US President?",
+    "o": [
+     "James Madison",
+     "John Adams",
+     "William Henry Harrison"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The 38th US President was born Leslie Lynch King, Jr. His name changed to Gerald Ford after this person.",
+    "o": [
+     "His grandfather",
+     "His step-father",
+     "His uncle"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was the second US President to face impeachment?",
+    "o": [
+     "Andrew Johnson",
+     "William Clinton",
+     "William Blount"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "This 9th U.S. President served a term of only 31 days.",
+    "o": [
+     "William Harrison",
+     "James Garfield",
+     "Benjamin Harrison"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What was the first major battle of the Eastern Theater of the American Civil War?",
+    "o": [
+     "Bull Run",
+     "Antietam",
+     "Chancellorsville"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "There are two naturally round lakes in the world. One is near Zurich, Switzerland. The other is in this U.S. state.",
+    "o": [
+     "Minnesota",
+     "Florida",
+     "Wisconsin"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who delivered the eulogy at Senator Ted Kennedy funeral?",
+    "o": [
+     "Joseph Patrick Kennedy",
+     "Caroline Kennedy",
+     "President Obama"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the full name of the 33rd US President?",
+    "o": [
+     "Harry S. Truman",
+     "Harry Shine Truman",
+     "Harry Simpson Truman"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In which U.S. state is the city called Pearl located?",
+    "o": [
+     "Mississippi",
+     "Nevada",
+     "Texas"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Before becoming US President in 1981, he was head of a labor union.",
+    "o": [
+     "Hoover",
+     "Reagan",
+     "Johnson"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which of the following events is associated with Independence Day?",
+    "o": [
+     "Emancipation Proclamation",
+     "Declaration of Independence",
+     "Louisiana Purchase"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In 1987, John McCain III assumed office as a Senator from this state.",
+    "o": [
+     "Florida",
+     "New Mexico",
+     "Arizona"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In 2007, what city was the most populous state capital in the United States?",
+    "o": [
+     "Phoenix",
+     "Denver",
+     "Boston"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What US President served more than two terms?",
+    "o": [
+     "Thomas Jefferson",
+     "Franklin D. Roosevelt",
+     "Theodore Roosevelt"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "He was the first Roman Catholic US President and his father was a prominent businessman.",
+    "o": [
+     "Franklin D. Roosevelt",
+     "Lyndon Johnson",
+     "John Kennedy"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which city serves as the state capital of California?",
+    "o": [
+     "Oakland",
+     "Sacramento",
+     "Vallejo"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the name of the capital city of the U.S. state of South Dakota?",
+    "o": [
+     "Pierre",
+     "Bismarck",
+     "Sioux Falls"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which state capital also served as a capital of the Confederate States of America?",
+    "o": [
+     "Richmond",
+     "Harrisburg",
+     "Albany"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who did Thomas Jefferson think should have written the Declaration of Independence?",
+    "o": [
+     "Samuel Adams",
+     "Roger Sherman",
+     "John Adams"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "John Adams was the second President of the United States. Who was the second Vice-President of the United States?",
+    "o": [
+     "John Hancock",
+     "John Quincy Adams",
+     "Thomas Jefferson"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which one of the Kennedy brothers became known as The Lion of the Senate?",
+    "o": [
+     "Joseph P. Kennedy Jr.",
+     "Edward M. Kennedy",
+     "Robert F. Kennedy"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who was the last US President to be born in the 18th century?",
+    "o": [
+     "James Buchanan",
+     "Abraham Lincoln",
+     "Millard Fillmore"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "On August 6, 2012, the Curiosity rover, which is part of a NASA mission, successfully landed on this planet.",
+    "o": [
+     "Venus",
+     "Mars",
+     "Mercury"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which US President granted a pardon to all former Confederate soldiers?",
+    "o": [
+     "Abraham Lincoln",
+     "Ulysses Grant",
+     "Andrew Johnson"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "He was the only US President to win the Pulitzer Prize.",
+    "o": [
+     "Dwight D. Eisenhower",
+     "Woodrow Wilson",
+     "John F. Kennedy"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "He was the first child born in the White House in Washington, D.C.",
+    "o": [
+     "James Madison Randolph",
+     "James Franklin Jefferson",
+     "James Quincy Adams"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which US President said: I am not a crook.?",
+    "o": [
+     "Richard Nixon",
+     "Abraham Lincoln",
+     "John Glenn"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which US President was elected to four presidential terms?",
+    "o": [
+     "Ronald Reagan",
+     "Woodrow Wilson",
+     "Franklin Roosevelt"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the thirty-fifth US President?",
+    "o": [
+     "Lyndon Baynes Johnson",
+     "Dwight David Eisenhower",
+     "John Fitzgerald Kennedy"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was President of the United States during World War One?",
+    "o": [
+     "Theodore Roosevelt",
+     "Woodrow Wilson",
+     "William McKinley"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What US President declared the freedom of the slaves?",
+    "o": [
+     "James Buchanan",
+     "Abraham Lincoln",
+     "Franklin Roosevelt"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The US Constitution specifically gives Congress the power to pass laws that do all of the following EXCEPT this one.",
+    "o": [
+     "appoint members of the cabinet",
+     "collect taxes",
+     "borrow money"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "How many U.S. senators does each state have?",
+    "o": [
+     "One",
+     "Three",
+     "Two"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the name of the U.S. national anthem's author's home state?",
+    "o": [
+     "Maryland",
+     "Virginia",
+     "Delaware"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which branch of the U.S. government makes the laws?",
+    "o": [
+     "Legislative",
+     "Judicial",
+     "Executive"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which branch of the U.S. government enforces the laws?",
+    "o": [
+     "Executive",
+     "Judicial",
+     "Legislative"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which branch of the U.S. government interprets the laws?",
+    "o": [
+     "Legislative",
+     "Judicial",
+     "Executive"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the minimum age to be elected President of the United States?",
+    "o": [
+     "30",
+     "40",
+     "35"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "How long is one term for a U.S. President?",
+    "o": [
+     "Six years",
+     "Five years",
+     "Four years"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which U.S. holiday falls on the third Monday of January?",
+    "o": [
+     "Martin Luther King Jr. Day",
+     "Presidents Day",
+     "Labor Day"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which U.S. holiday falls on the first Monday of September?",
+    "o": [
+     "Columbus Day",
+     "Labor Day",
+     "Memorial Day"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "On which date is Veterans Day observed?",
+    "o": [
+     "October 11",
+     "November 1",
+     "November 11"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which national park is known for its giant sequoia trees?",
+    "o": [
+     "Sequoia National Park",
+     "Acadia National Park",
+     "Badlands National Park"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In which state is Yellowstone National Park mostly located?",
+    "o": [
+     "Wyoming",
+     "Montana",
+     "Idaho"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which state is known as the \"Golden State\"?",
+    "o": [
+     "California",
+     "Colorado",
+     "Nevada"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which state is known as the \"Empire State\"?",
+    "o": [
+     "New Jersey",
+     "Pennsylvania",
+     "New York"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which state is known as the \"Show Me State\"?",
+    "o": [
+     "Missouri",
+     "Kansas",
+     "Iowa"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which state is known as the \"Garden State\"?",
+    "o": [
+     "Maryland",
+     "New Jersey",
+     "Vermont"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which city is home to the Gateway Arch?",
+    "o": [
+     "St. Louis",
+     "Memphis",
+     "Kansas City"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which U.S. city is home to the French Quarter?",
+    "o": [
+     "Charleston",
+     "Savannah",
+     "New Orleans"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which mountain range runs through the eastern United States?",
+    "o": [
+     "Cascade Range",
+     "Sierra Nevada",
+     "Appalachian Mountains"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which desert covers much of the southwestern United States?",
+    "o": [
+     "Mojave Desert",
+     "Atacama Desert",
+     "Gobi Desert"
+    ],
+    "a": "A"
    }
   ],
   "medium": [
@@ -35220,6 +50286,618 @@ window.ADDITIONAL_QUESTION_BANK = {
      "Lincoln"
     ],
     "a": "A"
+   },
+   {
+    "q": "Charles Darwin and this US president were born on the same day of the same year.",
+    "o": [
+     "Andrew Johnson",
+     "Abraham Lincoln",
+     "Jackson"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "This U.S. President and founder of the Democratic Party drafted the Declaration of Independence in 1776.",
+    "o": [
+     "John Adams",
+     "Thomas Jefferson",
+     "James Monroe"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Towards the beginning of the new millennium, who was the oldest person elected US President?",
+    "o": [
+     "John Adams",
+     "Reagan",
+     "William H. Taft"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "This senator from the state of Washington was nicknamed Scoop and ran unsuccessfully for President.",
+    "o": [
+     "Henry Jackson",
+     "Alan Cranston",
+     "Paul Sarbanes"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the second Republican US President?",
+    "o": [
+     "Andrew Johnson",
+     "Ulysses Grant",
+     "Rutherford B. Hayes"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What is the state capital of the U.S. state of Delaware?",
+    "o": [
+     "Providence",
+     "Wilmington",
+     "Dover"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "This U.S. president gave the longest inauguration speech ever to that date.",
+    "o": [
+     "William Henry Harrison",
+     "William Jefferson Clinton",
+     "Rutherford B. Hayes"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the only US President in the 20th century who served as a US Army general before he became President?",
+    "o": [
+     "James Carter",
+     "Theodore Roosevelt",
+     "Dwight Eisenhower"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "An uprising which started in February 2011 led to a civil war in this Arab country.",
+    "o": [
+     "Pakistan",
+     "Afghanistan",
+     "Libya"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the only U.S. President to serve as both President and Chief Justice?",
+    "o": [
+     "Woodrow Wilson",
+     "William McKinley",
+     "William Taft"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the twentieth US President?",
+    "o": [
+     "James A. Garfield",
+     "Benjamin Harrison",
+     "Grover Cleveland"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "By act of Congress, this is the official alcoholic spirit of the USA.",
+    "o": [
+     "Corn liquor",
+     "Rye",
+     "Bourbon"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What US President has worn a Nazi uniform?",
+    "o": [
+     "Ronald Reagan",
+     "Thomas Marshall",
+     "Woodrow Wilson"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "This Civil War general led the march from Atlanta to Savannah.",
+    "o": [
+     "Tyler Reynolds",
+     "Ulysses S. Grant",
+     "William T. Sherman"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of these men was not on the committee to write the Declaration of Independence?",
+    "o": [
+     "John Hancock",
+     "Roger Sherman",
+     "Thomas Jefferson"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the first preacher to become U.S. President?",
+    "o": [
+     "Chester A. Arthur",
+     "Warren G. Harding",
+     "James Garfield"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the state sport of the U.S. state of South Dakota?",
+    "o": [
+     "Baseball",
+     "Rodeo",
+     "Bowling"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "This man was a famous inventor and an American founding father.",
+    "o": [
+     "Thomas Jefferson",
+     "Benjamin Franklin",
+     "Millard Fillmore"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What US president had a daughter named Margaret who became a successful writer of fiction and non-fiction books?",
+    "o": [
+     "John F. Kennedy",
+     "Harry S. Truman",
+     "Flanklin D. Roosevelt"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Widely known as Crazy Bet, she was a famous Union spy in the American Civil War.",
+    "o": [
+     "Elizabeth Van Lew",
+     "Betty Carson",
+     "Elizabeth Jenkins"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which state capital did Gary Cooper grow up in?",
+    "o": [
+     "Helena, Montana",
+     "Carson City, Nevada",
+     "Santa Fe, New Mexico"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Where was Senator Barack Obamas father born?",
+    "o": [
+     "California",
+     "Kenya",
+     "Uganda"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What future US President fought as an artillery captain in World War One?",
+    "o": [
+     "Harry Truman",
+     "Calvin Coolidge",
+     "Franklin Roosevelt"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the state animal of the U.S. state of South Dakota?",
+    "o": [
+     "Cougar",
+     "Coyote",
+     "Deer"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The nickname of this U.S. state is The Equality State. Its motto is Equal Right.",
+    "o": [
+     "Wyoming",
+     "Colorado",
+     "Vermont"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the last President before the Civil War, also the last president to advocate slavery?",
+    "o": [
+     "Abraham Lincoln",
+     "James Buchanan",
+     "James Knox Polk"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "This US President was shot by a would-be assassin only 69 days after he assumed office.",
+    "o": [
+     "George W. Bush",
+     "John F. Kennedy",
+     "Ronald Reagan"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of the following pairs contains a U.S. president and a vice president both not having been elected to the office?",
+    "o": [
+     "Nixon and Ford",
+     "Johnson and Humphrey",
+     "Ford and Rockefeller"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Under which US President were the Barbary Wars fought?",
+    "o": [
+     "William McKinley",
+     "Thomas Jefferson",
+     "James K. Polk"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who is the first US President born on the 4th of July?",
+    "o": [
+     "Rutherford Hayes",
+     "Calvin Coolidge",
+     "Woodrow Wilson"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Where was Senator Barack Obama born?",
+    "o": [
+     "Honolulu, Hawaii",
+     "Gary, Indiana",
+     "Peoria, Illinois"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What US President was shot and later passed away only four months after his inauguration?",
+    "o": [
+     "Andrew Jackson",
+     "John F. Kennedy",
+     "James A. Garfield"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "This US Senator of the 60-80s was known as Senator Wheat for his skill at raising wheat subsidies.",
+    "o": [
+     "William Proxmire of Wisconsin",
+     "Lloyd Bentsen of Texas",
+     "Milton Young of North Dakota"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who was the first US President to have admittedly slept with a loaded gun under his pillow?",
+    "o": [
+     "Franklin D. Roosevelt",
+     "Woodrow Wilson",
+     "Ronald Reagan"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "This president, who is often called the Great Emancipator, was the first US President to impose an income tax.",
+    "o": [
+     "Wilson",
+     "Jackson",
+     "Lincoln"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is the state flower of the U.S. state of Delaware?",
+    "o": [
+     "Daffodil",
+     "Hyacinth",
+     "Peach blossom"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which U.S. President declared June 14th as Flag Day?",
+    "o": [
+     "Millard Fillmore",
+     "Zachary Taylor",
+     "Woodrow Wilson"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Name the eighteenth US President who was in office from 1869 – 1877.",
+    "o": [
+     "Abraham Lincoln",
+     "Rutheford B. Hayes",
+     "Ulysses S. Grant"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Before becoming the 34th US President, he served as Supreme Commander of the Allied forces in Europe.",
+    "o": [
+     "Lyndon Johnson",
+     "Dwight D. Eisenhower",
+     "Harry S. Truman"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Who is the first US President to remain a lifelong bachelor?",
+    "o": [
+     "James Buchanan",
+     "Benjamin Harrison",
+     "Calvin Coolidge"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The U.S. Supreme Court ruled in 1972, that capital punishment was unconstitutional. What was the name of the case?",
+    "o": [
+     "Hammer v. Illinois",
+     "Gregg v. Georgia",
+     "Furman v. Florida"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "He was U.S. President when the first 7 states seceded from the Union.",
+    "o": [
+     "Andrew Johnson",
+     "Abraham Lincoln",
+     "James Buchanan"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "This 62 man was the first U.S. President who suffered from Brights Disease.",
+    "o": [
+     "Chester A. Arthur",
+     "James Garfield",
+     "Abraham Lincoln"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which U.S. state has the longest border with Canada?",
+    "o": [
+     "Alaska",
+     "Michigan",
+     "Minnesota"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "How many U.S. states border the Pacific Ocean?",
+    "o": [
+     "Seven",
+     "Five",
+     "Three"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which state was admitted to the Union as the 50th state?",
+    "o": [
+     "Alaska",
+     "Arizona",
+     "Hawaii"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which two states are not part of the contiguous United States?",
+    "o": [
+     "Alaska and Maine",
+     "Alaska and Hawaii",
+     "Hawaii and Florida"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which U.S. document begins \"We the People of the United States\"?",
+    "o": [
+     "The Constitution",
+     "The Gettysburg Address",
+     "The Declaration of Independence"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What is the name of the U.S. government's central bank?",
+    "o": [
+     "The Mint",
+     "The Treasury",
+     "The Federal Reserve"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which agency issues U.S. passports?",
+    "o": [
+     "The State Department",
+     "The Justice Department",
+     "Homeland Security"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which U.S. agency investigates federal crimes?",
+    "o": [
+     "The CIA",
+     "The NSA",
+     "The FBI"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Who is second in the presidential line of succession after the Vice President?",
+    "o": [
+     "The Speaker of the House",
+     "The Secretary of State",
+     "The Chief Justice"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "How many amendments make up the Bill of Rights?",
+    "o": [
+     "Seven",
+     "Ten",
+     "Twelve"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which amendment protects against unreasonable searches?",
+    "o": [
+     "Second Amendment",
+     "Fourth Amendment",
+     "Sixth Amendment"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which amendment guarantees the right to a speedy trial?",
+    "o": [
+     "Eighth Amendment",
+     "Sixth Amendment",
+     "Fifth Amendment"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which amendment protects against self-incrimination?",
+    "o": [
+     "First Amendment",
+     "Fourth Amendment",
+     "Fifth Amendment"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which president is featured on Mount Rushmore alongside Washington, Jefferson and Lincoln?",
+    "o": [
+     "Franklin D. Roosevelt",
+     "Theodore Roosevelt",
+     "Ulysses S. Grant"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which president served the shortest term in office?",
+    "o": [
+     "Zachary Taylor",
+     "William Henry Harrison",
+     "James Garfield"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which president was in office when the Apollo 11 Moon landing took place?",
+    "o": [
+     "Richard Nixon",
+     "John F. Kennedy",
+     "Lyndon B. Johnson"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which state produces the most oil in the United States?",
+    "o": [
+     "Texas",
+     "Alaska",
+     "North Dakota"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which river forms the border between Minnesota and Wisconsin in part?",
+    "o": [
+     "St. Croix River",
+     "Ohio River",
+     "Red River"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which U.S. city hosts the oldest continuously running marathon?",
+    "o": [
+     "New York",
+     "Boston",
+     "Chicago"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which U.S. state has the most active volcanoes?",
+    "o": [
+     "Hawaii",
+     "Alaska",
+     "California"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which national park spans parts of Wyoming, Montana and Idaho?",
+    "o": [
+     "Yellowstone",
+     "Grand Teton",
+     "Glacier"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which U.S. state capital sits at the highest elevation?",
+    "o": [
+     "Cheyenne, Wyoming",
+     "Santa Fe, New Mexico",
+     "Denver, Colorado"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which U.S. state was carved out of Virginia during the Civil War?",
+    "o": [
+     "Tennessee",
+     "Kentucky",
+     "West Virginia"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which canal system connected the Hudson River to Lake Erie in 1825?",
+    "o": [
+     "The Erie Canal",
+     "The Panama Canal",
+     "The Chesapeake Canal"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which U.S. law ended legal segregation in public accommodations?",
+    "o": [
+     "The Civil Rights Act of 1964",
+     "The Fair Housing Act",
+     "The Voting Rights Act"
+    ],
+    "a": "A"
    }
   ],
   "hard": [
@@ -37073,7 +52751,7 @@ window.ADDITIONAL_QUESTION_BANK = {
     "o": [
      "Jessica Simpson",
      "Nancy Pelosi",
-     "Sandra Day OConnor"
+     "Sandra Day O'Connor"
     ],
     "a": "C"
    },
@@ -37328,6 +53006,537 @@ window.ADDITIONAL_QUESTION_BANK = {
      "Blackmouth"
     ],
     "a": "B"
+   },
+   {
+    "q": "Which US President loved to cook and developed a recipe for vegetable soup?",
+    "o": [
+     "Dwight D. Eisenhower",
+     "Calvin Coolidge",
+     "George Washington"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What future senator was the first Ph.D. on the moon?",
+    "o": [
+     "David Scott",
+     "Harrison H. Schmitt",
+     "John W. Young"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Where was Senator Joe Biden born?",
+    "o": [
+     "Honolulu, Hawaii",
+     "Dover, DE",
+     "Scranton, PA"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "This First Lady banned cards and alcohol while living at the White House.",
+    "o": [
+     "Dolly Maddison",
+     "Sarah Childress Polk",
+     "Grace Coolidge"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "The son of a US President, he later became US President himself and took part in formulating the Monroe Doctrine.",
+    "o": [
+     "John Quincy Adams",
+     "Franklin D. Roosevelt",
+     "Zachary Taylor"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which US President was fined $20 for speeding with his horse and carriage?",
+    "o": [
+     "Millard Fillmore",
+     "James Buchanan",
+     "Ulysses Grant"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of these was physically the heaviest US President weighing over 300 pounds?",
+    "o": [
+     "William Howard Taft",
+     "John Quincy Adams",
+     "John Tyler"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "This U.S. president survived gall bladder surgery when he was 17 years of age.",
+    "o": [
+     "James K. Polk",
+     "George Washington",
+     "Abraham Lincoln"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "This American writer and teacher became the first woman US Senator, although she occupied the position for only one day.",
+    "o": [
+     "Jeanne Rankin",
+     "Rebecca Latimer Felton",
+     "Hatie Caraway"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "This President was accused of fathering a child in a cloak room of the White House.",
+    "o": [
+     "Grant",
+     "Jefferson",
+     "Harding"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "He was the first US President to serve more that 8 years. His last words were: I have a terrific headache.",
+    "o": [
+     "Franklin Delano Roosevelt",
+     "John Hammonds",
+     "William T. Sherman"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "This USA Senator was born in Illinois. His father was Irish/American and his mother was born in Lithuania.",
+    "o": [
+     "Dick Durbin",
+     "Paul Simon",
+     "Mark Kirk"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "This woman, born into slavery, worked on the underground railroad and was a Union spy during the U.S. Civil War.",
+    "o": [
+     "Amelia Earhart",
+     "Harriet Tubman",
+     "Betsy Ross"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "This US National Park, famous for its mineral waters, is located in southeastern Oklahoma, near the city of Sulphur.",
+    "o": [
+     "Platt",
+     "Yellowstone",
+     "Hot Springs"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the first US President to have vetoed over 600 pieces of legislation?",
+    "o": [
+     "Andrew Johnson",
+     "Franklin Delano Roosevelt",
+     "Richard M. Nixon"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Becoming the 22nd and 24th U.S. President, he was the only President to serve two nonconsecutive terms.",
+    "o": [
+     "Grover Cleveland",
+     "James Garfield",
+     "Woodrow Wilson"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "A summer time ritual involving a spectacular firefall was practiced from 1872 until 1968 in this US national park.",
+    "o": [
+     "Yellowstone National Park",
+     "Yosemite National Park",
+     "Hot Springs National Park"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "As a young boy this senator from Hawaii helped the fallen during and after the attack on Pearl Harbor.",
+    "o": [
+     "Daniel Inouye",
+     "Howard Baker",
+     "Henry Jackson"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which battle of the American Civil War featured Pickett's charge?",
+    "o": [
+     "Chancellorsville",
+     "Fredericksburg",
+     "Gettysburg"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What battle of the American Civil war raged for 12 days from 8 may to 19 May 1864?",
+    "o": [
+     "Kennesaw Mountain",
+     "Yellow Tavern",
+     "Spotsylvania Court House"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which US Senator, and later Vice President, was nicknamed Fritz?",
+    "o": [
+     "Walter Mondale of Minnesota",
+     "Teddy Kennedy of Massachusetts",
+     "Hubert Humphrey of Minnesota"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "This first lady saved a portrait of George Washington while the British burned the White House during the War of 1812.",
+    "o": [
+     "Dolley Madison",
+     "Susan B. Anthony",
+     "Laura Bush"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who was the first woman to serve on the U.S. Supreme Court?",
+    "o": [
+     "Sandra Day O'Connor",
+     "Ruth Bader Ginsburg",
+     "Celia Amster"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "This lawyer-turned senator, who has the power of flight without machinery, is a character on Heroes.",
+    "o": [
+     "Clark Bennett",
+     "Andy Pasdar",
+     "Nathan Petrelli"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "This senator served Ohio in the US Senate from 1976 to 1995 as a Democrat.",
+    "o": [
+     "Robert Taft Jr.",
+     "Howard Metzenbaum",
+     "Paul Simon"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "While in the White House this First Lady suffered from epileptic seizures.",
+    "o": [
+     "Caroline Harrison",
+     "Ida Saxton McKinley",
+     "Mary Todd Lincoln"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What Whig Presidents conciliatory politics helped postpone the Civil War?",
+    "o": [
+     "James Monroe",
+     "Millard Fillmore",
+     "Andrew Jackson"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "U.S. President Harding's administration was rocked by this scandal, involving oil.",
+    "o": [
+     "Teapot Dome",
+     "Credit Mobilier",
+     "Livingston-Heathcote"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Who built the Statue of Liberty, which was a gift from France to the US?",
+    "o": [
+     "Abelard Charton",
+     "Alvere Bartholdi",
+     "Auguste Bartholdi"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which SD Senator was defeated by John Thune in 2004 in his bid for re-election?",
+    "o": [
+     "George McGovern",
+     "Nancy Kasselbaum",
+     "Tom Daschle"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which President of the United States does Anthony Hopkins portray in Steven Spielberg's historical drama Amistad?",
+    "o": [
+     "John Quincy Adams",
+     "John Adams",
+     "Abraham Lincoln"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "The 23rd US President was in office during this period.",
+    "o": [
+     "1889 - 1893",
+     "1909 - 1913",
+     "1837 - 1841"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "How many terms can a U.S. president serve?",
+    "o": [
+     "2",
+     "1",
+     "4"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In what year did the last veteran of the American Civil War die?",
+    "o": [
+     "1944",
+     "1949",
+     "1958"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Ted Kennedy served how many terms in the senate and for what party?",
+    "o": [
+     "5 - Democratic",
+     "10 - Republican",
+     "9 - Democratic"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "When was U.S. president James Buchanan in office?",
+    "o": [
+     "1857 - 1861",
+     "1869 - 1877",
+     "1877 - 1881"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "When did Barack Obama’s term as Senator in the United States Senate begin?",
+    "o": [
+     "2000",
+     "1997",
+     "2005"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "How many stripes are on the American Flag?",
+    "o": [
+     "13",
+     "11",
+     "15"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which answer best describes how many Congressional Medal of Honor medals were awarded during the Civil War?",
+    "o": [
+     "Between 1200 and 2000",
+     "Between 600 and 1200",
+     "Less than 600"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "When was the 27the amendment to the U.S. Constitution ratified?",
+    "o": [
+     "1920",
+     "1992",
+     "1971"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What Amendment of the U.S. Constitution guarantees the right to be presumed innocent until proven guilty?",
+    "o": [
+     "7th",
+     "5th",
+     "8th"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Name the First Lady who reportedly allowed her cows to graze on the White House lawn?",
+    "o": [
+     "Julia Dent Grant",
+     "Jane Pierce",
+     "Eliza McCaudle Johnson"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In 2004, George W. Bush was reelected as which U.S. President in succession?",
+    "o": [
+     "The 43rd president",
+     "The 40th president",
+     "The 33rd president"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which U.S. territory is located in the western Pacific and has a U.S. air base?",
+    "o": [
+     "American Samoa",
+     "Puerto Rico",
+     "Guam"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "How many U.S. territories send non-voting delegates to Congress?",
+    "o": [
+     "Two",
+     "Five",
+     "Seven"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which state has the oldest written constitution still in use?",
+    "o": [
+     "Connecticut",
+     "Virginia",
+     "Massachusetts"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which U.S. president established the National Park Service in 1916?",
+    "o": [
+     "Calvin Coolidge",
+     "Woodrow Wilson",
+     "Theodore Roosevelt"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which act of 1862 granted land to states to fund colleges?",
+    "o": [
+     "The Land Ordinance",
+     "The Homestead Act",
+     "The Morrill Act"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which U.S. Supreme Court case established \"one person, one vote\"?",
+    "o": [
+     "Reynolds v. Sims",
+     "Shaw v. Reno",
+     "Baker v. Carr"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which amendment abolished poll taxes in federal elections?",
+    "o": [
+     "23rd Amendment",
+     "24th Amendment",
+     "26th Amendment"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which amendment gave residents of Washington, D.C. electoral votes?",
+    "o": [
+     "22nd Amendment",
+     "24th Amendment",
+     "23rd Amendment"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which president signed the Alaska Statehood Act?",
+    "o": [
+     "John F. Kennedy",
+     "Harry S. Truman",
+     "Dwight D. Eisenhower"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which U.S. state was once part of the Republic of Vermont before joining the Union?",
+    "o": [
+     "Vermont",
+     "New Hampshire",
+     "Maine"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which U.S. city was the capital before Washington, D.C., from 1790 to 1800?",
+    "o": [
+     "Baltimore",
+     "New York City",
+     "Philadelphia"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which U.S. federal holiday was established most recently?",
+    "o": [
+     "Martin Luther King Jr. Day",
+     "Juneteenth",
+     "Columbus Day"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "What date does Juneteenth commemorate?",
+    "o": [
+     "April 9, 1865",
+     "June 19, 1865",
+     "July 4, 1776"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which U.S. state has the longest official name?",
+    "o": [
+     "West Virginia",
+     "North Carolina",
+     "Rhode Island"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which president appointed the first female Secretary of State?",
+    "o": [
+     "Bill Clinton",
+     "George H. W. Bush",
+     "Ronald Reagan"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which Native American nation is the largest by enrolled membership in the U.S.?",
+    "o": [
+     "Navajo Nation",
+     "Sioux Nation",
+     "Cherokee Nation"
+    ],
+    "a": "A"
    }
   ]
  },
@@ -39904,6 +56113,96 @@ window.ADDITIONAL_QUESTION_BANK = {
      "Virgina",
      "Florida",
      "Chicago"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In the film Monty Python and the Holy Grail, which word is unbearable for the Knights of Ni to hear?",
+    "o": [
+     "If",
+     "Is",
+     "It"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In the 1983 movie The Big Chill, which famous magazine did Michael work for?",
+    "o": [
+     "Time",
+     "Newsweek",
+     "People"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "The Great Wall Marathon along the Great Wall of China is annually held in what month?",
+    "o": [
+     "December",
+     "May",
+     "August"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Mike and Gloria were two of the main characters on which TV show?",
+    "o": [
+     "Happy Days",
+     "The Brady Bunch",
+     "All in the Family"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which was the first movie Brad Pitt played in?",
+    "o": [
+     "No Way Out",
+     "A Stoning in Fulham County",
+     "Less Than Zero"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In which film did Frank Sinatra play the owner of a naughty Parisian night spot?",
+    "o": [
+     "The French Twist",
+     "Can-Can",
+     "The Joker is Wild"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which TV show featured the characters Florida and Penny?",
+    "o": [
+     "Lassie",
+     "Gilligan's Island",
+     "Good Times"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which Beatles album is the song featured in the sound clip found on?",
+    "o": [
+     "Let It Be",
+     "Rubber Soul",
+     "The White Album"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of the following is the title of a song by Iron Maiden?",
+    "o": [
+     "Different World",
+     "Dying World",
+     "Belles World"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Where did Bill Murray get his start in comedy?",
+    "o": [
+     "Saturday Night Live",
+     "Kentucky Fried Theatre",
+     "Second City"
     ],
     "a": "C"
    }
@@ -42491,6 +58790,96 @@ window.ADDITIONAL_QUESTION_BANK = {
      "One of These Days"
     ],
     "a": "C"
+   },
+   {
+    "q": "How many children did Kirk Douglas father?",
+    "o": [
+     "Seven",
+     "Four",
+     "One"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which television sitcom was not originally on the air at some time during the 1980s?",
+    "o": [
+     "Good Times",
+     "Silver Spoons",
+     "Family Ties"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What 1982 John Carpenter horror film was remade in 2011?",
+    "o": [
+     "The Thing",
+     "Carrie",
+     "The Omen"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "At what age did actress Natasha Richardson make her film debut?",
+    "o": [
+     "Four",
+     "Eight",
+     "Six"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What was the last movie in which Sandra Dee starred?",
+    "o": [
+     "Two on a Guillotine",
+     "Lost",
+     "Imitation of Life"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "How many kids does Dom end up having in the movie Fatso?",
+    "o": [
+     "five",
+     "two",
+     "seven"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "What phrase did singer and actress Hilary Duff get tattooed on her right foot?",
+    "o": [
+     "Don't make me get up",
+     "No doubt",
+     "Let it be"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What was actress Winona Ryder named after?",
+    "o": [
+     "A city",
+     "A novel character",
+     "A river"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "In what eastern state was actor Ron Perlman born?",
+    "o": [
+     "Virginia",
+     "Florida",
+     "New York"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "Which of the following shows did Lou Ferrigno not appear in?",
+    "o": [
+     "Friends",
+     "My Wife and Kids",
+     "Home Improvement"
+    ],
+    "a": "A"
    }
   ],
   "hard": [
@@ -44781,13 +61170,13 @@ window.ADDITIONAL_QUESTION_BANK = {
     "a": "B"
    },
    {
-    "q": "Which group was made up from Jon Moss, Roy Hay, Mikey Craig and an eccentric frontman named George ODowd?",
+    "q": "Which group was made up from Jon Moss, Roy Hay, Mikey Craig and an eccentric frontman named George O'Dowd?",
     "o": [
+     "The Communards",
      "Wham",
-     "Culture Club",
-     "The Communards"
+     "Culture Club"
     ],
-    "a": "B"
+    "a": "C"
    },
    {
     "q": "Which musical is based on Mark Twain's novel The Adventures of Huckleberry Finn?",
@@ -45074,6 +61463,105 @@ window.ADDITIONAL_QUESTION_BANK = {
      "Green",
      "Pink",
      "Yellow"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What is in the briefcase that Mary Swanson leaves at the airport in the 1994 comedy Dumb and Dumber?",
+    "o": [
+     "Some instruments and gadgets",
+     "Money",
+     "Dirty laundry"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Which song was Billy Joel's first US Top Ten Hit?",
+    "o": [
+     "Just the Way You Are",
+     "Piano Man",
+     "Moivin Out"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Where do Pams parents live in the hit movie Meet the Parents?",
+    "o": [
+     "San Francisco",
+     "Chicago",
+     "New York"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "In what popular TV sitcom did supermodel Elle Macpherson make a guest appearance in 1999?",
+    "o": [
+     "Will And Grace",
+     "Two Guys and a Girl",
+     "Friends"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What was the first name of the animated 1980s hero Blackstar?",
+    "o": [
+     "Michael",
+     "John",
+     "James"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Lindsay Lohan played the role of Alli Fowler in which soap opera?",
+    "o": [
+     "Another World",
+     "One Life to Live",
+     "Days of Our Lives"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Comedian and actor, Rodney Dangerfield was born Jacob Cohen on November 22, 1921 in which US state?",
+    "o": [
+     "Connecticut",
+     "California",
+     "New York"
+    ],
+    "a": "C"
+   },
+   {
+    "q": "What name did actors David Carradine and Barbara Hershey give to their son, born in 1972?",
+    "o": [
+     "Free",
+     "Brave",
+     "Strong"
+    ],
+    "a": "A"
+   },
+   {
+    "q": "Which of the following is a recurring theme in much of Woody Allens comedy?",
+    "o": [
+     "Disease",
+     "Death",
+     "Economics"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "Lennon's handwritten lyrics for which Beatles song sold for £600,000 at an auction in London in 2005?",
+    "o": [
+     "Come Together",
+     "All You Need is Love",
+     "I Want to Hold Your Hand"
+    ],
+    "a": "B"
+   },
+   {
+    "q": "In 1962, John Cazale starred in which short film?",
+    "o": [
+     "The way to Success",
+     "The Way",
+     "The American Way"
     ],
     "a": "C"
    }

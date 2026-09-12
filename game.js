@@ -876,7 +876,7 @@ function renderQuestion(turn, showResult) {
       img.onload = () => { img.classList.remove("hidden"); };
       // Flags stay compact; photos/landmarks get the large display size
       const srcLower = String(q.img || "").toLowerCase();
-      const isMap = srcLower.includes("/maps/");
+      const isMap = srcLower.includes("/maps/") || srcLower.includes("/shapes/");
       const isFlag = !isMap && (srcLower.includes("flag_") || srcLower.includes("/flag") || srcLower.endsWith(".svg"));
       img.classList.toggle("isMap", isMap);
       img.classList.toggle("isFlag", isFlag);
@@ -891,7 +891,7 @@ function renderQuestion(turn, showResult) {
     lastRenderedImgSrc = null;
   }
   panel.classList.toggle("hasImage", !!q.img && !img.classList.contains("imgFailed"));
-  panel.classList.toggle("mapQ", !!q.img && q.img.includes("/maps/"));
+  panel.classList.toggle("mapQ", !!q.img && (q.img.includes("/maps/") || q.img.includes("/shapes/")));
 
   const correctLetter = decodeCorrect(q);
   const opts = q.options || ["", "", ""];

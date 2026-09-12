@@ -1,11 +1,12 @@
 // MindClimber — USA Edition question bank
-// 1064 questions across 9 categories (easy / medium / hard).
+// 1395 questions across 9 categories (easy / medium / hard).
 // Facts checked against trusted U.S. sources, including: USCIS 2025 Civics Test (uscis.gov),
 // NASA (science.nasa.gov, spaceplace.nasa.gov), National Park Service (nps.gov), NOAA, Smithsonian,
 // Library of Congress, National Archives, the Pulitzer Prizes, the Academy of Motion Picture Arts and
 // Sciences, the American Film Institute, the Rock & Roll Hall of Fame, the American Psychological
 // Association, and official league records (NFL, MLB, NBA, NHL).
-// Image Recognition: world flags plus real country maps drawn from Natural Earth data (public domain).
+// Image Recognition: world flags plus maps and outlines of countries and U.S. states,
+// drawn from Natural Earth data (public domain).
 // Format: q = question, o = three options, a = correct option letter, img = optional local image.
 
 window.QUESTION_CATEGORIES = [
@@ -7429,6 +7430,1106 @@ window.QUESTION_BANK = {
     ],
     "a": "B",
     "img": "Assets/questions_pics/maps/map_greece.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "New York",
+     "Vermont",
+     "Massachusetts"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_state_new_york.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Connecticut",
+     "Vermont",
+     "New York"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_state_new_york.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Guatemala",
+     "Honduras",
+     "United States"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_united_states.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Bangladesh",
+     "Bhutan",
+     "China"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_china.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Washington",
+     "Idaho",
+     "Nevada"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_state_washington.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Idaho",
+     "Washington",
+     "Montana"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_state_washington.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Papua New Guinea",
+     "Australia",
+     "Philippines"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_australia.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "India",
+     "Nepal",
+     "Bhutan"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_india.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Oregon",
+     "California",
+     "Nevada"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_state_california.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Utah",
+     "California",
+     "Idaho"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_state_california.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Canada",
+     "United States",
+     "Belize"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_canada.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Netherlands",
+     "Belgium",
+     "France"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_france.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Tajikistan",
+     "China",
+     "Russia"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_russia.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Germany",
+     "Netherlands",
+     "Austria"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_germany.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Louisiana",
+     "Mississippi",
+     "Texas"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_state_texas.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Louisiana",
+     "Oklahoma",
+     "Texas"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_state_texas.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "South Korea",
+     "Japan",
+     "China"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_japan.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Botswana",
+     "Mozambique",
+     "South Africa"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_south_africa.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "South Carolina",
+     "Florida",
+     "North Carolina"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_state_florida.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "South Carolina",
+     "Tennessee",
+     "Florida"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_state_florida.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "United States",
+     "Mexico",
+     "Honduras"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_mexico.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Arizona",
+     "New Mexico",
+     "Oklahoma"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_state_new_mexico.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "New Mexico",
+     "Arizona",
+     "Colorado"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_state_new_mexico.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "West Virginia",
+     "Virginia",
+     "Pennsylvania"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_state_virginia.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Iran",
+     "Kuwait",
+     "Azerbaijan"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_iran.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Maryland",
+     "Virginia",
+     "New Jersey"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_state_virginia.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Slovenia",
+     "Italy",
+     "Switzerland"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_italy.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Kentucky",
+     "Ohio",
+     "Virginia"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_state_ohio.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Kentucky",
+     "Indiana",
+     "Ohio"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_state_ohio.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "France",
+     "Spain",
+     "Algeria"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_spain.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Venezuela",
+     "Brazil",
+     "Guyana"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_brazil.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Lebanon",
+     "Turkey",
+     "Iraq"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_turkey.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Tajikistan",
+     "Pakistan",
+     "Uzbekistan"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_pakistan.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Indiana",
+     "Ohio",
+     "Michigan"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_state_michigan.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Illinois",
+     "New York",
+     "Michigan"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_state_michigan.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Ohio",
+     "West Virginia",
+     "Maryland"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_state_west_virginia.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Belgium",
+     "United Kingdom",
+     "France"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_united_kingdom.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Georgia",
+     "South Carolina",
+     "Virginia"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_state_south_carolina.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "South Korea",
+     "Laos",
+     "North Korea"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/flag2_north_korea.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "North Korea",
+     "China",
+     "Taiwan"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_north_korea.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Utah",
+     "Colorado",
+     "Kansas"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_state_colorado.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "North Carolina",
+     "Georgia",
+     "Florida"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_state_georgia.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Georgia",
+     "Tennessee",
+     "North Carolina"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_state_north_carolina.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Nebraska",
+     "Colorado",
+     "Kansas"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_state_colorado.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "North Carolina",
+     "Kentucky",
+     "Georgia"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_state_georgia.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Virginia",
+     "North Carolina",
+     "South Carolina"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_state_north_carolina.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Egypt",
+     "Jordan",
+     "Lebanon"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_egypt.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Kentucky",
+     "Illinois",
+     "Tennessee"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_state_illinois.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Iowa",
+     "Missouri",
+     "Illinois"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_state_illinois.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Virginia",
+     "Kentucky",
+     "West Virginia"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_state_west_virginia.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Syria",
+     "Iraq",
+     "Armenia"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_iraq.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Solomon Islands",
+     "Fiji",
+     "New Zealand"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_new_zealand.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "South Carolina",
+     "North Carolina",
+     "Alabama"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_state_south_carolina.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Maryland",
+     "Delaware",
+     "Pennsylvania"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_state_pennsylvania.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Poland",
+     "Sweden",
+     "Lithuania"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_sweden.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Maryland",
+     "Pennsylvania",
+     "West Virginia"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_state_pennsylvania.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Nevada",
+     "California",
+     "Arizona"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_state_arizona.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Nevada",
+     "New Mexico",
+     "Arizona"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_state_arizona.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Connecticut",
+     "Maryland",
+     "New Jersey"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_state_new_jersey.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Oklahoma",
+     "Kansas",
+     "Colorado"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_state_kansas.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Kansas",
+     "South Dakota",
+     "Iowa"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_state_kansas.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Iowa",
+     "Minnesota",
+     "Wisconsin"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_state_wisconsin.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Iowa",
+     "Minnesota",
+     "Wisconsin"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_state_wisconsin.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Wisconsin",
+     "Missouri",
+     "Iowa"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_state_iowa.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Nigeria",
+     "Benin",
+     "Equatorial Guinea"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_nigeria.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Iowa",
+     "Nebraska",
+     "Minnesota"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_state_iowa.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Central African Republic",
+     "Cameroon",
+     "South Sudan"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_central_african_republic.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Lithuania",
+     "Ukraine",
+     "Slovakia"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_ukraine.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "South Sudan",
+     "Central African Republic",
+     "DR Congo"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_central_african_republic.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Denmark",
+     "Germany",
+     "Ireland"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_ireland.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Tennessee",
+     "Missouri",
+     "Indiana"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_state_indiana.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Iowa",
+     "Michigan",
+     "Minnesota"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_state_minnesota.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Nebraska",
+     "Michigan",
+     "Minnesota"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_state_minnesota.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Illinois",
+     "Missouri",
+     "Indiana"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_state_indiana.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Jordan",
+     "Iraq",
+     "Egypt"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_jordan.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Japan",
+     "Laos",
+     "North Korea"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_north_korea.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Tennessee",
+     "Kentucky",
+     "Illinois"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_state_kentucky.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Idaho",
+     "Montana",
+     "Oregon"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_state_oregon.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Kentucky",
+     "Indiana",
+     "West Virginia"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_state_kentucky.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Oregon",
+     "Montana",
+     "California"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_state_oregon.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Rhode Island",
+     "Massachusetts",
+     "New Jersey"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_state_new_jersey.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Texas",
+     "Oklahoma",
+     "Louisiana"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_state_oklahoma.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Oklahoma",
+     "Kansas",
+     "Missouri"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_state_oklahoma.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Tennessee",
+     "South Carolina",
+     "Alabama"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_state_alabama.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Iowa",
+     "Indiana",
+     "Missouri"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_state_missouri.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Alabama",
+     "Mississippi",
+     "Georgia"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_state_alabama.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Iowa",
+     "Kansas",
+     "Missouri"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_state_missouri.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Taiwan",
+     "Mongolia",
+     "South Korea"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_south_korea.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Philippines",
+     "Indonesia",
+     "Malaysia"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_indonesia.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Lithuania",
+     "Germany",
+     "Poland"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_poland.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Armenia",
+     "Lebanon",
+     "Georgia"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_georgia.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Arizona",
+     "Utah",
+     "Idaho"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_state_utah.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Kyrgyzstan",
+     "Afghanistan",
+     "Iran"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_afghanistan.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Utah",
+     "Nevada",
+     "Wyoming"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_state_utah.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Cambodia",
+     "Vietnam",
+     "Malaysia"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_vietnam.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Laos",
+     "Thailand",
+     "Bangladesh"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_thailand.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Argentina",
+     "Chile",
+     "Bolivia"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_argentina.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Iraq",
+     "Syria",
+     "Lebanon"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_syria.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Tennessee",
+     "Illinois",
+     "Georgia"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_state_tennessee.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Indiana",
+     "Kentucky",
+     "Tennessee"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_state_tennessee.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Montana",
+     "Alaska",
+     "California"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_state_alaska.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Mississippi",
+     "Louisiana",
+     "Tennessee"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_state_louisiana.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Georgia",
+     "Missouri",
+     "Mississippi"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_state_mississippi.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Alaska",
+     "Oregon",
+     "Montana"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_state_alaska.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Louisiana",
+     "Arkansas",
+     "Oklahoma"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_state_louisiana.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Tennessee",
+     "Missouri",
+     "Mississippi"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_state_mississippi.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Thailand",
+     "Myanmar",
+     "Malaysia"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_malaysia.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Taiwan",
+     "Philippines",
+     "Cambodia"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_philippines.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Vermont",
+     "New York",
+     "Maine"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_state_maine.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Massachusetts",
+     "New York",
+     "Maine"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_state_maine.svg"
    }
   ],
   "medium": [
@@ -8201,6 +9302,1106 @@ window.QUESTION_BANK = {
     ],
     "a": "A",
     "img": "Assets/questions_pics/maps/map_sri_lanka.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Norway",
+     "Sweden",
+     "Estonia"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_norway.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Syria",
+     "Jordan",
+     "Turkey"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_jordan.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Somalia",
+     "Kenya",
+     "Ethiopia"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_kenya.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Nebraska",
+     "South Dakota",
+     "Iowa"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_state_south_dakota.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "South Dakota",
+     "North Dakota",
+     "Wyoming"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_state_south_dakota.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Massachusetts",
+     "New York",
+     "New Hampshire"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_state_massachusetts.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Liberia",
+     "Guinea",
+     "Gambia"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/flag2_guinea.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Liberia",
+     "Guinea",
+     "Gambia"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_guinea.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "North Dakota",
+     "Nebraska",
+     "Montana"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_state_north_dakota.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Argentina",
+     "Chile",
+     "Peru"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_chile.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Minnesota",
+     "Iowa",
+     "North Dakota"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_state_north_dakota.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Virginia",
+     "Maryland",
+     "West Virginia"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_state_maryland.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Louisiana",
+     "Tennessee",
+     "Arkansas"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_state_arkansas.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Idaho",
+     "Montana",
+     "South Dakota"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_state_montana.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Louisiana",
+     "Alabama",
+     "Arkansas"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_state_arkansas.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Utah",
+     "Montana",
+     "Washington"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_state_montana.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Oregon",
+     "Nevada",
+     "Idaho"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_state_nevada.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Arizona",
+     "California",
+     "Nevada"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_state_nevada.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Montenegro",
+     "North Macedonia",
+     "Greece"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_greece.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Nebraska",
+     "South Dakota",
+     "Kansas"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_state_nebraska.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Nebraska",
+     "South Dakota",
+     "North Dakota"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_state_nebraska.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Rhode Island",
+     "Massachusetts",
+     "New Jersey"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_state_massachusetts.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Pennsylvania",
+     "Connecticut",
+     "Maryland"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_state_maryland.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Latvia",
+     "Lithuania",
+     "Finland"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_finland.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Colombia",
+     "Venezuela",
+     "Ecuador"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_colombia.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Sudan",
+     "Nigeria",
+     "Chad"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/flag2_chad.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Chad",
+     "Niger",
+     "Nigeria"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_chad.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Colombia",
+     "Venezuela",
+     "Suriname"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_venezuela.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Sudan",
+     "Nigeria",
+     "Chad"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_chad.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Montana",
+     "Wyoming",
+     "Idaho"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_state_idaho.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Montana",
+     "Idaho",
+     "Utah"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_state_idaho.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Guinea",
+     "Gambia",
+     "Guinea-Bissau"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_guinea.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Eritrea",
+     "Sudan",
+     "South Sudan"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_sudan.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Sudan",
+     "South Sudan",
+     "Eritrea"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_sudan.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Saudi Arabia",
+     "Kuwait",
+     "United Arab Emirates"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_saudi_arabia.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Benin",
+     "Ghana",
+     "Guinea"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_ghana.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Central African Republic",
+     "Kenya",
+     "South Sudan"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_south_sudan.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "South Sudan",
+     "Uganda",
+     "Sudan"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_south_sudan.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Bolivia",
+     "Peru",
+     "Colombia"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_peru.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Yemen",
+     "Somaliland",
+     "Eritrea"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/flag2_yemen.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Yemen",
+     "Djibouti",
+     "Eritrea"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_yemen.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Yemen",
+     "Somaliland",
+     "Eritrea"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_yemen.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Hawaii",
+     "California",
+     "Arizona"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_state_hawaii.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "India",
+     "Bangladesh",
+     "Laos"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_bangladesh.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Tunisia",
+     "Libya",
+     "Greece"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_libya.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Sierra Leone",
+     "Ivory Coast",
+     "Burkina Faso"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_ivory_coast.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Thailand",
+     "Myanmar",
+     "Vietnam"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_myanmar.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Bangladesh",
+     "Vietnam",
+     "Myanmar"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_myanmar.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Morocco",
+     "Mauritania",
+     "Spain"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_morocco.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "New Hampshire",
+     "Vermont",
+     "Rhode Island"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_state_new_hampshire.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Montenegro",
+     "Greece",
+     "Bulgaria"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_bulgaria.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Nebraska",
+     "Idaho",
+     "Wyoming"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_state_wyoming.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Colorado",
+     "Wyoming",
+     "Nebraska"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_state_wyoming.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Kenya",
+     "Uganda",
+     "Ethiopia"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_uganda.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Portugal",
+     "Morocco",
+     "Algeria"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_portugal.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Oregon",
+     "Hawaii",
+     "Arizona"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_state_hawaii.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "DR Congo",
+     "Cameroon",
+     "Congo"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/flag2_congo.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "DR Congo",
+     "Central African Republic",
+     "Congo"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_congo.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Czech Republic",
+     "Austria",
+     "Slovakia"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_austria.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Rhode Island",
+     "New York",
+     "Connecticut"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_state_connecticut.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "DR Congo",
+     "Congo",
+     "Central African Republic"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_dr_congo.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "DR Congo",
+     "Congo",
+     "Zambia"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_dr_congo.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Benin",
+     "Ghana",
+     "Burkina Faso"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_ghana.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Zambia",
+     "Zimbabwe",
+     "Eswatini"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_zimbabwe.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Ethiopia",
+     "Somaliland",
+     "Somalia"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_ethiopia.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Guinea",
+     "Ivory Coast",
+     "Burkina Faso"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_ivory_coast.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "New Hampshire",
+     "Vermont",
+     "Massachusetts"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_state_new_hampshire.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Moldova",
+     "Romania",
+     "Slovakia"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_romania.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Zimbabwe",
+     "Mozambique",
+     "Malawi"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_zimbabwe.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Myanmar",
+     "Bangladesh",
+     "India"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_bangladesh.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "DR Congo",
+     "Central African Republic",
+     "Congo"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_congo.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Somalia",
+     "Ethiopia",
+     "Kenya"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_somalia.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Rhode Island",
+     "Connecticut",
+     "New Jersey"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_state_connecticut.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "Vermont",
+     "Massachusetts",
+     "Rhode Island"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_state_vermont.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "North Macedonia",
+     "Bulgaria",
+     "Montenegro"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_bulgaria.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Ireland",
+     "Belgium",
+     "Iceland"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_iceland.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Algeria",
+     "Mali",
+     "Spain"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_algeria.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Kenya",
+     "Ethiopia",
+     "Uganda"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_uganda.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Laos",
+     "Cambodia",
+     "Taiwan"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/flag2_taiwan.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Laos",
+     "Vietnam",
+     "Taiwan"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_taiwan.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Czech Republic",
+     "Hungary",
+     "Bosnia and Herzegovina"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_hungary.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Jamaica",
+     "Panama",
+     "Colombia"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_panama.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Nepal",
+     "Bhutan",
+     "Kyrgyzstan"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_nepal.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Malawi",
+     "Rwanda",
+     "Tanzania"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_tanzania.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "New Hampshire",
+     "Vermont",
+     "New York"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_state_vermont.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Poland",
+     "Hungary",
+     "Czech Republic"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_czech_republic.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Togo",
+     "Benin",
+     "Mali"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_mali.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Equatorial Guinea",
+     "Cameroon",
+     "Congo"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_cameroon.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Benin",
+     "Mali",
+     "Niger"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_mali.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Bolivia",
+     "Paraguay",
+     "Uruguay"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_bolivia.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Equatorial Guinea",
+     "Cameroon",
+     "Central African Republic"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_cameroon.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "North Macedonia",
+     "Hungary",
+     "Serbia"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_serbia.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Greece",
+     "Tunisia",
+     "Spain"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_tunisia.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Chile",
+     "Brazil",
+     "Uruguay"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_uruguay.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Ecuador",
+     "Panama",
+     "Costa Rica"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_ecuador.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Cambodia",
+     "Thailand",
+     "Myanmar"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_cambodia.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Ukraine",
+     "Belarus",
+     "Poland"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_belarus.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Niger",
+     "Chad",
+     "Libya"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/flag2_niger.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Niger",
+     "Nigeria",
+     "Cameroon"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_niger.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Niger",
+     "Chad",
+     "Libya"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_niger.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Honduras",
+     "El Salvador",
+     "Guatemala"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/flag2_guatemala.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Costa Rica",
+     "Panama",
+     "Guatemala"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_guatemala.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Zambia",
+     "Malawi",
+     "Botswana"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_zambia.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Botswana",
+     "Mozambique",
+     "Zambia"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_zambia.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Honduras",
+     "El Salvador",
+     "Panama"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/flag2_honduras.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Nicaragua",
+     "Honduras",
+     "Belize"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_honduras.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Sweden",
+     "Greenland",
+     "United Kingdom"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_greenland.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Madagascar",
+     "Mozambique",
+     "Malawi"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_madagascar.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Latvia",
+     "Belarus",
+     "Poland"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_belarus.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Kuwait",
+     "Yemen",
+     "United Arab Emirates"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/flag2_united_arab_emirates.svg"
    }
   ],
   "hard": [
@@ -8853,6 +11054,1116 @@ window.QUESTION_BANK = {
     ],
     "a": "B",
     "img": "Assets/questions_pics/maps/map_syria.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "United Arab Emirates",
+     "Qatar",
+     "Kuwait"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_united_arab_emirates.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Oman",
+     "United Arab Emirates",
+     "Saudi Arabia"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_oman.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Bosnia and Herzegovina",
+     "Serbia",
+     "Hungary"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_serbia.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Tunisia",
+     "Spain",
+     "Albania"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_tunisia.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Russia",
+     "Mongolia",
+     "Kyrgyzstan"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_mongolia.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Congo",
+     "Zimbabwe",
+     "Angola"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_angola.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Guinea-Bissau",
+     "Senegal",
+     "Liberia"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_senegal.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Solomon Islands",
+     "Indonesia",
+     "Papua New Guinea"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/flag2_papua_new_guinea.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Australia",
+     "Indonesia",
+     "Papua New Guinea"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_papua_new_guinea.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Lithuania",
+     "Latvia",
+     "Estonia"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_lithuania.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Australia",
+     "Solomon Islands",
+     "Papua New Guinea"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_papua_new_guinea.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "West Virginia",
+     "Delaware",
+     "Connecticut"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_state_delaware.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Iraq",
+     "Iran",
+     "Azerbaijan"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_azerbaijan.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "El Salvador",
+     "Nicaragua",
+     "Belize"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/flag2_nicaragua.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Costa Rica",
+     "Belize",
+     "Nicaragua"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_nicaragua.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Mozambique",
+     "Zimbabwe",
+     "Malawi"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_mozambique.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Mozambique",
+     "Zimbabwe",
+     "Botswana"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_mozambique.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Liberia",
+     "Ghana",
+     "Guinea-Bissau"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/flag2_liberia.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Guinea",
+     "Liberia",
+     "Ghana"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_liberia.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Nicaragua",
+     "Guatemala",
+     "Costa Rica"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_guatemala.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Oman",
+     "Yemen",
+     "Saudi Arabia"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_oman.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Belarus",
+     "Latvia",
+     "Sweden"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_latvia.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Nicaragua",
+     "Honduras",
+     "Guatemala"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_honduras.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Lesotho",
+     "Namibia",
+     "Zimbabwe"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_namibia.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Namibia",
+     "Zambia",
+     "Botswana"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_botswana.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Namibia",
+     "Botswana",
+     "Lesotho"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_botswana.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Belarus",
+     "Lithuania",
+     "Estonia"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_estonia.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Nicaragua",
+     "Costa Rica",
+     "Honduras"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_costa_rica.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Venezuela",
+     "Panama",
+     "Dominican Republic"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_dominican_republic.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Afghanistan",
+     "Turkmenistan",
+     "Uzbekistan"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_uzbekistan.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Tajikistan",
+     "Uzbekistan",
+     "Kyrgyzstan"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_uzbekistan.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Guyana",
+     "Suriname",
+     "Colombia"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/flag2_guyana.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Colombia",
+     "Ecuador",
+     "Guyana"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_guyana.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Delaware",
+     "Connecticut",
+     "Pennsylvania"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_state_delaware.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Liberia",
+     "Sierra Leone",
+     "Gambia"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/flag2_sierra_leone.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Gambia",
+     "Sierra Leone",
+     "Ivory Coast"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_sierra_leone.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Jamaica",
+     "Haiti",
+     "Nicaragua"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/flag2_haiti.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Bahamas",
+     "Dominican Republic",
+     "Haiti"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_haiti.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Solomon Islands",
+     "Vanuatu",
+     "Fiji"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_solomon_islands.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Uruguay",
+     "Paraguay",
+     "Brazil"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_paraguay.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Gambia",
+     "Senegal",
+     "Mauritania"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_senegal.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Cambodia",
+     "Laos",
+     "Vietnam"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_laos.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Zambia",
+     "Malawi",
+     "Burundi"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/flag2_malawi.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Tanzania",
+     "Rwanda",
+     "Malawi"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_malawi.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Belarus",
+     "Lithuania",
+     "Czech Republic"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_lithuania.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Uzbekistan",
+     "Kyrgyzstan",
+     "Pakistan"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/flag2_kyrgyzstan.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Afghanistan",
+     "Uzbekistan",
+     "Kyrgyzstan"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_kyrgyzstan.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Azerbaijan",
+     "Georgia",
+     "Turkmenistan"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_azerbaijan.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Belize",
+     "Nicaragua",
+     "Guatemala"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_nicaragua.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Iraq",
+     "Azerbaijan",
+     "Armenia"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_armenia.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Slovakia",
+     "Hungary",
+     "Poland"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_slovakia.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Estonia",
+     "Latvia",
+     "Sweden"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_latvia.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Guatemala",
+     "El Salvador",
+     "Costa Rica"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/flag2_el_salvador.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Guatemala",
+     "Panama",
+     "El Salvador"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_el_salvador.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Iraq",
+     "United Arab Emirates",
+     "Kuwait"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_kuwait.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Ecuador",
+     "Guyana",
+     "Haiti"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_guyana.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Kyrgyzstan",
+     "Nepal",
+     "Tajikistan"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_tajikistan.svg"
+   },
+   {
+    "q": "Which U.S. state is highlighted in red on the map?",
+    "o": [
+     "New Hampshire",
+     "New York",
+     "Rhode Island"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_state_rhode_island.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Fiji",
+     "Vanuatu",
+     "Solomon Islands"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/flag2_fiji.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "New Zealand",
+     "East Timor",
+     "Fiji"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_fiji.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Malawi",
+     "Mozambique",
+     "Burundi"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_malawi.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Rwanda",
+     "Burundi",
+     "South Sudan"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_rwanda.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Kyrgyzstan",
+     "Turkmenistan",
+     "Pakistan"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_kyrgyzstan.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Turkmenistan",
+     "Tajikistan",
+     "Azerbaijan"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/flag2_turkmenistan.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Iran",
+     "Tajikistan",
+     "Turkmenistan"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_turkmenistan.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Uzbekistan",
+     "Turkmenistan",
+     "Tajikistan"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_turkmenistan.svg"
+   },
+   {
+    "q": "Which U.S. state has this outline?",
+    "o": [
+     "Rhode Island",
+     "Connecticut",
+     "Vermont"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_state_rhode_island.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Congo",
+     "Gabon",
+     "Nigeria"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/flag2_gabon.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Central African Republic",
+     "Gabon",
+     "DR Congo"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_gabon.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Czech Republic",
+     "Italy",
+     "Slovenia"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_slovenia.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Montenegro",
+     "Albania",
+     "North Macedonia"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_albania.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "North Macedonia",
+     "Bulgaria",
+     "Serbia"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_north_macedonia.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Eritrea",
+     "Djibouti",
+     "Yemen"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_eritrea.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Uzbekistan",
+     "Tajikistan",
+     "Afghanistan"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_tajikistan.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Guinea",
+     "Mauritania",
+     "Mali"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/flag2_mauritania.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Senegal",
+     "Guinea",
+     "Mauritania"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_mauritania.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Morocco",
+     "Mauritania",
+     "Mali"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_mauritania.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Ghana",
+     "Benin",
+     "Togo"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/flag2_benin.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Ghana",
+     "Benin",
+     "Mali"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_benin.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Haiti",
+     "Bahamas",
+     "Honduras"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/flag2_bahamas.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Ghana",
+     "Burkina Faso",
+     "Ivory Coast"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/flag2_burkina_faso.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Burkina Faso",
+     "Guinea",
+     "Mali"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_burkina_faso.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Moldova",
+     "Ukraine",
+     "Serbia"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_moldova.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Equatorial Guinea",
+     "Gabon",
+     "DR Congo"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_gabon.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Sudan",
+     "Somaliland",
+     "Eritrea"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_eritrea.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Togo",
+     "Benin",
+     "Ivory Coast"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/shapes/shape_benin.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Belize",
+     "Guatemala",
+     "Jamaica"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/flag2_belize.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Belize",
+     "Guatemala",
+     "Nicaragua"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_belize.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Bhutan",
+     "Bangladesh",
+     "India"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_bhutan.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Benin",
+     "Guinea",
+     "Burkina Faso"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/shapes/shape_burkina_faso.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Serbia",
+     "Croatia",
+     "Bosnia and Herzegovina"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_bosnia_and_herzegovina.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Ghana",
+     "Togo",
+     "Ivory Coast"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/flag2_togo.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Ghana",
+     "Togo",
+     "Nigeria"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_togo.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Cameroon",
+     "Central African Republic",
+     "Equatorial Guinea"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_equatorial_guinea.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Philippines",
+     "East Timor",
+     "Papua New Guinea"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_east_timor.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Albania",
+     "Montenegro",
+     "Croatia"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/flag2_montenegro.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Montenegro",
+     "Bosnia and Herzegovina",
+     "Greece"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_montenegro.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Suriname",
+     "Guyana",
+     "Colombia"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_suriname.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Somaliland",
+     "Eritrea",
+     "Ethiopia"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_somaliland.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Uganda",
+     "Rwanda",
+     "Burundi"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/flag2_burundi.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Burundi",
+     "Rwanda",
+     "Uganda"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_burundi.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Lesotho",
+     "Namibia",
+     "Zimbabwe"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/flag2_lesotho.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Botswana",
+     "Mozambique",
+     "Lesotho"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_lesotho.svg"
+   },
+   {
+    "q": "Which country has this outline?",
+    "o": [
+     "Suriname",
+     "Dominican Republic",
+     "Brazil"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/shapes/shape_suriname.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Sierra Leone",
+     "Guinea",
+     "Gambia"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/flag2_gambia.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Ethiopia",
+     "Djibouti",
+     "Eritrea"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/flag2_djibouti.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Eritrea",
+     "Kenya",
+     "Djibouti"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/maps/map_djibouti.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "Liberia",
+     "Mauritania",
+     "Guinea-Bissau"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/flag2_guinea_bissau.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Sierra Leone",
+     "Guinea-Bissau",
+     "Liberia"
+    ],
+    "a": "B",
+    "img": "Assets/questions_pics/maps/map_guinea_bissau.svg"
+   },
+   {
+    "q": "Which country does this flag belong to?",
+    "o": [
+     "New Zealand",
+     "Australia",
+     "Vanuatu"
+    ],
+    "a": "C",
+    "img": "Assets/questions_pics/flag2_vanuatu.svg"
+   },
+   {
+    "q": "Which country is highlighted in red on the map?",
+    "o": [
+     "Eswatini",
+     "Lesotho",
+     "Zimbabwe"
+    ],
+    "a": "A",
+    "img": "Assets/questions_pics/maps/map_eswatini.svg"
    }
   ]
  },
