@@ -1639,3 +1639,158 @@ label { color: #94a3b8; }
   background: #eef2f5;
   border: 1px solid #d5dde5;
 }
+
+/* =====================================================================
+   ROUND OF FIXES: elimination, token badges, room-code field, spacing
+   ===================================================================== */
+
+/* --- The chips under the question are gone: whose turn it is and who went
+   up or down is shown on the mountain itself. Removing them frees the space
+   that was hiding the player standing on step 0. --- */
+#allAnswersStatus { display: none !important; }
+
+/* The mountain gets a little more room, so a player on step 0 is fully
+   visible above the white panel instead of being cut in half. */
+#climbZone { height: min(calc(100vw / 1.15), 57vh); }
+#gamePanel {
+  top: min(calc(100vw / 1.15), 57vh);
+  max-height: calc(100vh - min(100vw / 1.15, 57vh) - 8px);
+}
+
+/* --- Timer and step number always sit ABOVE the avatar --- */
+.playerToken .tokenTimer { order: 0; margin-bottom: 2px; }
+.playerToken .tokenStep  { order: 1; margin-top: 0; margin-bottom: 3px; }
+.playerToken .tokenAvatarWrap { order: 2; }
+.playerToken .tokenName  { order: 3; margin-top: 2px; }
+/* the old low-step exception is no longer needed */
+.playerToken.lowStep .tokenStep { order: 1; margin-top: 0; margin-bottom: 3px; }
+.playerToken.lowStep .tokenAvatarWrap { order: 2; }
+.playerToken.lowStep .tokenName { order: 3; }
+
+/* --- A player who runs out of time is out: make that obvious --- */
+#eliminatedNote {
+  background: #fdecea;
+  border: 1px solid #f5c6c0;
+  border-left: 4px solid #c62828;
+  color: #8e1b1b;
+  font-weight: 700;
+  font-size: 0.86rem;
+  border-radius: 10px;
+  padding: 8px 12px;
+  margin: 0 0 8px;
+  text-align: center;
+}
+.playerToken.eliminated { opacity: 0.38; filter: grayscale(0.9); }
+.playerToken.eliminated .tokenStep { background: #b0bec5; color: #37474f; box-shadow: none; }
+
+/* --- Room code: unmistakably a field you type into --- */
+#joinRow { margin-top: 6px; }
+.fieldLabel {
+  display: block;
+  text-align: left;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #94a3b8;
+  margin: 2px 2px 6px;
+}
+.codeField {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #0f172a;
+  border: 2px solid #334155;
+  border-radius: 14px;
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.45);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.codeFieldIcon {
+  position: absolute;
+  left: 14px;
+  font-size: 1.05rem;
+  opacity: 0.75;
+  pointer-events: none;
+}
+.codeField input#joinCodeInput {
+  width: 100%;
+  margin: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  color: #f8fafc;
+  font-family: 'Baloo 2', 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: 0.42em;
+  text-indent: 0.42em;         /* keeps the text visually centred despite tracking */
+  text-align: center;
+  text-transform: uppercase;
+  padding: 14px 14px 14px 42px;
+  caret-color: #38bdf8;
+}
+.codeField input#joinCodeInput::placeholder {
+  color: #475569;
+  font-weight: 700;
+  letter-spacing: 0.42em;
+}
+.codeField:focus-within {
+  border-color: #38bdf8;
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.45), 0 0 0 4px rgba(56,189,248,0.22);
+}
+.codeField input#joinCodeInput:focus { outline: none; }
+.fieldHint {
+  font-size: 0.75rem;
+  color: #8ba0b4;
+  margin: 7px 2px 10px;
+  text-align: center;
+}
+
+/* --- Flags: always draw the whole flag, never a cropped slice --- */
+#questionImage.isFlag {
+  object-fit: contain;
+  background: #ffffff;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 8px;
+  padding: 4px;
+}
+
+/* The token box now wraps its whole column (timer + step + avatar + name).
+   Before, the box was a fixed square and the avatar/name overflowed past the
+   bottom of the mountain, so a player on step 0 was cut in half. */
+.playerToken {
+  width: var(--tokSize, 34px);
+  height: auto;
+}
+.playerToken .tokenAvatarWrap {
+  width: var(--tokSize, 34px);
+  height: var(--tokSize, 34px);
+}
+
+/* Very short screens (iPhone SE): picture questions must still end above the
+   bottom of the panel now that the mountain takes a little more height. */
+@media (max-height: 600px) {
+  #gamePanel.hasImage { row-gap: 4px; }
+  #gamePanel.hasImage #questionImage { min-height: 96px; max-height: 26vh; }
+  #gamePanel.hasImage #answerRectangle .answerOption {
+    min-height: 36px;
+    padding: 6px 8px;
+    font-size: 0.86rem;
+  }
+  #gamePanel.hasImage #selectedCategoryLabel { padding: 3px 8px; font-size: 0.8rem; }
+}
+@media (max-height: 600px) {
+  /* text-only questions on the smallest screens */
+  #gamePanel #questionRectangle { padding: 6px 10px; }
+  #gamePanel #answerRectangle { gap: 5px; }
+  #gamePanel:not(.hasImage) #answerRectangle .answerOption {
+    min-height: 38px;
+    padding: 7px 10px;
+  }
+}
+@media (max-height: 600px) {
+  /* the longest questions still have to end above the bottom of the panel */
+  #gamePanel #questionRectangle.longQ { font-size: 0.78rem; line-height: 1.25; padding: 5px 8px; }
+  #gamePanel:not(.hasImage) #answerRectangle .answerOption { min-height: 36px; padding: 6px 10px; font-size: 0.9rem; }
+  #gamePanel #qTimerWrap { margin-bottom: 4px; }
+}

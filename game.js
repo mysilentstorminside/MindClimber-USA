@@ -702,6 +702,9 @@ function renderPlayerTimers(room) {
 
 function renderGame(room) {
   const players = room.players || {};
+  amEliminated = !!(players[myPlayerId] || {}).eliminated;
+  const outNote = $("eliminatedNote");
+  if (outNote) outNote.classList.toggle("hidden", !amEliminated);
   const order = Object.entries(players).sort((a, b) => a[1].order - b[1].order);
   const playerCount = order.length || 1;
 
@@ -736,8 +739,9 @@ function renderGame(room) {
     tok.dataset.pid = pid;
     tok.style.left = pos.left + "%";
     tok.style.bottom = pos.bottom + "%";
-    tok.style.width = pos.size + "px";
-    tok.style.height = pos.size + "px";
+    // The avatar keeps the lane size; the token box itself grows to fit the
+    // timer, the step badge and the name, so nothing spills outside the mountain.
+    tok.style.setProperty("--tokSize", pos.size + "px");
     // With 4-5 players the lanes get closer, so the arrow shrinks
     // so it doesn't overlap the neighboring player's lane.
     const aw = playerCount >= 4 ? 8 : 11;
@@ -746,11 +750,11 @@ function renderGame(room) {
     // Compact token: no turn text (turn is shown in the answer-status row)
     tok.innerHTML = `
       <div class="tokenTimer">${formatTimeLeft(computeLiveTimeLeft(pid, p, room))}</div>
+      <div class="tokenStep">${step}</div>
       <div class="tokenAvatarWrap"><img src="${avatarSrc(p.avatar, "front")}" alt="" onerror="this.style.opacity=0.3">${
         ans ? `<span class="answerMark${markSeen ? " noPop" : ""}" aria-label="${ans.correct ? "Correct" : "Wrong"}">${ans.correct ? "▲" : "▼"}</span>` : ""
       }</div>
-      <div class="tokenName">${escapeHtml(p.name)}</div>
-      <div class="tokenStep">${step}</div>`;
+      <div class="tokenName">${escapeHtml(p.name)}</div>`;
     tokenWrap.appendChild(tok);
   });
 
@@ -768,23 +772,23 @@ function renderGame(room) {
   stopLocalQuestionTimer();
 
   if (turn.phase === "category") {
-    if (turn.colorPickerId === myPlayerId) {
+    if (turn.colorPickerId === myPlayerId && !amEliminated) {
       renderCategoryButtons();
       $("categoryChoiceRow").classList.remove("hidden");
       startLocalChoiceTimer(turn, "category");
     } else {
       $("waitingNote").classList.remove("hidden");
-      $("waitingNote").textContent = "Waiting for category selection…";
+      $("waitingNote").textContent = amEliminated ? "Your time has run out — you are out of the game." : "Waiting for category selection…";
     }
   } else if (turn.phase === "difficulty") {
     $("selectedCategoryLabel").textContent = turn.category || "";
     $("selectedCategoryLabel").classList.remove("hidden");
-    if (turn.colorPickerId === myPlayerId) {
+    if (turn.colorPickerId === myPlayerId && !amEliminated) {
       $("colorChoiceRow").classList.remove("hidden");
       startLocalChoiceTimer(turn, "difficulty");
     } else {
       $("waitingNote").classList.remove("hidden");
-      $("waitingNote").textContent = "Waiting for difficulty selection…";
+      $("waitingNote").textContent = amEliminated ? "Your time has run out — you are out of the game." : "Waiting for difficulty selection…";
     }
   } else if (turn.phase === "question" || turn.phase === "result") {
     $("qTimerWrap").classList.remove("hidden");
@@ -820,6 +824,7 @@ function renderCategoryButtons() {
 }
 
 let lastRenderedImgSrc = null;
+let amEliminated = false;
 const shownAnswerMarks = new Set();
 let lastRenderedQText = null;
 
@@ -891,7 +896,7 @@ function renderQuestion(turn, showResult) {
   const correctLetter = decodeCorrect(q);
   const opts = q.options || ["", "", ""];
   const myAns = turn.answers && turn.answers[myPlayerId];
-  const locked = showResult || !!myAns;
+  const locked = showResult || !!myAns || amEliminated;
   document.querySelectorAll(".answerOption").forEach((el) => {
     const letter = el.dataset.option;
     const i = letter.charCodeAt(0) - 65;
@@ -913,7 +918,12 @@ function renderQuestion(turn, showResult) {
 // update, which rebuilt each <img> from scratch — causing avatar flicker and
 // repeated image work several times per second during a question.
 function renderAnswerStatuses(room) {
+  // The chips under the question are gone: whose turn it is and who went up or
+  // down is already shown on the mountain itself.
   const wrap = $("allAnswersStatus");
+  if (!wrap) return;
+  if (wrap.childNodes.length) wrap.innerHTML = "";
+  return;
   const turn = room.turn || {};
   const answers = turn.answers || {};
   const inAnswerPhase = turn.phase === "question" || turn.phase === "result";
@@ -1001,6 +1011,7 @@ function pickFromShuffledQueue(category, color, queueState) {
 }
 
 function applyTimeDeduction(updates, pid, currentTimeLeft, alreadyEliminated, elapsedSeconds) {
+  if (alreadyEliminated) { updates[`players/${pid}/timeLeft`] = 0; return 0; }
   const newTimeLeft = Math.max(0, (currentTimeLeft ?? PLAYER_SECONDS) - elapsedSeconds);
   updates[`players/${pid}/timeLeft`] = newTimeLeft;
   if (newTimeLeft <= 0 && !alreadyEliminated) updates[`players/${pid}/eliminated`] = true;
@@ -1060,6 +1071,7 @@ async function buildSoloTurn(pid, step, catIdx) {
 
 async function chooseCategory(category, isTimeout) {
   if (!latestRoom || !latestRoom.turn || latestRoom.turn.colorPickerId !== myPlayerId) return;
+  if (((latestRoom.players || {})[myPlayerId] || {}).eliminated) return;
   if (latestRoom.turn.phase !== "category") return;
   stopLocalChoiceTimer();
   const turn = latestRoom.turn;
@@ -1076,6 +1088,7 @@ async function chooseCategory(category, isTimeout) {
 
 async function chooseColor(color, isTimeout) {
   if (!latestRoom || !latestRoom.turn || latestRoom.turn.colorPickerId !== myPlayerId) return;
+  if (((latestRoom.players || {})[myPlayerId] || {}).eliminated) return;
   if (latestRoom.turn.phase !== "difficulty") return;
   stopLocalChoiceTimer();
   const turn = latestRoom.turn;
@@ -1177,6 +1190,7 @@ $("answerRectangle").addEventListener("keydown", (e) => {
 $("answerRectangle").addEventListener("click", (e) => {
   const opt = e.target.closest(".answerOption");
   if (!opt || opt.classList.contains("disabled")) return;
+  if (amEliminated) return;
   if (!latestRoom || !latestRoom.turn || latestRoom.turn.phase !== "question") return;
   if (latestRoom.turn.answers && latestRoom.turn.answers[myPlayerId]) return;
   submitAnswer(opt.dataset.option);
@@ -1184,6 +1198,7 @@ $("answerRectangle").addEventListener("click", (e) => {
 
 async function submitAnswer(pickedOption) {
   if (!latestRoom || !latestRoom.turn || latestRoom.turn.phase !== "question") return;
+  if (((latestRoom.players || {})[myPlayerId] || {}).eliminated) return;   // out of time = out of the game
   if (latestRoom.turn.answers && latestRoom.turn.answers[myPlayerId]) return;
   stopLocalQuestionTimer();
   const turn = latestRoom.turn;
@@ -1230,7 +1245,7 @@ async function checkTurnProgress(room) {
       const totalSeconds = questionSecondsFor(turn.category);
       const colorDelta = COLOR_DELTA[turn.color] || 1;
       active.forEach((pid) => {
-        if (!answers[pid]) {
+        if (!answers[pid] && !players[pid].eliminated) {
           const delta = -colorDelta;
           const cur = players[pid].step || 0;
           updates[`players/${pid}/step`] = Math.max(0, Math.min(MAX_STEPS, cur + delta));
@@ -1245,6 +1260,11 @@ async function checkTurnProgress(room) {
   } else if (turn.phase === "result" && resultScheduledForKey !== turn.key) {
     resultScheduledForKey = turn.key;
     setTimeout(() => advanceTurnIfNeeded(turn.key), RESULT_PAUSE_MS);
+  }
+  if ((turn.phase === "category" || turn.phase === "difficulty")
+      && ((room.players || {})[turn.colorPickerId] || {}).eliminated) {
+    advanceTurnIfNeeded(turn.key);   // the picker is out of time: move on to the next player
+    return;
   }
   if ((turn.phase === "category" || turn.phase === "difficulty") && turn.phaseDeadline && Date.now() >= turn.phaseDeadline + 2000) {
     forceRandomPickForStalledPicker(turn);

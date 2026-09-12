@@ -47,7 +47,14 @@
     <button id="createRoomBtn" class="bigBtn primaryBtn">✨ Create Room</button>
     <button id="showJoinBtn" class="bigBtn secondaryBtn">🔑 Join with Code</button>
     <div id="joinRow" class="hidden">
-      <input id="joinCodeInput" maxlength="5" placeholder="e.g. A7K2Q" autocapitalize="characters">
+      <label class="fieldLabel" for="joinCodeInput">Room code</label>
+      <div class="codeField">
+        <span class="codeFieldIcon" aria-hidden="true">🔑</span>
+        <input id="joinCodeInput" maxlength="5" placeholder="A7K2Q" autocapitalize="characters"
+               autocomplete="off" autocorrect="off" spellcheck="false"
+               inputmode="text" enterkeyhint="go" aria-describedby="joinCodeHint">
+      </div>
+      <p id="joinCodeHint" class="fieldHint">5 characters — ask the host for the code</p>
       <button id="joinRoomBtn" class="bigBtn primaryBtn">Join</button>
     </div>
     <button id="soloPlayBtn" class="bigBtn ghostBtn homeSolo">🎮 Play Solo</button>
@@ -123,6 +130,7 @@
       <div id="choiceTimerBar"><div id="choiceTimerFill"></div></div>
       <div id="choiceTimerNum">5</div>
     </div>
+    <div id="eliminatedNote" class="hidden">⏳ Your time has run out — you are out of this game.</div>
     <div id="categoryChoiceRow" class="hidden"></div>
     <div id="selectedCategoryLabel" class="hidden"></div>
     <div id="colorChoiceRow" class="hidden">
